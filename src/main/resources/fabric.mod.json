@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "pentacraft-ores",
+	"version": "${version}",
+	"name": "Pentacraft-Ores",
+	"description": "Server friends mod, just for fun!",
+	"authors": [
+		"Remodev"
+	],
+	"contact": {
+		"homepage": "Server friends mod, just for fun"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pentacraft-ores/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.remodev.PentacraftOres"
+		],
+		"client": [
+			"com.remodev.PentacraftOresClient"
+		],
+		"fabric-datagen": [
+			"com.remodev.PentacraftOresDataGenerator"
+		]
+	},
+	"mixins": [
+		"pentacraft-ores.mixins.json",
+		{
+			"config": "pentacraft-ores.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

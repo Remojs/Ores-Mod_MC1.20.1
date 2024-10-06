@@ -1,0 +1,20 @@
+{
+  "item.pentacraft-ores.zambonium": "Zambonium Ingot",
+  "item.pentacraft-ores.zambonium_shard": "Zambonium Shard",
+  "item.pentacraft-ores.juanite": "Juanite Crystal",
+  "item.pentacraft-ores.juanite_shard": "Juanite Shard",
+  "item.pentacraft-ores.kevinium": "Kevinium Ingot",
+  "item.pentacraft-ores.kevinium_shard": "Kevinium Shard",
+  "item.pentacraft-ores.lukite": "Lukite Crystal",
+  "item.pentacraft-ores.lukite_shard": "Lukite Shard",
+  "item.pentacraft-ores.panchium": "Panchium Ingot",
+  "item.pentacraft-ores.panchium_shard": "Panchium Shard",
+  "item.pentacraft-ores.robertium": "Robertium Ingot",
+  "item.pentacraft-ores.robertium_shard": "Robertium Shard",
+  "item.pentacraft-ores.sarite": "Sarite Crystal",
+  "item.pentacraft-ores.sarite_shard": "Sarite Shard",
+  "item.pentacraft-ores.tomyonite": "Tomyonite Ingot",
+  "item.pentacraft-ores.tomyonite_shard": "Tomyonite Shard",
+  "item.pentacraft-ores.pentacraftium_dust": "Pentacraftium Dust",
+  "itemGroup.pentacraft-ores.pentacraft_minerals_group": "Pentaminerals"
+}
