@@ -1,5 +1,6 @@
 package com.remodev;
 
+import com.remodev.blocks.Ores;
 import com.remodev.items.ModItemGroup;
 import com.remodev.items.Moditems;
 import net.fabricmc.api.ModInitializer;
@@ -20,6 +21,7 @@ public class PentacraftOres implements ModInitializer {
 	public void onInitialize() {
 		Moditems.registerItems();
 		ModItemGroup.registerItemGroup();
+		Ores.registerBlocks();
 
 		ServerLifecycleEvents.SERVER_STARTING.register(server -> SERVER = server);
 	}

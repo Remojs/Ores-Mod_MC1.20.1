@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "pentacraft-ores:item/juanite_shard"
-
-  }
-}
