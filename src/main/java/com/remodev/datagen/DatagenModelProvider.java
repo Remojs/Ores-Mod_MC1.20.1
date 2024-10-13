@@ -91,6 +91,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.ZAMBONIUM_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.ZAMBONIUM_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.ZAMBONIUM_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ZAMBONIUM_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ZAMBONIUM_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ZAMBONIUM_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.ROBERTIUM_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.ROBERTIUM_SHARD , Models.GENERATED);
@@ -102,6 +105,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.ROBERTIUM_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.ROBERTIUM_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.ROBERTIUM_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ROBERTIUM_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ROBERTIUM_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ROBERTIUM_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.KEVINIUM_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.KEVINIUM_SHARD , Models.GENERATED);
@@ -113,6 +119,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.KEVINIUM_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.KEVINIUM_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.KEVINIUM_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.KEVINIUM_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.KEVINIUM_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.KEVINIUM_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.PANCHIUM_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.PANCHIUM_SHARD , Models.GENERATED);
@@ -124,6 +133,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.PANCHIUM_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.PANCHIUM_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.PANCHIUM_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.PANCHIUM_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.PANCHIUM_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.PANCHIUM_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.JUANITIUM_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.JUANITIUM_SHARD , Models.GENERATED);
@@ -135,6 +147,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.JUANITIUM_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.JUANITIUM_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.JUANITIUM_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.JUANITIUM_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.JUANITIUM_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.JUANITIUM_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.LUKITE_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.LUKITE_SHARD , Models.GENERATED);
@@ -146,6 +161,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.LUKITE_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.LUKITE_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.LUKITE_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.LUKITE_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.LUKITE_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.LUKITE_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.TOMINITE_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.TOMINITE_SHARD , Models.GENERATED);
@@ -157,6 +175,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.TOMINITE_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.TOMINITE_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.TOMINITE_SWORD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.TOMINITE_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.TOMINITE_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.TOMINITE_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.SARITE_INGOT , Models.GENERATED);
         itemModelGenerator.register(Moditems.SARITE_SHARD , Models.GENERATED);
@@ -168,7 +189,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.SARITE_AXE , Models.GENERATED);
         itemModelGenerator.register(Moditems.SARITE_SHOVEL , Models.GENERATED);
         itemModelGenerator.register(Moditems.SARITE_SWORD , Models.GENERATED);
-
+        itemModelGenerator.register(Moditems.SARITE_HOE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.SARITE_HAMMER , Models.GENERATED);
+        itemModelGenerator.register(Moditems.SARITE_GREAT_AXE , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.DRAGON_UPGRADE , Models.GENERATED);
         itemModelGenerator.register(Moditems.END_UPGRADE , Models.GENERATED);
