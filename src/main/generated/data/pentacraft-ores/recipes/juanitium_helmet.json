@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:juanitium_ingot"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    }
+  },
+  "pattern": [
+    "III",
+    "IPI",
+    "   "
+  ],
+  "result": {
+    "item": "pentacraft-ores:juanitium_helmet"
+  },
+  "show_notification": true
+}

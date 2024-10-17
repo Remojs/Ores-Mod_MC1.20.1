@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tominite_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tominite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pentacraft-ores:tominite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tominite_ingot",
+      "has_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tominite_hoe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

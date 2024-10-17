@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:sarite_block"
+    },
+    "C": {
+      "item": "pentacraft-ores:pentacraftium_core"
+    },
+    "I": {
+      "item": "pentacraft-ores:sarite_ingot"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "PSP"
+  ],
+  "result": {
+    "item": "pentacraft-ores:sarite_great_axe"
+  },
+  "show_notification": true
+}

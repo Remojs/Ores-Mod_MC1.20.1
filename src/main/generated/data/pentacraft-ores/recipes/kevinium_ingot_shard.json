@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:kevinium_shard"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IPI",
+    " I "
+  ],
+  "result": {
+    "item": "pentacraft-ores:kevinium_ingot"
+  },
+  "show_notification": true
+}

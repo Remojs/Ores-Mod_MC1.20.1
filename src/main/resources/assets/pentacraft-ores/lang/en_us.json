@@ -9,6 +9,9 @@
   "item.pentacraft-ores.zambonium_pickaxe": "Zambonium Pickaxe",
   "item.pentacraft-ores.zambonium_axe": "Zambonium Axe",
   "item.pentacraft-ores.zambonium_sword": "Zambonium Sword",
+  "item.pentacraft-ores.zambonium_hammer": "Zambonium Hammer",
+  "item.pentacraft-ores.zambonium_great_axe": "Zambonium Great Axe",
+  "item.pentacraft-ores.zambonium_hoe": "Zambonium Hoe",
 
   "item.pentacraft-ores.kevinium_ingot": "Kevinium Ingot",
   "item.pentacraft-ores.kevinium_shard": "Kevinium Shard",
@@ -20,6 +23,9 @@
   "item.pentacraft-ores.kevinium_pickaxe": "Kevinium Pickaxe",
   "item.pentacraft-ores.kevinium_axe": "Kevinium Axe",
   "item.pentacraft-ores.kevinium_sword": "Kevinium Sword",
+  "item.pentacraft-ores.kevinium_hammer": "Kevinium Hammer",
+  "item.pentacraft-ores.kevinium_great_axe": "Kevinium Great Axe",
+  "item.pentacraft-ores.kevinium_hoe": "Kevinium Hoe",
 
   "item.pentacraft-ores.juanitium_ingot": "Juanitium Ingot",
   "item.pentacraft-ores.juanitium_shard": "Juanitium Shard",
@@ -31,6 +37,9 @@
   "item.pentacraft-ores.juanitium_pickaxe": "Juanitium Pickaxe",
   "item.pentacraft-ores.juanitium_axe": "Juanitium Axe",
   "item.pentacraft-ores.juanitium_sword": "Juanitium Sword",
+  "item.pentacraft-ores.juanitium_hammer": "Juanitium Hammer",
+  "item.pentacraft-ores.juanitium_great_axe": "Juanitium Great Axe",
+  "item.pentacraft-ores.juanitium_hoe": "Juanitium Hoe",
 
   "item.pentacraft-ores.robertium_ingot": "Robertium Ingot",
   "item.pentacraft-ores.robertium_shard": "Robertium Shard",
@@ -42,6 +51,9 @@
   "item.pentacraft-ores.robertium_pickaxe": "Robertium Pickaxe",
   "item.pentacraft-ores.robertium_axe": "Robertium Axe",
   "item.pentacraft-ores.robertium_sword": "Robertium Sword",
+  "item.pentacraft-ores.robertium_hammer": "Robertium Hammer",
+  "item.pentacraft-ores.robertium_great_axe": "Robertium Great Axe",
+  "item.pentacraft-ores.robertium_hoe": "Robertium Hoe",
 
   "item.pentacraft-ores.panchium_ingot": "Panchium Ingot",
   "item.pentacraft-ores.panchium_shard": "Panchium Shard",
@@ -53,6 +65,9 @@
   "item.pentacraft-ores.panchium_pickaxe": "Panchium Pickaxe",
   "item.pentacraft-ores.panchium_axe": "Panchium Axe",
   "item.pentacraft-ores.panchium_sword": "Panchium Sword",
+  "item.pentacraft-ores.panchium_hammer": "Panchium Hammer",
+  "item.pentacraft-ores.panchium_great_axe": "Panchium Great Axe",
+  "item.pentacraft-ores.panchium_hoe": "Panchium Hoe",
 
   "item.pentacraft-ores.sarite_ingot": "Sarite Ingot",
   "item.pentacraft-ores.sarite_shard": "Sarite Shard",
@@ -64,6 +79,9 @@
   "item.pentacraft-ores.sarite_pickaxe": "Sarite Pickaxe",
   "item.pentacraft-ores.sarite_axe": "Sarite Axe",
   "item.pentacraft-ores.sarite_sword": "Sarite Sword",
+  "item.pentacraft-ores.sarite_hammer": "Sarite Hammer",
+  "item.pentacraft-ores.sarite_great_axe": "Sarite Great Axe",
+  "item.pentacraft-ores.sarite_hoe": "Sarite Hoe",
 
   "item.pentacraft-ores.tominite_ingot": "Tominite Ingot",
   "item.pentacraft-ores.tominite_shard": "Tominite Shard",
@@ -75,6 +93,9 @@
   "item.pentacraft-ores.tominite_pickaxe": "Tominite Pickaxe",
   "item.pentacraft-ores.tominite_axe": "Tominite Axe",
   "item.pentacraft-ores.tominite_sword": "Tominite Sword",
+  "item.pentacraft-ores.tominite_hammer": "Tominite Hammer",
+  "item.pentacraft-ores.tominite_great_axe": "Tominite Great Axe",
+  "item.pentacraft-ores.tominite_hoe": "Tominite Hoe",
 
   "item.pentacraft-ores.lukite_ingot": "Lukite Ingot",
   "item.pentacraft-ores.lukite_shard": "Lukite Shard",
@@ -86,6 +107,10 @@
   "item.pentacraft-ores.lukite_pickaxe": "Lukite Pickaxe",
   "item.pentacraft-ores.lukite_axe": "Lukite Axe",
   "item.pentacraft-ores.lukite_sword": "Lukite Sword",
+  "item.pentacraft-ores.lukite_hammer": "Lukite Hammer",
+  "item.pentacraft-ores.lukite_great_axe": "Lukite Great Axe",
+  "item.pentacraft-ores.lukite_hoe": "Lukite Hoe",
+
 
   "item.pentacraft-ores.nether_upgrade": "Nether Upgrade",
   "item.pentacraft-ores.end_upgrade": "End Upgrade",
@@ -96,6 +121,8 @@
 
   "item.pentacraft-ores.pentacraftium_dust": "Pentacraftium Dust",
   "item.pentacraft-ores.pentacraft_book": "Pentacraft Book",
+  "item.pentacraft-ores.pentacraftium_core": "Pentacraftium Core",
+  "item.pentacraft-ores.pentacraftium_heart": "Pentacraftium Heart",
 
   "block.pentacraft-ores.zambonium_ore_stone": "Zambonium Ore",
   "block.pentacraft-ores.zambonium_ore_deepslate": "Deepslate Zambonium Ore",
@@ -153,9 +180,16 @@
   "block.pentacraft-ores.lukite_block": "Block of Lukite",
   "block.pentacraft-ores.lukite_shard_block": "Lukite Shard Block",
 
+  "block.pentacraft-ores.pentacraftium_ore_stone": "Pentacraftium Ore",
+  "block.pentacraft-ores.pentacraftium_ore_deepslate": "Deepslate Pentacraftium Ore",
+  "block.pentacraft-ores.pentacraftium_block": "Pentacraftium Block",
+
   "itemGroup.pentacraft-ores.pentacraft_mineral_group": "Pentacraft Minerals",
   "itemGroup.pentacraft-ores.pentacraft_armor_group": "Pentacraft Armor",
   "itemGroup.pentacraft-ores.pentacraft_misc_group": "Pentacraft Misc",
   "itemGroup.pentacraft-ores.pentacraft_tools_group": "Pentacraft Tools",
-  "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Pentacraft Blocks"
+  "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Pentacraft Blocks",
+  "itemGroup.pentacraft-ores.pentacraft_weapons_group": "Pentacraft Weapons",
+
+  "item.pentacraft-ores.custom_sword.tooltip": "Lost sword of an ancient warrior from the multiverse"
 }

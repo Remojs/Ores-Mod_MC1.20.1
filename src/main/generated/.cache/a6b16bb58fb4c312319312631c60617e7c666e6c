@@ -1,8 +1,8 @@
-// 1.20.1	2024-10-13T17:21:40.2267731	Pentacraft-Ores/Model Definitions
+// 1.20.1	2024-10-17T17:45:59.7467464	Pentacraft-Ores/Model Definitions
 5686d75020c844cb6ebb40b8e403c0b8c6f28449 assets\pentacraft-ores\models\item\lukite_shard_block.json
 7be30cdb80a6fb4cf823ae2795e0d54b36c5e669 assets\pentacraft-ores\blockstates\robertium_block.json
-338d452930fd0d4c60db242da963560b70f46d54 assets\pentacraft-ores\models\item\juanitium_shard_block.json
 acb079dd3aa7ca98ef754f2b9c1475a39cbe1908 assets\pentacraft-ores\models\item\juanitium_shovel.json
+338d452930fd0d4c60db242da963560b70f46d54 assets\pentacraft-ores\models\item\juanitium_shard_block.json
 fadfaaf7bbfdbae3f973c78278e6dbb966b84c77 assets\pentacraft-ores\models\item\robertium_pickaxe.json
 ed09cd818fc6f1002600db535414d4780805c267 assets\pentacraft-ores\models\item\kevinium_chestplate.json
 c0aec92a3ecebedc1c15dbe4fcb768270b48e813 assets\pentacraft-ores\models\block\kevinium_ore_stone.json
@@ -17,6 +17,7 @@ b7baad39088d186b0df69638ac0ee8dd046cd69e assets\pentacraft-ores\blockstates\tomi
 8638e46c8179edda069f93a396f0ee37a4f3dd6e assets\pentacraft-ores\models\item\sarite_ore_netherrack.json
 9fa764923b17891496604d09c6a8866099c03054 assets\pentacraft-ores\blockstates\panchium_ore_netherrack.json
 c96cc24b6d8f75ab8307ca97758012e058ec7cba assets\pentacraft-ores\blockstates\tominite_block.json
+6069e6be40d5527cb4af073d714ef773b7c3060c assets\pentacraft-ores\models\block\pentacraftium_block.json
 5e646497703d3942c48f9f1edd7a19444a9095bf assets\pentacraft-ores\models\item\zambonium_shard.json
 ec5e3195951f0c245988b68a76b45e14175968ab assets\pentacraft-ores\models\item\kevinium_block.json
 ec1bc770f93d13bc230f0f90a008032021ded17e assets\pentacraft-ores\models\item\robertium_ore_stone.json
@@ -122,6 +123,7 @@ e0e98abda1f3e6e7b8d973476484955b2bd3c7b7 assets\pentacraft-ores\models\block\zam
 23b03359967cfccae4f4c0ca7f4d539d6e5f3b40 assets\pentacraft-ores\blockstates\sarite_ore_netherrack.json
 95fafec3a449eddc02211d235a23fd06c6a77c7b assets\pentacraft-ores\models\item\lukite_leggings.json
 a3b23f253cc74734ba3a036a169e2bacb0f1131e assets\pentacraft-ores\blockstates\pentacraftium_ore_deepslate.json
+ec88eb6d99974e71aa319449140d2c80aa111212 assets\pentacraft-ores\models\item\pentacraftium_core.json
 1f7e95b5b2f114531e83f300da4e7f2c2bd281a1 assets\pentacraft-ores\blockstates\kevinium_shard_block.json
 86e57e68a24521f76efd11e2b16e2afe8d974d82 assets\pentacraft-ores\models\item\panchium_axe.json
 a593b5bfe3e24011fbcd0f05ca227c9c34e70ff1 assets\pentacraft-ores\models\item\tominite_ingot.json
@@ -142,8 +144,8 @@ a84bb5176bdba8da89fc7da3d22ac910dc4f3ffc assets\pentacraft-ores\models\item\robe
 cb7d57b2f3de3fac30c765013b7486f16fc72270 assets\pentacraft-ores\models\item\panchium_leggings.json
 81f0b9941be5fc9f6fa1cd614c8707fa1431b392 assets\pentacraft-ores\blockstates\panchium_shard_block.json
 464bee030dc5ff440740ad9afc94cc079b5596cd assets\pentacraft-ores\models\item\panchium_boots.json
-ff1f69183cbe9a5de612cd5b0e3f8dfd95933238 assets\pentacraft-ores\models\item\panchium_helmet.json
 9f628fdcb03c1eed00343d6a3f1845b1da4e9d33 assets\pentacraft-ores\models\block\robertium_ore_netherrack.json
+ff1f69183cbe9a5de612cd5b0e3f8dfd95933238 assets\pentacraft-ores\models\item\panchium_helmet.json
 8348febd1786936b9b97cacfe357d8b50f8323fd assets\pentacraft-ores\models\block\lukite_ore_deepslate.json
 eef7435307d4ac1de2edfbff320189af3a8661e7 assets\pentacraft-ores\models\item\sarite_chestplate.json
 d746f2d846ed42b07a29967d80f556dfa8425793 assets\pentacraft-ores\blockstates\juanitium_ore_deepslate.json
@@ -153,6 +155,8 @@ bb2dce7c0be9aeabb389f4ce695264ce232d679c assets\pentacraft-ores\blockstates\panc
 25779fba596097aef20cde25a6d3105a0633f976 assets\pentacraft-ores\models\item\zambonium_chestplate.json
 7ca30ca300bb5b48946cd2e110e0186593eeb7c8 assets\pentacraft-ores\models\block\sarite_ore_deepslate.json
 c875c96450f7b1fc02ec05cdb7b30b6a3b4a7b0f assets\pentacraft-ores\models\item\tominite_block.json
+c9d3f7938f1800234c53dd7e301e322c027d072f assets\pentacraft-ores\models\item\pentacraftium_heart.json
+4bcc6644d2fceb3a5e6b674baca6398d200cc827 assets\pentacraft-ores\blockstates\pentacraftium_block.json
 ac1404c1e206dbeeb01c4055ba0518d1aa64cb91 assets\pentacraft-ores\models\block\sarite_ore_netherrack.json
 33b930d9e76a4fa7b691e145deb7184586c209c5 assets\pentacraft-ores\models\item\juanitium_ore_stone.json
 cb0d65548d66973e807f43225d3ead69712b0e75 assets\pentacraft-ores\models\block\panchium_ore_endstone.json
@@ -181,8 +185,8 @@ ec8fc7ba58b2ffaf7a68dca38792bd6bc9a0f4fb assets\pentacraft-ores\models\item\panc
 970bfacd4ae22fa2319d24dc6fc205b5fb573841 assets\pentacraft-ores\models\item\sarite_ingot.json
 3ab403e97ec36974227fe01ca6824fab60555884 assets\pentacraft-ores\models\item\tominite_ore_netherrack.json
 7a4d284b81ed77b1a1231d255d1ed946eb65a0f7 assets\pentacraft-ores\models\item\juanitium_leggings.json
-c1bb44e553000a70fc9d99831151f6c30e12431b assets\pentacraft-ores\blockstates\tominite_shard_block.json
 d32720fb85d3faf61ff9f520d8f93d0538d90e3d assets\pentacraft-ores\blockstates\kevinium_ore_stone.json
+c1bb44e553000a70fc9d99831151f6c30e12431b assets\pentacraft-ores\blockstates\tominite_shard_block.json
 62f5ee90815027282519810584209ff4a84ba9fe assets\pentacraft-ores\models\item\robertium_ore_netherrack.json
 f0856c89048ee351f696df5564b93621db06b762 assets\pentacraft-ores\models\item\robertium_shard.json
 6d3589d4666934a7091f57a4fbafa1979204d79c assets\pentacraft-ores\blockstates\zambonium_ore_netherrack.json
@@ -255,6 +259,7 @@ c71d0932536d7e0323ffe2237a0fb44ca25eb1c0 assets\pentacraft-ores\blockstates\zamb
 ce1ad5f2a44aec830b327bcf9c9d9f77a6364203 assets\pentacraft-ores\models\item\panchium_great_axe.json
 fa819effc88e576c24f047c17dc4a18732f2bea7 assets\pentacraft-ores\models\block\kevinium_ore_netherrack.json
 f01024d40f26f7360729c6b69e6e0bbbc335f0fd assets\pentacraft-ores\models\item\juanitium_sword.json
+a5fb667b3fc7de601d76ab9049a4c7d7800fcfa7 assets\pentacraft-ores\models\item\pentacraftium_block.json
 6d6e63ce3c24758c71facecaa9028f3278aa4979 assets\pentacraft-ores\blockstates\lukite_ore_netherrack.json
 c270e5d8f4ea22b8a2742153f49ff29e499e4aab assets\pentacraft-ores\models\item\lukite_shovel.json
 b567aadce009496fc61d6c2ccd71a634720d565b assets\pentacraft-ores\blockstates\panchium_ore_endstone.json

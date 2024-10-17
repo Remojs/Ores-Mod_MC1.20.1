@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:panchium_block"
+    },
+    "C": {
+      "item": "pentacraft-ores:pentacraftium_core"
+    },
+    "I": {
+      "item": "pentacraft-ores:panchium_ingot"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "PSP"
+  ],
+  "result": {
+    "item": "pentacraft-ores:panchium_great_axe"
+  },
+  "show_notification": true
+}

@@ -1,6 +1,7 @@
 package com.remodev.items;
 
 import com.remodev.PentacraftOres;
+import com.remodev.items.custom.CustomSword;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -18,6 +19,8 @@ public class Moditems {
     public static final Item END_UPGRADE = registerItem("end_upgrade", new Item(new FabricItemSettings()));
 
     public static final Item PENTACRAFT_BOOK = registerItem("pentacraft_book", new Item(new FabricItemSettings()));
+    public static final Item PENTACRAFTIUM_HEART = registerItem("pentacraftium_heart", new Item(new FabricItemSettings()));
+    public static final Item PENTACRAFTIUM_CORE = registerItem("pentacraftium_core", new Item(new FabricItemSettings()));
 
     public static final Item ZAMBONIUM_INGOT = registerItem("zambonium_ingot", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_SHARD = registerItem("zambonium_shard", new Item(new FabricItemSettings()));
@@ -28,7 +31,7 @@ public class Moditems {
     public static final Item ZAMBONIUM_PICKAXE = registerItem("zambonium_pickaxe", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_AXE = registerItem("zambonium_axe", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_SHOVEL = registerItem("zambonium_shovel", new Item(new FabricItemSettings()));
-    public static final Item ZAMBONIUM_SWORD = registerItem("zambonium_sword", new Item(new FabricItemSettings()));
+    public static final Item ZAMBONIUM_SWORD = registerItem("zambonium_sword", new CustomSword(new FabricItemSettings()));
     public static final Item ZAMBONIUM_HOE = registerItem("zambonium_hoe", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_HAMMER = registerItem("zambonium_hammer", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_GREAT_AXE = registerItem("zambonium_great_axe", new Item(new FabricItemSettings()));

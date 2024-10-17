@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pentacraft-ores:panchium_shard"
+    },
+    "J": {
+      "item": "pentacraft-ores:juanitium_shard"
+    },
+    "K": {
+      "item": "pentacraft-ores:kevinium_shard"
+    },
+    "L": {
+      "item": "pentacraft-ores:lukite_shard"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    },
+    "R": {
+      "item": "pentacraft-ores:robertium_shard"
+    },
+    "S": {
+      "item": "pentacraft-ores:sarite_shard"
+    },
+    "T": {
+      "item": "pentacraft-ores:tominite_shard"
+    },
+    "Z": {
+      "item": "pentacraft-ores:zambonium_shard"
+    }
+  },
+  "pattern": [
+    "TLZ",
+    "KPC",
+    "SJR"
+  ],
+  "result": {
+    "item": "pentacraft-ores:pentacraftium_core"
+  },
+  "show_notification": true
+}

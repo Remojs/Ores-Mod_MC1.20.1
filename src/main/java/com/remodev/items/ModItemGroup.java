@@ -42,7 +42,7 @@ public class ModItemGroup {
     public static final ItemGroup PENTACRAFT_MISC = registerItemGroup("misc",
             FabricItemGroup.builder()
                     .displayName(Text.translatable("itemGroup.pentacraft-ores.pentacraft_misc_group"))
-                    .icon(() -> new ItemStack(Moditems.DRAGON_UPGRADE))
+                    .icon(() -> new ItemStack(Moditems.PENTACRAFTIUM_CORE))
                     .entries((displayContext, entries) -> {
                         entries.add(Moditems.DRAGON_UPGRADE);
                         entries.add(Moditems.WARDEN_UPGRADE);
@@ -51,6 +51,8 @@ public class ModItemGroup {
                         entries.add(Moditems.NETHER_UPGRADE);
                         entries.add(Moditems.END_UPGRADE);
                         entries.add(Moditems.PENTACRAFT_BOOK);
+                        entries.add(Moditems.PENTACRAFTIUM_CORE);
+                        entries.add(Moditems.PENTACRAFTIUM_HEART);
                     })
                     .build()
     );
@@ -101,61 +103,70 @@ public class ModItemGroup {
                     .displayName(Text.translatable("itemGroup.pentacraft-ores.pentacraft_tools_group"))
                     .icon(() -> new ItemStack(Moditems.ZAMBONIUM_SHOVEL))
                     .entries((displayContext, entries) -> {
-                        entries.add(Moditems.ZAMBONIUM_SWORD);
                         entries.add(Moditems.ZAMBONIUM_AXE);
                         entries.add(Moditems.ZAMBONIUM_PICKAXE);
                         entries.add(Moditems.ZAMBONIUM_SHOVEL);
                         entries.add(Moditems.ZAMBONIUM_HOE);
                         entries.add(Moditems.ZAMBONIUM_HAMMER);
-                        entries.add(Moditems.ZAMBONIUM_GREAT_AXE);
-                        entries.add(Moditems.JUANITIUM_SWORD);
                         entries.add(Moditems.JUANITIUM_AXE);
                         entries.add(Moditems.JUANITIUM_PICKAXE);
                         entries.add(Moditems.JUANITIUM_SHOVEL);
                         entries.add(Moditems.JUANITIUM_HOE);
                         entries.add(Moditems.JUANITIUM_HAMMER);
-                        entries.add(Moditems.JUANITIUM_GREAT_AXE);
-                        entries.add(Moditems.KEVINIUM_SWORD);
                         entries.add(Moditems.KEVINIUM_AXE);
                         entries.add(Moditems.KEVINIUM_PICKAXE);
                         entries.add(Moditems.KEVINIUM_SHOVEL);
                         entries.add(Moditems.KEVINIUM_HOE);
                         entries.add(Moditems.KEVINIUM_HAMMER);
-                        entries.add(Moditems.KEVINIUM_GREAT_AXE);
-                        entries.add(Moditems.LUKITE_SWORD);
                         entries.add(Moditems.LUKITE_AXE);
                         entries.add(Moditems.LUKITE_PICKAXE);
                         entries.add(Moditems.LUKITE_SHOVEL);
                         entries.add(Moditems.LUKITE_HOE);
                         entries.add(Moditems.LUKITE_HAMMER);
-                        entries.add(Moditems.LUKITE_GREAT_AXE);
-                        entries.add(Moditems.PANCHIUM_SWORD);
                         entries.add(Moditems.PANCHIUM_AXE);
                         entries.add(Moditems.PANCHIUM_PICKAXE);
                         entries.add(Moditems.PANCHIUM_SHOVEL);
                         entries.add(Moditems.PANCHIUM_HOE);
                         entries.add(Moditems.PANCHIUM_HAMMER);
-                        entries.add(Moditems.PANCHIUM_GREAT_AXE);
-                        entries.add(Moditems.ROBERTIUM_SWORD);
                         entries.add(Moditems.ROBERTIUM_AXE);
                         entries.add(Moditems.ROBERTIUM_PICKAXE);
                         entries.add(Moditems.ROBERTIUM_SHOVEL);
                         entries.add(Moditems.ROBERTIUM_HOE);
                         entries.add(Moditems.ROBERTIUM_HAMMER);
-                        entries.add(Moditems.ROBERTIUM_GREAT_AXE);
-                        entries.add(Moditems.SARITE_SWORD);
                         entries.add(Moditems.SARITE_AXE);
                         entries.add(Moditems.SARITE_PICKAXE);
                         entries.add(Moditems.SARITE_SHOVEL);
                         entries.add(Moditems.SARITE_HOE);
                         entries.add(Moditems.SARITE_HAMMER);
-                        entries.add(Moditems.SARITE_GREAT_AXE);
-                        entries.add(Moditems.TOMINITE_SWORD);
                         entries.add(Moditems.TOMINITE_AXE);
                         entries.add(Moditems.TOMINITE_PICKAXE);
                         entries.add(Moditems.TOMINITE_SHOVEL);
                         entries.add(Moditems.TOMINITE_HOE);
                         entries.add(Moditems.TOMINITE_HAMMER);
+                    })
+                    .build()
+    );
+
+    public static final ItemGroup PENTACRAFT_WEAPONS = registerItemGroup("weapons",
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemGroup.pentacraft-ores.pentacraft_weapons_group"))
+                    .icon(() -> new ItemStack(Moditems.ZAMBONIUM_SWORD))
+                    .entries((displayContext, entries) -> {
+                        entries.add(Moditems.ZAMBONIUM_SWORD);
+                        entries.add(Moditems.ZAMBONIUM_GREAT_AXE);
+                        entries.add(Moditems.JUANITIUM_SWORD);
+                        entries.add(Moditems.JUANITIUM_GREAT_AXE);
+                        entries.add(Moditems.KEVINIUM_SWORD);
+                        entries.add(Moditems.KEVINIUM_GREAT_AXE);
+                        entries.add(Moditems.LUKITE_SWORD);
+                        entries.add(Moditems.LUKITE_GREAT_AXE);
+                        entries.add(Moditems.PANCHIUM_SWORD);
+                        entries.add(Moditems.PANCHIUM_GREAT_AXE);
+                        entries.add(Moditems.ROBERTIUM_SWORD);
+                        entries.add(Moditems.ROBERTIUM_GREAT_AXE);
+                        entries.add(Moditems.SARITE_SWORD);
+                        entries.add(Moditems.SARITE_GREAT_AXE);
+                        entries.add(Moditems.TOMINITE_SWORD);
                         entries.add(Moditems.TOMINITE_GREAT_AXE);
                     })
                     .build()
@@ -224,6 +235,8 @@ public class ModItemGroup {
 
                         entries.add(new ItemStack(Ores.PENTACRAFTIUM_ORE_STONE.getLeft()));
                         entries.add(new ItemStack(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft()));
+                        entries.add(new ItemStack(Ores.PENTACRAFTIUM_BLOCK.getLeft()));
+
                     })
                     .build()
     );

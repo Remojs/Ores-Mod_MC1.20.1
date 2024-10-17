@@ -9,6 +9,9 @@
   "item.pentacraft-ores.zambonium_pickaxe": "Pico de Zambonium",
   "item.pentacraft-ores.zambonium_axe": "Hacha de Zambonium",
   "item.pentacraft-ores.zambonium_sword": "Espada de Zambonium",
+  "item.pentacraft-ores.zambonium_hammer": "Martillo de Zambonium",
+  "item.pentacraft-ores.zambonium_great_axe": "Gran Hacha de Zambonium",
+  "item.pentacraft-ores.zambonium_hoe": "Azada de Zambonium",
 
   "item.pentacraft-ores.kevinium_ingot": "Lingote de Kevinium",
   "item.pentacraft-ores.kevinium_shard": "Fragmento de Kevinium",
@@ -20,6 +23,9 @@
   "item.pentacraft-ores.kevinium_pickaxe": "Pico de Kevinium",
   "item.pentacraft-ores.kevinium_axe": "Hacha de Kevinium",
   "item.pentacraft-ores.kevinium_sword": "Espada de Kevinium",
+  "item.pentacraft-ores.kevinium_hammer": "Martillo de Kevinium",
+  "item.pentacraft-ores.kevinium_great_axe": "Gran Hacha de Kevinium",
+  "item.pentacraft-ores.kevinium_hoe": "Azada de Kevinium",
 
   "item.pentacraft-ores.juanitium_ingot": "Lingote de Juanitium",
   "item.pentacraft-ores.juanitium_shard": "Fragmento de Juanitium",
@@ -31,6 +37,9 @@
   "item.pentacraft-ores.juanitium_pickaxe": "Pico de Juanitium",
   "item.pentacraft-ores.juanitium_axe": "Hacha de Juanitium",
   "item.pentacraft-ores.juanitium_sword": "Espada de Juanitium",
+  "item.pentacraft-ores.juanitium_hammer": "Martillo de Juanitium",
+  "item.pentacraft-ores.juanitium_great_axe": "Gran Hacha de Juanitium",
+  "item.pentacraft-ores.juanitium_hoe": "Azada de Juanitium",
 
   "item.pentacraft-ores.robertium_ingot": "Lingote de Robertium",
   "item.pentacraft-ores.robertium_shard": "Fragmento de Robertium",
@@ -42,6 +51,9 @@
   "item.pentacraft-ores.robertium_pickaxe": "Pico de Robertium",
   "item.pentacraft-ores.robertium_axe": "Hacha de Robertium",
   "item.pentacraft-ores.robertium_sword": "Espada de Robertium",
+  "item.pentacraft-ores.robertium_hammer": "Martillo de Robertium",
+  "item.pentacraft-ores.robertium_great_axe": "Gran Hacha de Robertium",
+  "item.pentacraft-ores.robertium_hoe": "Azada de Robertium",
 
   "item.pentacraft-ores.panchium_ingot": "Lingote de Panchium",
   "item.pentacraft-ores.panchium_shard": "Fragmento de Panchium",
@@ -53,6 +65,9 @@
   "item.pentacraft-ores.panchium_pickaxe": "Pico de Panchium",
   "item.pentacraft-ores.panchium_axe": "Hacha de Panchium",
   "item.pentacraft-ores.panchium_sword": "Espada de Panchium",
+  "item.pentacraft-ores.panchium_hammer": "Martillo de Panchium",
+  "item.pentacraft-ores.panchium_great_axe": "Gran Hacha de Panchium",
+  "item.pentacraft-ores.panchium_hoe": "Azada de Panchium",
 
   "item.pentacraft-ores.sarite_ingot": "Lingote de Sarite",
   "item.pentacraft-ores.sarite_shard": "Fragmento de Sarite",
@@ -64,6 +79,9 @@
   "item.pentacraft-ores.sarite_pickaxe": "Pico de Sarite",
   "item.pentacraft-ores.sarite_axe": "Hacha de Sarite",
   "item.pentacraft-ores.sarite_sword": "Espada de Sarite",
+  "item.pentacraft-ores.sarite_hammer": "Martillo de Sarite",
+  "item.pentacraft-ores.sarite_great_axe": "Gran Hacha de Sarite",
+  "item.pentacraft-ores.sarite_hoe": "Azada de Sarite",
 
   "item.pentacraft-ores.tominite_ingot": "Lingote de Tominite",
   "item.pentacraft-ores.tominite_shard": "Fragmento de Tominite",
@@ -74,7 +92,10 @@
   "item.pentacraft-ores.tominite_shovel": "Pala de Tominite",
   "item.pentacraft-ores.tominite_pickaxe": "Pico de Tominite",
   "item.pentacraft-ores.tominite_axe": "Hacha de Tominite",
-  "item.pentacraft-ores.tominite_sword": "Espada de ominite",
+  "item.pentacraft-ores.tominite_sword": "Espada de Tominite",
+  "item.pentacraft-ores.tominite_hammer": "Martillo de Tominite",
+  "item.pentacraft-ores.tominite_great_axe": "Gran Hacha de Tominite",
+  "item.pentacraft-ores.tominite_hoe": "Azada de Tominite",
 
   "item.pentacraft-ores.lukite_ingot": "Lingote de Lukite",
   "item.pentacraft-ores.lukite_shard": "Fragmento de Lukite",
@@ -86,6 +107,9 @@
   "item.pentacraft-ores.lukite_pickaxe": "Pico de Lukite",
   "item.pentacraft-ores.lukite_axe": "Hacha de Lukite",
   "item.pentacraft-ores.lukite_sword": "Espada de Lukite",
+  "item.pentacraft-ores.lukite_hammer": "Martillo de Lukite",
+  "item.pentacraft-ores.lukite_great_axe": "Gran Hacha de Lukite",
+  "item.pentacraft-ores.lukite_hoe": "Azada de Lukite",
 
   "item.pentacraft-ores.nether_upgrade": "Mejora de Nether",
   "item.pentacraft-ores.end_upgrade": "Mejora de End",
@@ -96,6 +120,8 @@
 
   "item.pentacraft-ores.pentacraftium_dust": "Polvo de Pentacraftium",
   "item.pentacraft-ores.pentacraft_book": "Libro de Pentacraft",
+  "item.pentacraft-ores.pentacraftium_core": "Nucleo de Pentacraftium",
+  "item.pentacraft-ores.pentacraftium_heart": "Corazon de Pentacraftium",
 
   "block.pentacraft-ores.zambonium_ore_stone": "Mena de Zambonium",
   "block.pentacraft-ores.zambonium_ore_deepslate": "Mena profunda de Zambonium",
@@ -153,9 +179,18 @@
   "block.pentacraft-ores.lukite_block": "Bloque de Lukite",
   "block.pentacraft-ores.lukite_shard_block": "Bloque de Fragmentos de Lukite",
 
+  "block.pentacraft-ores.pentacraftium_ore_stone": "Mena de Pentacraftium",
+  "block.pentacraft-ores.pentacraftium_ore_deepslate": "Mena Profunda de Pentacraftium",
+  "block.pentacraft-ores.pentacraftium_block": "Bloque de Pentacraftium",
+
   "itemGroup.pentacraft-ores.pentacraft_mineral_group": "Penta-Minerales",
   "itemGroup.pentacraft-ores.pentacraft_armor_group": "Penta-Armaduras",
   "itemGroup.pentacraft-ores.pentacraft_misc_group": "Penta-Variedad",
   "itemGroup.pentacraft-ores.pentacraft_tools_group": "Penta-Herramientas",
-  "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Penta-Bloques"
+  "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Penta-Bloques",
+  "itemGroup.pentacraft-ores.pentacraft_weapons_group": "Penta-Armas",
+
+
+  "item.pentacraft-ores.custom_sword.tooltip": "Espada perdida de un antiguo guerrero del multiverso"
+
 }

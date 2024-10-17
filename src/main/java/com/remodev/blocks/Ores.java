@@ -78,6 +78,7 @@ public class Ores {
 
     public static final Pair<Block, Item> PENTACRAFTIUM_ORE_STONE = registerBlock("pentacraftium_ore_stone", new Block(AbstractBlock.Settings.copy(Blocks.IRON_ORE)));
     public static final Pair<Block, Item> PENTACRAFTIUM_ORE_DEEPSLATE = registerBlock("pentacraftium_ore_deepslate", new Block(AbstractBlock.Settings.copy(Blocks.IRON_ORE)));
+    public static final Pair<Block, Item> PENTACRAFTIUM_BLOCK = registerBlock("pentacraftium_block", new Block(AbstractBlock.Settings.copy(Blocks.IRON_ORE)));
 
 
     private static Pair<Block, Item> registerBlock(String name, Block block){

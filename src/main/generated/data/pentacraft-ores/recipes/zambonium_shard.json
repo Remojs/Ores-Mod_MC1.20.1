@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pentacraft-ores:zambonium_shard_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "pentacraft-ores:zambonium_shard"
+  }
+}

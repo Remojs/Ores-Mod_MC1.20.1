@@ -76,6 +76,7 @@ public class DatagenModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_STONE.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_BLOCK.getLeft());
     }
 
     @Override
@@ -200,6 +201,8 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.WARDEN_UPGRADE , Models.GENERATED);
         itemModelGenerator.register(Moditems.WITHER_UPGRADE , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFT_BOOK , Models.GENERATED);
+        itemModelGenerator.register(Moditems.PENTACRAFTIUM_CORE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.PENTACRAFTIUM_HEART , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_DUST , Models.GENERATED);
     }
 }

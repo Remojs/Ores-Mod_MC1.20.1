@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:sarite_ingot"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "III",
+    "III"
+  ],
+  "result": {
+    "item": "pentacraft-ores:sarite_chestplate"
+  },
+  "show_notification": true
+}

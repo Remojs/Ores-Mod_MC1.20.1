@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_panchium_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pentacraft-ores:panchium_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pentacraft-ores:panchium_ingot_shard"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_panchium_shard",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pentacraft-ores:panchium_ingot_shard"
+    ]
+  },
+  "sends_telemetry_event": false
+}

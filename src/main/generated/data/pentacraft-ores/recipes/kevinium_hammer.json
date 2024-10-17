@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "pentacraft-ores:pentacraftium_core"
+    },
+    "I": {
+      "item": "pentacraft-ores:kevinium_ingot"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "III",
+    "ICI",
+    "PSP"
+  ],
+  "result": {
+    "item": "pentacraft-ores:kevinium_hammer"
+  },
+  "show_notification": true
+}
