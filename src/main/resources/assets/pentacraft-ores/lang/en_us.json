@@ -191,5 +191,60 @@
   "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Pentacraft Blocks",
   "itemGroup.pentacraft-ores.pentacraft_weapons_group": "Pentacraft Weapons",
 
-  "item.pentacraft-ores.custom_sword.tooltip": "Lost sword of an ancient warrior from the multiverse"
+  "item.pentacraft-ores.custom_sword.tooltip": "Lost sword of an ancient",
+  "item.pentacraft-ores.custom_sword.tooltip2": "warrior from the multiverse",
+  "item.pentacraft-ores.custom_armor.tooltip": "Lost armor of an ancient",
+  "item.pentacraft-ores.custom_armor.tooltip2": "warrior from the multiverse",
+
+  "item.pentacraft-ores.custom.zambonium": "Part of the set: Undead King",
+  "item.pentacraft-ores.custom.robertium": "Part of the set: Lord od the Underworld",
+  "item.pentacraft-ores.custom.kevinium": "Part of the set: Primordial Arcanist",
+  "item.pentacraft-ores.custom.panchium": "Part of the set: Thunder Colossus",
+  "item.pentacraft-ores.custom.juanitium": "Part of the set: Emperor of the Tides",
+  "item.pentacraft-ores.custom.lukite": "Part of the set: Celestial Monarch",
+  "item.pentacraft-ores.custom.sarite": "Part of the set: Sovereign of the End",
+  "item.pentacraft-ores.custom.tominite": "Part of the set: Guardian of the Overworld",
+
+  "item.pentacraft-ores.custom_sword.zambonium_sword_soulabsorption": "Soul Absorption",
+  "item.pentacraft-ores.custom_sword.zambonium_sword_deathtouch": "Death Touch",
+  "item.pentacraft-ores.custom_armor.zambonium_armor_necroaura": "Necro-aura",
+  "item.pentacraft-ores.custom_armor.zambonium_armor_darkresurrection": "Dark Resurection",
+
+  "item.pentacraft-ores.custom_sword.robertium_sword_igneousfist": "Igneous Fist",
+  "item.pentacraft-ores.custom_sword.robertium_sword_volcanicshock": "Volcanic Shock",
+  "item.pentacraft-ores.custom_armor.robertium_armor_fireboost": "Fire Boost",
+  "item.pentacraft-ores.custom_armor.robertium_armor_lavamantle": "Lava Mantle",
+
+  "item.pentacraft-ores.custom_sword.panchium_sword_stormfury": "Storm Fury FALTANTE FALTANTE FALTANTE",
+  "item.pentacraft-ores.custom_sword.panchium_sword_electroparalysis": "Electro Paralysis",
+  "item.pentacraft-ores.custom_armor.panchium_armor_electricascent": "Electric Ascent",
+  "item.pentacraft-ores.custom_armor.panchium_armor_electrokineticvelocity": "Electrokinetic Velocity",
+
+  "item.pentacraft-ores.custom_sword.sarite_sword_dragonecho": "Dragon Echo",
+  "item.pentacraft-ores.custom_armor.sarite_sword_endinheritance": "End Inheritance",
+  "item.pentacraft-ores.custom_armor.sarite_armor_dragonboost": "Dragon Boost",
+  "item.pentacraft-ores.custom_armor.sarite_armor_dimensionalprotection": "Dimensional Protection",
+
+  "item.pentacraft-ores.custom_sword.tominite_sword_essenceharvesting": "Essence Harvesting",
+  "item.pentacraft-ores.custom_sword.tominite_sword_worldboost": "World Boost",
+  "item.pentacraft-ores.custom_sword.tominite_armor_ironcore": "Iron Core",
+  "item.pentacraft-ores.custom_sword.tominite_armor_landblessing": "Land Blessing",
+
+  "item.pentacraft-ores.custom_sword.juanitium_sword_deepshackles": "Deep Shackles",
+  "item.pentacraft-ores.custom_sword.juanitium_sword_abysstouch": "Abyss Touch",
+  "item.pentacraft-ores.custom_sword.juanitium_armor_neptuneblessing": "Neptune Blessing",
+  "item.pentacraft-ores.custom_sword.juanitium_armor_leviathanrevenge": "Leviathan Revenge",
+
+  "item.pentacraft-ores.custom_sword.lukite_sword_gravitytouch": "Gravity Touch",
+  "item.pentacraft-ores.custom_sword.lukite_armor_windshield": "Wind Shield",
+  "item.pentacraft-ores.custom_sword.lukite_armor_celestialdomain": "Celestial Domain",
+  "item.pentacraft-ores.custom_sword.lukite_armor_lastascencion": "Last Ascencion",
+
+  "item.pentacraft-ores.custom_sword.kevinium_sword_cursedtouch": "Cursed Touch",
+  "item.pentacraft-ores.custom_sword.kevinium_armor_vitalextension": "Vital Extension",
+  "item.pentacraft-ores.custom_sword.kevinium_armor_arcanepurity": "Arcane purity",
+  "item.pentacraft-ores.custom_sword.kevinium_armor_mysticawakening": "Mystic Awakening",
+
+  "effect.pentacraft-ores.electroparalysis": "Electroparalysis"
+
 }

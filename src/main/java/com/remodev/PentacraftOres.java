@@ -4,6 +4,7 @@ import com.remodev.blocks.Ores;
 import com.remodev.items.ModItemGroup;
 import com.remodev.items.Moditems;
 import net.fabricmc.api.ModInitializer;
+import com.remodev.statuseffects.ModStatusEffects;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.server.MinecraftServer;
@@ -22,6 +23,7 @@ public class PentacraftOres implements ModInitializer {
 		Moditems.registerItems();
 		ModItemGroup.registerItemGroup();
 		Ores.registerBlocks();
+		ModStatusEffects.registerEffects();
 
 		ServerLifecycleEvents.SERVER_STARTING.register(server -> SERVER = server);
 	}

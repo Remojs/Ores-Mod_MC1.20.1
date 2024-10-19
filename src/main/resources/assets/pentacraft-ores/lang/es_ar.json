@@ -191,6 +191,59 @@
   "itemGroup.pentacraft-ores.pentacraft_weapons_group": "Penta-Armas",
 
 
-  "item.pentacraft-ores.custom_sword.tooltip": "Espada perdida de un antiguo guerrero del multiverso"
+  "item.pentacraft-ores.custom_sword.tooltip": "Espada perdida de un antiguo",
+  "item.pentacraft-ores.custom_sword.tooltip2": "guerrero del multiverso",
+  "item.pentacraft-ores.custom_armor.tooltip": "Armadura Perdida de un antiguo",
+  "item.pentacraft-ores.custom_armor.tooltip2": "guerrero del multiverso",
+
+  "item.pentacraft-ores.custom.zambonium": "Parte del conjunto: Rey No-Muerto",
+  "item.pentacraft-ores.custom.robertium": "Parte del conjunto: Señor del Inframundo",
+  "item.pentacraft-ores.custom.kevinium": "Parte del conjunto: Arcanista Primordial",
+  "item.pentacraft-ores.custom.panchium": "Parte del conjunto: Coloso del Trueno",
+  "item.pentacraft-ores.custom.juanitium": "Parte del conjunto: Emperador de las Mareas",
+  "item.pentacraft-ores.custom.lukite": "Parte del conjunto: Monarca Celestial",
+  "item.pentacraft-ores.custom.sarite": "Parte del conjunto: Soberano del End",
+  "item.pentacraft-ores.custom.tominite": "Parte del conjunto: Guardian del Overworld",
+
+  "item.pentacraft-ores.custom_sword.zambonium_sword_soulabsorption": "Absorcion de Almas",
+  "item.pentacraft-ores.custom_sword.zambonium_sword_deathtouch": "Toque Mortal",
+  "item.pentacraft-ores.custom_armor.zambonium_armor_necroaura": "Necro-aura",
+  "item.pentacraft-ores.custom_armor.zambonium_armor_darkresurrection": "Resurreccion Oscura",
+
+  "item.pentacraft-ores.custom_sword.robertium_sword_igneousfist": "Puño Igneo",
+  "item.pentacraft-ores.custom_sword.robertium_sword_volcanicshock": "Impacto Volcanico",
+  "item.pentacraft-ores.custom_armor.robertium_armor_fireboost": "Impulso de Fuego",
+  "item.pentacraft-ores.custom_armor.robertium_armor_lavamantle": "Manto de Lava",
+
+  "item.pentacraft-ores.custom_sword.panchium_sword_stormfury": "Furia de la Tormenta",
+  "item.pentacraft-ores.custom_sword.panchium_sword_electroparalysis": "Electro-Paralisis",
+  "item.pentacraft-ores.custom_armor.panchium_armor_electricascent": "Ascenso Electrico",
+  "item.pentacraft-ores.custom_armor.panchium_armor_electrokineticvelocity": "Velocidad Electro-cinetica",
+
+  "item.pentacraft-ores.custom_sword.sarite_sword_dragonecho": "Eco Dragon",
+  "item.pentacraft-ores.custom_armor.sarite_sword_endinheritance": "Herencia del End",
+  "item.pentacraft-ores.custom_armor.sarite_armor_dragonboost": "Impulso Dragon",
+  "item.pentacraft-ores.custom_armor.sarite_armor_dimensionalprotection": "Proteccion Dimensional",
+
+  "item.pentacraft-ores.custom_sword.tominite_sword_essenceharvesting": "Farmeo de Escencia",
+  "item.pentacraft-ores.custom_sword.tominite_sword_worldboost": "Impulso Natural",
+  "item.pentacraft-ores.custom_sword.tominite_armor_ironcore": "Nucleo de Hierro",
+  "item.pentacraft-ores.custom_sword.tominite_armor_landblessing": "Bendicion de la Tierra",
+
+  "item.pentacraft-ores.custom_sword.juanitium_sword_deepshackles": "Prision Marina",
+  "item.pentacraft-ores.custom_sword.juanitium_sword_abysstouch": "Toque del Abismo",
+  "item.pentacraft-ores.custom_sword.juanitium_armor_neptuneblessing": "Bendicion de Neptuno",
+  "item.pentacraft-ores.custom_sword.juanitium_armor_leviathanrevenge": "Venganza Leviatan",
+
+  "item.pentacraft-ores.custom_sword.lukite_sword_gravitytouch": "Toque Gravitacional",
+  "item.pentacraft-ores.custom_sword.lukite_armor_windshield": "Escudo de Viento",
+  "item.pentacraft-ores.custom_sword.lukite_armor_celestialdomain": "Dominio Celestial",
+  "item.pentacraft-ores.custom_sword.lukite_armor_lastascencion": "Ultima Ascencion",
+
+  "item.pentacraft-ores.custom_sword.kevinium_sword_cursedtouch": "Toque Maldito",
+  "item.pentacraft-ores.custom_sword.kevinium_armor_vitalextension": "Extension Vital",
+  "item.pentacraft-ores.custom_sword.kevinium_armor_arcanepurity": "Pureza Arcana",
+  "item.pentacraft-ores.custom_sword.kevinium_armor_mysticawakening": "Despertar Mistico"
+
 
 }

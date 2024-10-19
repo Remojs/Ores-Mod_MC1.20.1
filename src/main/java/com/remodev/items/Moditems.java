@@ -1,7 +1,9 @@
 package com.remodev.items;
 
 import com.remodev.PentacraftOres;
-import com.remodev.items.custom.CustomSword;
+import com.remodev.items.custom.CustomSwordPanchium;
+import com.remodev.items.custom.CustomSwordRobertium;
+import com.remodev.items.custom.CustomSwordZambonium;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -31,7 +33,7 @@ public class Moditems {
     public static final Item ZAMBONIUM_PICKAXE = registerItem("zambonium_pickaxe", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_AXE = registerItem("zambonium_axe", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_SHOVEL = registerItem("zambonium_shovel", new Item(new FabricItemSettings()));
-    public static final Item ZAMBONIUM_SWORD = registerItem("zambonium_sword", new CustomSword(new FabricItemSettings()));
+    public static final Item ZAMBONIUM_SWORD = registerItem("zambonium_sword", new CustomSwordZambonium(new FabricItemSettings()));
     public static final Item ZAMBONIUM_HOE = registerItem("zambonium_hoe", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_HAMMER = registerItem("zambonium_hammer", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_GREAT_AXE = registerItem("zambonium_great_axe", new Item(new FabricItemSettings()));
@@ -45,7 +47,7 @@ public class Moditems {
     public static final Item ROBERTIUM_PICKAXE = registerItem("robertium_pickaxe", new Item(new FabricItemSettings()));
     public static final Item ROBERTIUM_AXE = registerItem("robertium_axe", new Item(new FabricItemSettings()));
     public static final Item ROBERTIUM_SHOVEL = registerItem("robertium_shovel", new Item(new FabricItemSettings()));
-    public static final Item ROBERTIUM_SWORD = registerItem("robertium_sword", new Item(new FabricItemSettings()));
+    public static final Item ROBERTIUM_SWORD = registerItem("robertium_sword", new CustomSwordRobertium(new FabricItemSettings()));
     public static final Item ROBERTIUM_HOE = registerItem("robertium_hoe", new Item(new FabricItemSettings()));
     public static final Item ROBERTIUM_HAMMER = registerItem("robertium_hammer", new Item(new FabricItemSettings()));
     public static final Item ROBERTIUM_GREAT_AXE = registerItem("robertium_great_axe", new Item(new FabricItemSettings()));
@@ -73,7 +75,7 @@ public class Moditems {
     public static final Item PANCHIUM_PICKAXE = registerItem("panchium_pickaxe", new Item(new FabricItemSettings()));
     public static final Item PANCHIUM_AXE = registerItem("panchium_axe", new Item(new FabricItemSettings()));
     public static final Item PANCHIUM_SHOVEL = registerItem("panchium_shovel", new Item(new FabricItemSettings()));
-    public static final Item PANCHIUM_SWORD = registerItem("panchium_sword", new Item(new FabricItemSettings()));
+    public static final Item PANCHIUM_SWORD = registerItem("panchium_sword", new CustomSwordPanchium(new FabricItemSettings()));
     public static final Item PANCHIUM_HOE = registerItem("panchium_hoe", new Item(new FabricItemSettings()));
     public static final Item PANCHIUM_HAMMER = registerItem("panchium_hammer", new Item(new FabricItemSettings()));
     public static final Item PANCHIUM_GREAT_AXE = registerItem("panchium_great_axe", new Item(new FabricItemSettings()));
