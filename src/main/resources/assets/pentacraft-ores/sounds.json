@@ -1,0 +1,146 @@
+{
+  "deathtouch": {
+    "subtitle": "sounds.pentacraft-ores.deathtouch",
+    "sounds": [
+      "pentacraft-ores:deathtouch1",
+      "pentacraft-ores:deathtouch2",
+      "pentacraft-ores:deathtouch3",
+      "pentacraft-ores:deathtouch4",
+      "pentacraft-ores:deathtouch5"
+    ]
+  },
+  "electroparalysis": {
+    "subtitle": "sounds.pentacraft-ores.electroparalysis",
+    "sounds": [
+      "pentacraft-ores:electroparalysis"
+    ]
+  },
+  "electroshock": {
+    "subtitle": "sounds.pentacraft-ores.electroshock",
+    "sounds": [
+      "pentacraft-ores:electroshock"
+    ]
+  },
+  "magicthings": {
+    "subtitle": "sounds.pentacraft-ores.magicthings",
+    "sounds": [
+      "pentacraft-ores:magicthings"
+    ]
+  },
+  "arcanesword": {
+    "subtitle": "sounds.pentacraft-ores.arcanesword",
+    "sounds": [
+      "pentacraft-ores:arcanesword"
+    ]
+  },
+  "firehit": {
+    "subtitle": "sounds.pentacraft-ores.firehit",
+    "sounds": [
+      "pentacraft-ores:firehit1",
+      "pentacraft-ores:firehit2",
+      "pentacraft-ores:firehit3",
+      "pentacraft-ores:firehit4"
+    ]
+  },
+  "eternalfire": {
+    "subtitle": "sounds.pentacraft-ores.eternalfire",
+    "sounds": [
+      "pentacraft-ores:eternalfire"
+    ]
+  },
+  "windhit": {
+    "subtitle": "sounds.pentacraft-ores.windhit",
+    "sounds": [
+      "pentacraft-ores:windhit1",
+      "pentacraft-ores:windhit2",
+      "pentacraft-ores:windhit3",
+      "pentacraft-ores:windhit4"
+    ]
+  },
+  "waterhit": {
+    "subtitle": "sounds.pentacraft-ores.waterhit",
+    "sounds": [
+      "pentacraft-ores:waterhit1",
+      "pentacraft-ores:waterhit2",
+      "pentacraft-ores:waterhit3",
+      "pentacraft-ores:waterhit4"
+    ]
+  },
+  "worldrage": {
+    "subtitle": "sounds.pentacraft-ores.worldrage",
+    "sounds": [
+      "pentacraft-ores:worldrage1",
+      "pentacraft-ores:worldrage2",
+      "pentacraft-ores:worldrage3",
+      "pentacraft-ores:worldrage4"
+    ]
+  },
+  "abysscry": {
+    "subtitle": "sounds.pentacraft-ores.abysscry",
+    "sounds": [
+      "pentacraft-ores:abysscry"
+    ]
+  },
+  "deepshackles": {
+    "subtitle": "sounds.pentacraft-ores.deepshackles",
+    "sounds": [
+      "pentacraft-ores:deepshackles"
+    ]
+  },
+  "worldharmony": {
+    "subtitle": "sounds.pentacraft-ores.worldharmony",
+    "sounds": [
+      "pentacraft-ores:worldharmony"
+    ]
+  },
+  "windeffect": {
+    "subtitle": "sounds.pentacraft-ores.windeffect",
+    "sounds": [
+      "pentacraft-ores:windeffect"
+    ]
+  },
+  "dimensionalswoosh": {
+    "subtitle": "sounds.pentacraft-ores.dimensionalswoosh",
+    "sounds": [
+      "pentacraft-ores:dimensionalswoosh1",
+      "pentacraft-ores:dimensionalswoosh2",
+      "pentacraft-ores:dimensionalswoosh3"
+    ]
+  },
+  "electricedge": {
+    "subtitle": "sounds.pentacraft-ores.electricedge",
+    "sounds": [
+      "pentacraft-ores:electricedge1",
+      "pentacraft-ores:electricedge2",
+      "pentacraft-ores:electricedge3",
+      "pentacraft-ores:electricedge4"
+    ]
+  },
+  "dimensionalmismatch": {
+    "subtitle": "sounds.pentacraft-ores.dimensionalmismatch",
+    "sounds": [
+      "pentacraft-ores:dimensionalmismatch"
+    ]
+  },
+  "dimensionalanomaly": {
+    "subtitle": "sounds.pentacraft-ores.dimensionalanomaly",
+    "sounds": [
+      "pentacraft-ores:dimensionalanomaly"
+    ]
+  },
+  "magicattack": {
+    "subtitle": "sounds.pentacraft-ores.magicattack",
+    "sounds": [
+      "pentacraft-ores:magicattack1",
+      "pentacraft-ores:magicattack2",
+      "pentacraft-ores:magicattack3",
+      "pentacraft-ores:magicattack4"
+    ]
+  },
+  "bonk": {
+    "subtitle": "sounds.pentacraft-ores.bonk",
+    "sounds": [
+      "pentacraft-ores:bonk"
+    ]
+  }
+}

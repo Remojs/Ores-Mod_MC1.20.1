@@ -1,8 +1,8 @@
-package com.remodev.items.custom;
+package com.remodev.items.custom.swords;
 
 import com.remodev.items.Moditems;
+import com.remodev.sound.ModSounds;
 import com.remodev.statuseffects.ModStatusEffects;
-import net.fabricmc.fabric.api.event.player.UseItemCallback;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -10,10 +10,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
-import net.minecraft.util.TypedActionResult;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -22,25 +22,11 @@ import java.util.Random;
 
 public class CustomSwordPanchium extends SwordItem {
     private final Random random = new Random();
-    private static final double LIGHTNING_PROBABILITY = 0.10;
-    private static final double PARALYSIS_PROBABILITY = 0.05;
+    private static final double EFFECT_PROBABILITY = 0.05; // 5% de probabilidad
 
     public CustomSwordPanchium(Settings settings) {
-        super(new CustomToolMaterial(), 3, -1.87f, settings);
+        super(new CustomToolMaterial(), 3, -2.0f, settings);
     }
-
-    @Override
-    public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        World world = target.getWorld();
-        if (!world.isClient()) {
-            if (random.nextDouble() < PARALYSIS_PROBABILITY) {
-                target.addStatusEffect(new StatusEffectInstance(ModStatusEffects.ELECTROPARALYSIS, 100, 0)); // Duración: 100 ticks, Amplificador: 0
-            }
-        }
-
-        return super.postHit(stack, target, attacker);
-    }
-
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
@@ -54,6 +40,22 @@ public class CustomSwordPanchium extends SwordItem {
     @Override
     public boolean hasGlint(ItemStack stack) {
         return true;
+    }
+
+    @Override
+    public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+        World world = target.getWorld();
+        if (!world.isClient()) {
+            if (random.nextDouble() < EFFECT_PROBABILITY) {
+                target.addStatusEffect(new StatusEffectInstance(ModStatusEffects.ELECTROSHOCK, 80, 0)); // 4 segundos
+            }
+            if (random.nextDouble() < EFFECT_PROBABILITY) {
+                target.addStatusEffect(new StatusEffectInstance(ModStatusEffects.ELECTROPARALYSIS, 100, 0)); // 5 segundos
+            }
+            world.playSound(null, target.getBlockPos(), ModSounds.ELECTRICEDGE, SoundCategory.PLAYERS, 0.1f, 1.0f);
+        }
+
+        return super.postHit(stack, target, attacker);
     }
 
     public static class CustomToolMaterial implements ToolMaterial {

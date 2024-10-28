@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-17T17:45:59.753748	Pentacraft-Ores/Recipes
+// 1.20.1	2024-10-26T18:37:10.375759	Pentacraft-Ores/Recipes
 d6b93c2c9642c938a1c1cc466da199134e834ff2 data\pentacraft-ores\recipes\juanitium_helmet.json
 8df398c4ee7456d6d24701f822b0b373b851f5de data\pentacraft-ores\recipes\juanitium_axe.json
 13a3a51c86d6321c12fad36150bc21a3b810d816 data\pentacraft-ores\recipes\panchium_great_axe.json
@@ -140,8 +140,8 @@ c820fac8de665f9652387459e8ff8659a345ca42 data\pentacraft-ores\advancements\recip
 42e0c702388c654be13a878198efe70e6ea6ac79 data\pentacraft-ores\recipes\kevinium_hoe.json
 2d83821b03dd28100713fbbc7bbc8915270d556d data\pentacraft-ores\advancements\recipes\combat\robertium_sword.json
 562c4e42bdf77045a1097e9f8649b3b416a93519 data\pentacraft-ores\recipes\zambonium_sword.json
-88a5cf78861ea3629d4917f6a6da9b52cd156c86 data\pentacraft-ores\recipes\kevinium_leggings.json
 6177c6918003f8a24e52184e59b02472a726adb9 data\pentacraft-ores\advancements\recipes\combat\robertium_chestplate.json
+88a5cf78861ea3629d4917f6a6da9b52cd156c86 data\pentacraft-ores\recipes\kevinium_leggings.json
 281186cc5814e6afe37228a301605f60e9463a9f data\pentacraft-ores\recipes\zambonium_shovel.json
 dd04dc1b43321eda171b7763eeecb3ead180a32b data\pentacraft-ores\recipes\zambonium_hoe.json
 2c9591a9fe45381f91ef967810ebeec29145949f data\pentacraft-ores\recipes\robertium_ingot.json
@@ -153,15 +153,15 @@ d04bbf3de7cb3dcb25d932e58f2a8e2c1bc61a9b data\pentacraft-ores\advancements\recip
 b701beb5b7b09caad0369a425cb591571747b885 data\pentacraft-ores\advancements\recipes\tools\zambonium_hoe.json
 e9d6b87cfbcc0e60578df5c3b15113a5fd032333 data\pentacraft-ores\advancements\recipes\combat\robertium_great_axe.json
 b6a9f3d89ea461fda958b6e18dfbb63295c5ea64 data\pentacraft-ores\advancements\recipes\misc\sarite_shard.json
-0804068c43143a719fb2ab0175dda4c163d0bd8a data\pentacraft-ores\advancements\recipes\misc\robertium_ingot.json
 22b91e4eff62d81adcaff23cd93e713298a5896c data\pentacraft-ores\advancements\recipes\tools\lukite_axe.json
+0804068c43143a719fb2ab0175dda4c163d0bd8a data\pentacraft-ores\advancements\recipes\misc\robertium_ingot.json
 b414e82c37a01f7af22999d213eb0a40999132b4 data\pentacraft-ores\recipes\sarite_hoe.json
 e107f3a89fd564de193f1cdbe82b7d6f0a9973a9 data\pentacraft-ores\advancements\recipes\misc\tominite_ingot.json
 7443a65f13324dc56dcd5ca1657c69c11ea36c20 data\pentacraft-ores\advancements\recipes\combat\zambonium_helmet.json
 27f0d139c42b55475884f8e664fc602911342849 data\pentacraft-ores\recipes\tominite_shard.json
 948ea4aa0fdfd6b800cd61de18275c5c4304d2a6 data\pentacraft-ores\recipes\zambonium_boots.json
-a5ccb5979e94d0f8f7c1e96bc91f8c29d45bf226 data\pentacraft-ores\recipes\robertium_ingot_shard.json
 61204de2f73e26d538e551409c21d31ba61bb544 data\pentacraft-ores\recipes\juanitium_shovel.json
+a5ccb5979e94d0f8f7c1e96bc91f8c29d45bf226 data\pentacraft-ores\recipes\robertium_ingot_shard.json
 b52139530b84d24d990b87c8fc7db934264bcf4a data\pentacraft-ores\recipes\robertium_block.json
 c1909f7a3e8672e611b03b3403bdde1e47a3a8ca data\pentacraft-ores\recipes\juanitium_sword.json
 e52385d82e24de8e23cd5d25711abc57eca36f51 data\pentacraft-ores\advancements\recipes\combat\lukite_chestplate.json
@@ -201,8 +201,8 @@ e28218bd1fee4d5b3718a18a7b6152a51a73f03e data\pentacraft-ores\advancements\recip
 65bad6863567fe8b729e48c82a96324a9a66fb72 data\pentacraft-ores\advancements\recipes\misc\kevinium_ingot.json
 7f0d8d06841f56418af3dd2087a45ec6eaabb6be data\pentacraft-ores\recipes\lukite_helmet.json
 e0af701519665d47fda0654005ac4c89ba44e791 data\pentacraft-ores\recipes\kevinium_shard.json
-34e7cb1c7d8435020d2c48151b380aaaeb28ca47 data\pentacraft-ores\advancements\recipes\tools\lukite_hoe.json
 44fcabcb2e840b8d2f6e2aac67bce0e9ab7d3326 data\pentacraft-ores\recipes\lukite_hoe.json
+34e7cb1c7d8435020d2c48151b380aaaeb28ca47 data\pentacraft-ores\advancements\recipes\tools\lukite_hoe.json
 d0376f7f4cb203dee94896b9b56c5bcb4cbd8719 data\pentacraft-ores\advancements\recipes\combat\panchium_helmet.json
 0dd44145aa186212f833d8c12cbfcb4b3bdaf3fb data\pentacraft-ores\recipes\juanitium_great_axe.json
 17f4485718090c1ee79dcc798273a93b04a7e885 data\pentacraft-ores\recipes\zambonium_axe.json
@@ -219,8 +219,8 @@ dd300b50228f2e9e3379b9e704b2e337e090fe2f data\pentacraft-ores\advancements\recip
 294076e82d4ebc37f6785d947be9e61b60294ade data\pentacraft-ores\advancements\recipes\building_blocks\panchium_block.json
 81fd5c19b57e5ecc4c3ceb7bc1e1dac42314b7de data\pentacraft-ores\advancements\recipes\misc\juanitium_shard.json
 79d93fa1e18f04ffeab33b0537209c6aa80a502d data\pentacraft-ores\recipes\zambonium_ingot_shard.json
-6b29a29648755584eb5785994f7667acd0fa6a65 data\pentacraft-ores\advancements\recipes\tools\juanitium_pickaxe.json
 a93b911fa1f3d3bcc6af2db0742d0f8fc6f6b9a8 data\pentacraft-ores\advancements\recipes\combat\panchium_sword.json
+6b29a29648755584eb5785994f7667acd0fa6a65 data\pentacraft-ores\advancements\recipes\tools\juanitium_pickaxe.json
 170a9289fc9272e95731252053468cb8095764c7 data\pentacraft-ores\recipes\sarite_shovel.json
 69e77636a274bb8cbc1143891b750659f7bed965 data\pentacraft-ores\advancements\recipes\tools\juanitium_axe.json
 c226da4cb5952e15c61f94e7f031de824fc96360 data\pentacraft-ores\recipes\panchium_chestplate.json
@@ -250,8 +250,8 @@ b56575cf890a8e78d749264cc9103963ed625855 data\pentacraft-ores\recipes\kevinium_i
 d2d9f5bcf165b64c29c453e362cd9e01086fc40d data\pentacraft-ores\advancements\recipes\tools\juanitium_hoe.json
 e5060783c7ed719b14fb91ca24a4af2997cdbed2 data\pentacraft-ores\advancements\recipes\combat\sarite_leggings.json
 17c3d7e19cdbabc065d34d3076573bbb611e64bd data\pentacraft-ores\advancements\recipes\building_blocks\tominite_shard_block.json
-ab70252a70ae6cf867d6799c9cab855c11f20129 data\pentacraft-ores\advancements\recipes\combat\robertium_helmet.json
 b6031444cd0da624bb0df885578cb3421ec0e83d data\pentacraft-ores\advancements\recipes\combat\kevinium_helmet.json
+ab70252a70ae6cf867d6799c9cab855c11f20129 data\pentacraft-ores\advancements\recipes\combat\robertium_helmet.json
 dcb216fd889118b368703b8abb69cea54bfec406 data\pentacraft-ores\recipes\tominite_block.json
 3c70a038d38d6f4d6a0a32fe5f91521e6941387d data\pentacraft-ores\recipes\zambonium_chestplate.json
 75fdfd745ba893bb8446fcc15e44abb7c27b631c data\pentacraft-ores\recipes\tominite_shard_block.json

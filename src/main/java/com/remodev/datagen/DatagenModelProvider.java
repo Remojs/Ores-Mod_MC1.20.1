@@ -204,5 +204,27 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_CORE , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_HEART , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_DUST , Models.GENERATED);
+
+        itemModelGenerator.register(Moditems.DEATH_CATALYST, Models.GENERATED);
+        itemModelGenerator.register(Moditems.DEATH_SCYTHE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.DEEP_SHACKLES, Models.GENERATED);
+        itemModelGenerator.register(Moditems.WATER_CORE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.FRAGMENTED_TRIDENT, Models.GENERATED);
+        itemModelGenerator.register(Moditems.WIND_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.ELEMENTAL_FEATHER, Models.GENERATED);
+        itemModelGenerator.register(Moditems.SKY_TRINKET, Models.GENERATED);
+        itemModelGenerator.register(Moditems.END_RELIC, Models.GENERATED);
+        itemModelGenerator.register(Moditems.CORRUPTED_EYE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.END_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.PENTANOMICON, Models.GENERATED);
+        itemModelGenerator.register(Moditems.MAGIC_BOOK, Models.GENERATED);
+        itemModelGenerator.register(Moditems.THUNDER_DUST, Models.GENERATED);
+        itemModelGenerator.register(Moditems.THUNDER_FRAGMENT, Models.GENERATED);
+        itemModelGenerator.register(Moditems.SPARK_BOTTLE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.EARTH_CLOVER, Models.GENERATED);
+        itemModelGenerator.register(Moditems.MOB_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.PRIMAL_FLAME, Models.GENERATED);
+        itemModelGenerator.register(Moditems.FIRE_FUNGUS, Models.GENERATED);
+
     }
 }

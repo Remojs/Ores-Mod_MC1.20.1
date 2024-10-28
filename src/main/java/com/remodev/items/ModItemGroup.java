@@ -53,9 +53,30 @@ public class ModItemGroup {
                         entries.add(Moditems.PENTACRAFT_BOOK);
                         entries.add(Moditems.PENTACRAFTIUM_CORE);
                         entries.add(Moditems.PENTACRAFTIUM_HEART);
+                        entries.add(Moditems.DEATH_CATALYST);
+                        entries.add(Moditems.DEATH_SCYTHE);
+                        entries.add(Moditems.DEEP_SHACKLES);
+                        entries.add(Moditems.WATER_CORE);
+                        entries.add(Moditems.FRAGMENTED_TRIDENT);
+                        entries.add(Moditems.WIND_CHARGE);
+                        entries.add(Moditems.ELEMENTAL_FEATHER);
+                        entries.add(Moditems.SKY_TRINKET);
+                        entries.add(Moditems.END_RELIC);
+                        entries.add(Moditems.CORRUPTED_EYE);
+                        entries.add(Moditems.END_ESSENCE);
+                        entries.add(Moditems.PENTANOMICON);
+                        entries.add(Moditems.MAGIC_BOOK);
+                        entries.add(Moditems.THUNDER_DUST);
+                        entries.add(Moditems.THUNDER_FRAGMENT);
+                        entries.add(Moditems.SPARK_BOTTLE);
+                        entries.add(Moditems.EARTH_CLOVER);
+                        entries.add(Moditems.MOB_ESSENCE);
+                        entries.add(Moditems.PRIMAL_FLAME);
+                        entries.add(Moditems.FIRE_FUNGUS);
                     })
                     .build()
     );
+
 
     public static final ItemGroup PENTACRAFT_ARMOR = registerItemGroup("armor",
             FabricItemGroup.builder()
