@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:quasar_leaves",
+    "pentacraft-ores:quantum_leaves",
+    "pentacraft-ores:fractal_leaves",
+    "pentacraft-ores:dark_matter_leaves"
+  ]
+}

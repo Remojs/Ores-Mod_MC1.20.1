@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/fulguration_smooth",
+    "side": "pentacraft-ores:block/fulguration_smooth",
+    "top": "pentacraft-ores:block/fulguration_smooth"
+  }
+}

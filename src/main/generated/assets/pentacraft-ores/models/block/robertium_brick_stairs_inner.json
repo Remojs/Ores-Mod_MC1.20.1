@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/robertium_brick",
+    "side": "pentacraft-ores:block/robertium_brick",
+    "top": "pentacraft-ores:block/robertium_brick"
+  }
+}

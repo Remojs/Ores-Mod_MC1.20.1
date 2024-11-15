@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:cave_mud_brick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "pentacraft-ores:cave_mud_bricks_slab"
+  },
+  "show_notification": true
+}

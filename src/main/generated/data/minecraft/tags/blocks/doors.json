@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:fractal_door",
+    "pentacraft-ores:quantum_door",
+    "pentacraft-ores:quasar_door",
+    "pentacraft-ores:dark_matter_door"
+  ]
+}

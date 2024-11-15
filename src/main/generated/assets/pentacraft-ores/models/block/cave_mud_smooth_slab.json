@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pentacraft-ores:block/cave_mud_smooth",
+    "side": "pentacraft-ores:block/cave_mud_smooth",
+    "top": "pentacraft-ores:block/cave_mud_smooth"
+  }
+}

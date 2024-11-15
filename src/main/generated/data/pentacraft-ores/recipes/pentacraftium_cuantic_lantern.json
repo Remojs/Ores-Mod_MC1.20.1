@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:pentacraftium_block"
+    },
+    "I": {
+      "item": "pentacraft-ores:lukite_shard"
+    },
+    "S": {
+      "item": "pentacraft-ores:zambonium_shard"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "IBS",
+    "III"
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:pentacraftium_cuantic_lantern"
+  },
+  "show_notification": true
+}

@@ -1,4 +1,6 @@
 {
+  //HERRAMIENTAS - ARMAS - ARMADURA  ------------------------------------------------
+
   "item.pentacraft-ores.zambonium_ingot": "Lingote de Zambonium",
   "item.pentacraft-ores.zambonium_shard": "Fragmento de Zambonium",
   "item.pentacraft-ores.zambonium_helmet": "Casco de Zambonium",
@@ -111,6 +113,12 @@
   "item.pentacraft-ores.lukite_great_axe": "Destructor de Cielos",
   "item.pentacraft-ores.lukite_hoe": "Azada de Lukite",
 
+  //HERRAMIENTAS - ARMAS - ARMADURA  -------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // ITEMS VARIOS  -------------------------------------------------------------------
+
   "item.pentacraft-ores.nether_upgrade": "Mejora de Nether",
   "item.pentacraft-ores.end_upgrade": "Mejora de End",
   "item.pentacraft-ores.dragon_upgrade": "Mejora de Dragon",
@@ -143,6 +151,21 @@
   "item.pentacraft-ores.pentacraft_book": "Libro de Pentacraft",
   "item.pentacraft-ores.pentacraftium_core": "Nucleo de Pentacraftium",
   "item.pentacraft-ores.pentacraftium_heart": "Corazon de Pentacraftium",
+
+  "item.pentacraft-ores.luki_tomato" : "Tomate de Luki",
+  "item.pentacraft-ores.robert_letucce" :  "Lechuga de Robert",
+  "item.pentacraft-ores.letucce_seed" :  "Semilla de Lechuga de Robert",
+  "item.pentacraft-ores.tomato_seed" : "Semilla de Tomate de Luki",
+  "item.pentacraft-ores.quasar_sapling" :  "Brote de Arbol de Quasar",
+  "item.pentacraft-ores.dark_matter_sapling" :  "Brote de Arbol de Materia Oscura",
+  "item.pentacraft-ores.quantum_sapling" :  "Brote de Arbol de Quantum",
+  "item.pentacraft-ores.fractal_sapling" :  "Brote de Arbol de Fractal",
+
+  // ITEMS VARIOS  -------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // BLOQUES DE MINERALES  -----------------------------------------------------------
 
   "block.pentacraft-ores.zambonium_ore_stone": "Mena de Zambonium",
   "block.pentacraft-ores.zambonium_ore_deepslate": "Mena profunda de Zambonium",
@@ -204,6 +227,155 @@
   "block.pentacraft-ores.pentacraftium_ore_deepslate": "Mena Profunda de Pentacraftium",
   "block.pentacraft-ores.pentacraftium_block": "Bloque de Pentacraftium",
 
+  // BLOQUES DE MINERAL  -------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // BLOQUES VARIOS  -----------------------------------------------------------------
+
+  "block.pentacraft-ores.stellar_marble_stone": "Bloque de Marmol Estelar",
+
+  "block.pentacraft-ores.stellar_marble_cobblestone": "Piedra de Marmol Estelar",
+  "block.pentacraft-ores.stellar_marble_cobblestone_stairs": "Escalera de Piedra de Marmol Estelar",
+  "block.pentacraft-ores.stellar_marble_cobblestone_slab": "Losa de Piedra de Marmol Estelar",
+
+  "block.pentacraft-ores.stellar_marble_brick": "Ladrillo de Marmol Estelar",
+  "block.pentacraft-ores.stellar_marble_bricks_stairs": "Escalera de Ladrillo de Marmol Estelar",
+  "block.pentacraft-ores.stellar_marble_bricks_slab": "Losa de Ladrillo de Marmol Estelar",
+
+  "block.pentacraft-ores.stellar_marble_smooth": "Piedra de Marmol Estelar Pulido",
+  "block.pentacraft-ores.stellar_marble_smooth_stairs": "Escalera de Piedra de Marmol Estelar Pulido",
+  "block.pentacraft-ores.stellar_marble_smooth_slab": "Losa de Piedra de Marmol Estelar Pulido",
+
+
+  "block.pentacraft-ores.fulguration_stone": "Bloque de Fulguracion",
+
+  "block.pentacraft-ores.fulguration_cobblestone": "Piedra de Fulguracion",
+  "block.pentacraft-ores.fulguration_cobblestone_stairs": "Escalera de Piedra de Fulguracion",
+  "block.pentacraft-ores.fulguration_cobblestone_slab": "Losa de Piedra de Fulguracion",
+
+  "block.pentacraft-ores.fulguration_brick": "Ladrillo de Fulguracion",
+  "block.pentacraft-ores.fulguration_bricks_stairs": "Escalera de Ladrillo de Fulguracion",
+  "block.pentacraft-ores.fulguration_bricks_slab": "Losa de Ladrillo de Fulguracion",
+
+  "block.pentacraft-ores.fulguration_smooth": "Piedra de Fulguracion Pulido",
+  "block.pentacraft-ores.fulguration_smooth_stairs": "Escalera de Piedra de Fulguracion Pulido",
+  "block.pentacraft-ores.fulguration_smooth_slab": "Losa de Piedra de Fulguracion Pulido",
+
+
+  "block.pentacraft-ores.cave_mud_block": "Bloque de Lodo Profundo",
+
+  "block.pentacraft-ores.cave_mud_brick": "Cave Mud Brick",
+  "block.pentacraft-ores.cave_mud_bricks_stairs": "Escalera de Cave Mud Brick Stairs",
+  "block.pentacraft-ores.cave_mud_bricks_slab": "Losa de Cave Mud Brick Slab",
+
+  "block.pentacraft-ores.cave_mud_smooth": "Cave Mud Smooth",
+  "block.pentacraft-ores.cave_mud_smooth_stairs": "Escalera de Cave Mud Smooth Stairs",
+  "block.pentacraft-ores.cave_mud_smooth_slab": "Losa de Cave Mud Smooth Slab",
+
+
+  "block.pentacraft-ores.pentacraftium_glass": "Pentacraftium Glass",
+
+
+  "block.pentacraft-ores.pentacraftium_cuantic_lantern": "Linterna Cuantica de Pentacraftium",
+  "block.pentacraft-ores.pentacraftium_eternal_lantern": "Linterna Eternos de Pentacraftium",
+  "block.pentacraft-ores.pentacraftium_infinity_lantern": "Linterna Infinito de Pentacraftium",
+  "block.pentacraft-ores.pentacraftium_origin_lantern": "Linterna Origen de Pentacraftium",
+
+
+  "block.pentacraft-ores.zambonium_brick": "Ladrillo de Zambonium",
+  "block.pentacraft-ores.zambonium_brick_stairs": "Escalera de Ladrillo de Zambonium",
+  "block.pentacraft-ores.zambonium_brick_slab": "Losa de Ladrillo de Zambonium",
+
+  "block.pentacraft-ores.robertium_brick": "Ladrillo de Robertium",
+  "block.pentacraft-ores.robertium_brick_stairs": "Escalera de Ladrillo de Robertium",
+  "block.pentacraft-ores.robertium_brick_slab": "Losa de Ladrillo de Robertium",
+
+  "block.pentacraft-ores.kevinium_brick": "Ladrillo de Kevinium",
+  "block.pentacraft-ores.kevinium_brick_stairs": "Escalera de Ladrillo de Kevinium",
+  "block.pentacraft-ores.kevinium_brick_slab": "Losa de Ladrillo de Kevinium",
+
+  "block.pentacraft-ores.juanitium_brick": "Ladrillo de Juanitium",
+  "block.pentacraft-ores.juanitium_brick_stairs": "Escalera de Ladrillo de Juanitium",
+  "block.pentacraft-ores.juanitium_brick_slab": "Losa de Ladrillo de Juanitium",
+
+  "block.pentacraft-ores.panchium_brick": "Ladrillo de Panchium",
+  "block.pentacraft-ores.panchium_brick_stairs": "Escalera de Ladrillo de Panchium",
+  "block.pentacraft-ores.panchium_brick_slab": "Losa de Ladrillo de Panchium",
+
+  "block.pentacraft-ores.sarite_brick": "Ladrillo de Sarite",
+  "block.pentacraft-ores.sarite_brick_stairs": "Escalera de Ladrillo de Sarite",
+  "block.pentacraft-ores.sarite_brick_slab": "Losa de Ladrillo de Sarite",
+
+  "block.pentacraft-ores.lukite_brick": "Ladrillo de Lukite",
+  "block.pentacraft-ores.lukite_brick_stairs": "Escalera de Ladrillo de Lukite",
+  "block.pentacraft-ores.lukite_brick_slab": "Losa de Ladrillo de Lukite",
+
+  "block.pentacraft-ores.tominite_brick": "Ladrillo de Tominite",
+  "block.pentacraft-ores.tominite_brick_stairs": "Escalera de Ladrillo de Tominite",
+  "block.pentacraft-ores.tominite_brick_slab": "Losa de Ladrillo de Tominite",
+
+
+  // BLOQUES VARIOS ------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // BLOQUES DE MADERA  --------------------------------------------------------------
+
+  "block.pentacraft-ores.fractal_log": "Tronco de Fractal",
+  "block.pentacraft-ores.fractal_stripped_log": "Tronco de Fractal sin Corteza",
+  "block.pentacraft-ores.fractal_planks": "Tablones de Fractal",
+  "block.pentacraft-ores.fractal_packed_planks": "Tablones Procesados de Fractal",
+  "block.pentacraft-ores.fractal_leaves": "Hojas de Fractal",
+  "block.pentacraft-ores.fractal_door": "Puerta de Fractal",
+  "block.pentacraft-ores.fractal_trapdoor": "Trampilla de Fractal",
+  "block.pentacraft-ores.fractal_stairs": "Escaleras de Fractal",
+  "block.pentacraft-ores.fractal_slab": "Losa de Fractal",
+  "block.pentacraft-ores.fractal_fence": "Valla de Fractal",
+  "block.pentacraft-ores.fractal_fence_gate": "Puerta de Valla de Fractal",
+
+  "block.pentacraft-ores.quantum_log": "Tronco de Quantum",
+  "block.pentacraft-ores.quantum_stripped_log": "Tronco de Quantum sin Corteza",
+  "block.pentacraft-ores.quantum_planks": "Tablones de Quantum",
+  "block.pentacraft-ores.quantum_packed_planks": "Tablones Procesados de Quantum",
+  "block.pentacraft-ores.quantum_leaves": "Hojas de Quantum",
+  "block.pentacraft-ores.quantum_door": "Puerta de Quantum",
+  "block.pentacraft-ores.quantum_trapdoor": "Trampilla de Quantum",
+  "block.pentacraft-ores.quantum_stairs": "Escaleras de Quantum",
+  "block.pentacraft-ores.quantum_slab": "Losa de Quantum",
+  "block.pentacraft-ores.quantum_fence": "Valla de Quantum",
+  "block.pentacraft-ores.quantum_fence_gate": "Puerta de Valla de Quantum",
+
+  "block.pentacraft-ores.dark_matter_log": "Tronco de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_stripped_log": "Tronco de Materia Oscura sin Corteza",
+  "block.pentacraft-ores.dark_matter_planks": "Tablones de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_packed_planks": "Tablones Procesados de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_leaves": "Hojas de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_door": "Puerta de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_trapdoor": "Trampilla de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_stairs": "Escaleras de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_slab": "Losa de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_fence": "Valla de Materia Oscura",
+  "block.pentacraft-ores.dark_matter_fence_gate": "Puerta de Valla de Materia Oscura",
+
+  "block.pentacraft-ores.quasar_log": "Tronco de Quasar",
+  "block.pentacraft-ores.quasar_stripped_log": "Tronco de Quasar sin Corteza",
+  "block.pentacraft-ores.quasar_planks": "Tablones de Quasar",
+  "block.pentacraft-ores.quasar_packed_planks": "Tablones Procesados de Quasar",
+  "block.pentacraft-ores.quasar_leaves": "Hojas de Quasar",
+  "block.pentacraft-ores.quasar_door": "Puerta de Quasar",
+  "block.pentacraft-ores.quasar_trapdoor": "Trampilla de Quasar",
+  "block.pentacraft-ores.quasar_stairs": "Escaleras de Quasar",
+  "block.pentacraft-ores.quasar_slab": "Losa de Quasar",
+  "block.pentacraft-ores.quasar_fence": "Valla de Quasar",
+  "block.pentacraft-ores.quasar_fence_gate": "Puerta de Valla de Quasar",
+
+  // BLOQUES DE MADERA  --------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // CATEGORIAS  ---------------------------------------------------------------------
+
   "itemGroup.pentacraft-ores.pentacraft_mineral_group": "Penta-Minerales",
   "itemGroup.pentacraft-ores.pentacraft_armor_group": "Penta-Armaduras",
   "itemGroup.pentacraft-ores.pentacraft_misc_group": "Penta-Variedad",
@@ -211,6 +383,11 @@
   "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Penta-Bloques",
   "itemGroup.pentacraft-ores.pentacraft_weapons_group": "Penta-Armas",
 
+  // CATEGORIAS  ---------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // TOOTLIPS  -----------------------------------------------------------------------
 
   "item.pentacraft-ores.custom_sword.tooltip": "Espada perdida de un antiguo",
   "item.pentacraft-ores.custom_sword.tooltip2": "guerrero del multiverso",
@@ -233,6 +410,12 @@
   "item.pentacraft-ores.custom.lukite": "Parte del conjunto: Monarca Celestial",
   "item.pentacraft-ores.custom.sarite": "Parte del conjunto: Soberano del End",
   "item.pentacraft-ores.custom.tominite": "Parte del conjunto: Guardian del Overworld",
+
+  // TOOTLIPS  -----------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // EFECTOS DE ARMAS ----------------------------------------------------------------
 
   "item.pentacraft-ores.custom_sword.zambonium_sword_soulabsorption": "Absorcion de Almas",
   "item.pentacraft-ores.custom_sword.zambonium_sword_deathtouch": "Toque Mortal",
@@ -277,6 +460,12 @@
   "item.pentacraft-ores.custom_sword.kevinium_armor_arcanepurity": "Pureza Arcana",
   "item.pentacraft-ores.custom_sword.kevinium_armor_mysticawakening": "Despertar Mistico",
 
+  // EFECTOS DE ARMAS ----------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // EFECTOS DE POCION  --------------------------------------------------------------
+
   "effect.pentacraft-ores.electroparalysis": "Electro-paralisis",
   "effect.pentacraft-ores.electroshock": "Choque Electrico",
   "effect.pentacraft-ores.deep_shackles": "Prision Marina",
@@ -299,7 +488,11 @@
   "effect.pentacraft-ores.water_boost": "Potenciador Oceanico",
   "effect.pentacraft-ores.fire_boost": "Potenciador de Fuego",
 
+  // EFECTOS DE POCION ---------------------------------------------------------------
 
+  // ---------------------------------------------------------------------------------
+
+  // EFECTOS DE SONIDO  --------------------------------------------------------------
 
   "sounds.pentacraft-ores.deathtouch": "Grito de la Muerte",
   "sounds.pentacraft-ores.electroparalysis": "Paralisis Electrica",

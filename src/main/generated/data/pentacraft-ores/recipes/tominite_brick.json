@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:stone_bricks"
+    },
+    "P": {
+      "item": "pentacraft-ores:tominite_shard"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IPI",
+    " I "
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:tominite_brick"
+  },
+  "show_notification": true
+}

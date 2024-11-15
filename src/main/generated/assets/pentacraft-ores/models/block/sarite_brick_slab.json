@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pentacraft-ores:block/sarite_brick",
+    "side": "pentacraft-ores:block/sarite_brick",
+    "top": "pentacraft-ores:block/sarite_brick"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "cave_mud_block_to_smooth",
+  "ingredient": {
+    "item": "pentacraft-ores:cave_mud_block"
+  },
+  "result": "pentacraft-ores:cave_mud_smooth"
+}

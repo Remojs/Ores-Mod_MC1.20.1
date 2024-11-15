@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:quasar_planks"
+    }
+  },
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "result": {
+    "count": 9,
+    "item": "pentacraft-ores:quasar_packed_planks"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:stellar_marble_smooth"
+    }
+  },
+  "pattern": [
+    "   ",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "pentacraft-ores:stellar_marble_smooth_slab"
+  },
+  "show_notification": true
+}

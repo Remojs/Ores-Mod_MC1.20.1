@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/juanitium_brick",
+    "side": "pentacraft-ores:block/juanitium_brick",
+    "top": "pentacraft-ores:block/juanitium_brick"
+  }
+}

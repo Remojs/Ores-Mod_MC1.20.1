@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:fractal_stairs",
+    "pentacraft-ores:quantum_stairs",
+    "pentacraft-ores:quasar_stairs",
+    "pentacraft-ores:dark_matter_stairs"
+  ]
+}

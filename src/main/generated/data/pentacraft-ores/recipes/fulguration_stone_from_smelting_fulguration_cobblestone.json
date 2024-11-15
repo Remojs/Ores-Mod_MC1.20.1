@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "fulguration_cobblestone_to_stone",
+  "ingredient": {
+    "item": "pentacraft-ores:fulguration_cobblestone"
+  },
+  "result": "pentacraft-ores:fulguration_stone"
+}

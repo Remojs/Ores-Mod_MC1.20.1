@@ -2,13 +2,19 @@ package com.remodev.items;
 
 import com.remodev.PentacraftOres;
 import com.remodev.blocks.Ores;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.*;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Pair;
 
 
 public class ModItemGroup {
@@ -73,6 +79,14 @@ public class ModItemGroup {
                         entries.add(Moditems.MOB_ESSENCE);
                         entries.add(Moditems.PRIMAL_FLAME);
                         entries.add(Moditems.FIRE_FUNGUS);
+                        entries.add(Moditems.LUKI_TOMATO);
+                        entries.add(Moditems.ROBERT_LETUCCE);
+                        entries.add(Moditems.LETUCCE_SEED);
+                        entries.add(Moditems.TOMATO_SEED);
+                        entries.add(Moditems.QUASAR_SAPLING);
+                        entries.add(Moditems.DARK_MATTER_SAPLING);
+                        entries.add(Moditems.QUANTUM_SAPLING);
+                        entries.add(Moditems.FRACTAL_SAPLING);
                     })
                     .build()
     );
@@ -193,10 +207,10 @@ public class ModItemGroup {
                     .build()
     );
 
-    public static final ItemGroup PENTACRAFT_BLOCKS = registerItemGroup("blocks",
+    public static final ItemGroup PENTACRAFT_ORES = registerItemGroup("ores",
             FabricItemGroup.builder()
                     .displayName(Text.translatable("itemGroup.pentacraft-ores.pentacraft_blocks_group"))
-                    .icon(() -> new ItemStack(Ores.ZAMBONIUM_BLOCK.getRight()))
+                    .icon(() -> new ItemStack(Ores.ZAMBONIUM_ORE_STONE.getRight()))
                     .entries((displayContext, entries) -> {
                         entries.add(new ItemStack(Ores.ZAMBONIUM_ORE_STONE.getLeft()));
                         entries.add(new ItemStack(Ores.ZAMBONIUM_ORE_DEEPSLATE.getLeft()));
@@ -257,7 +271,124 @@ public class ModItemGroup {
                         entries.add(new ItemStack(Ores.PENTACRAFTIUM_ORE_STONE.getLeft()));
                         entries.add(new ItemStack(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft()));
                         entries.add(new ItemStack(Ores.PENTACRAFTIUM_BLOCK.getLeft()));
+                    })
+                    .build()
+    );
 
+    public static final ItemGroup PENTACRAFT_BLOCKS = registerItemGroup("blocks",
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemGroup.pentacraft-ores.pentacraft_blocks_group"))
+                    .icon(() -> new ItemStack(Ores.STELLAR_MARBLE_BRICKS.getRight()))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_STONE.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_COBBLESTONE.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_COBBLESTONE_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_COBBLESTONE_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_BRICKS.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_BRICKS_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_BRICKS_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_SMOOTH.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_SMOOTH_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.STELLAR_MARBLE_SMOOTH_STAIRS.getLeft()));
+
+                        entries.add(new ItemStack(Ores.FULGURATION_STONE.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_COBBLESTONE.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_COBBLESTONE_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_COBBLESTONE_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_SMOOTH.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_SMOOTH_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_SMOOTH_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_BRICKS.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_BRICKS_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.FULGURATION_BRICKS_STAIRS.getLeft()));
+
+                        entries.add(new ItemStack(Ores.CAVE_MUD_BLOCK.getLeft()));
+                        entries.add(new ItemStack(Ores.CAVE_MUD_SMOOTH.getLeft()));
+                        entries.add(new ItemStack(Ores.CAVE_MUD_SMOOTH_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.CAVE_MUD_SMOOTH_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.CAVE_MUD_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.CAVE_MUD_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.CAVE_MUD_BRICK_STAIRS.getLeft()));
+
+                        entries.add(new ItemStack(Ores.PENTACRAFTIUM_GLASS.getLeft()));
+                        entries.add(new ItemStack(Ores.PENTACRAFTIUM_CUANTIC_LANTERN.getLeft()));
+                        entries.add(new ItemStack(Ores.PENTACRAFTIUM_ETERNAL_LANTERN.getLeft()));
+                        entries.add(new ItemStack(Ores.PENTACRAFTIUM_INFINITY_LANTERN.getLeft()));
+                        entries.add(new ItemStack(Ores.PENTACRAFTIUM_ORIGIN_LANTERN.getLeft()));
+
+                        entries.add(new ItemStack(Ores.FRACTAL_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.FRACTAL_STRIPPED_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.FRACTAL_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.FRACTAL_STAIRS.getRight()));
+                        entries.add(new ItemStack(Ores.FRACTAL_SLAB.getRight()));
+                        entries.add(new ItemStack(Ores.FRACTAL_DOOR.getRight()));
+                        entries.add(new ItemStack(Ores.FRACTAL_TRAPDOOR.getRight()));
+                        entries.add(new ItemStack(Ores.FRACTAL_FENCE_GATE.getRight()));
+                        entries.add(new ItemStack(Ores.FRACTAL_FENCE.getRight()));
+                        entries.add(new ItemStack(Ores.FRACTAL_PACKED_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.FRACTAL_LEAVES.getLeft()));
+
+                        entries.add(new ItemStack(Ores.QUANTUM_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.QUANTUM_STRIPPED_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.QUANTUM_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.QUANTUM_STAIRS.getRight()));
+                        entries.add(new ItemStack(Ores.QUANTUM_SLAB.getRight()));
+                        entries.add(new ItemStack(Ores.QUANTUM_DOOR.getRight()));
+                        entries.add(new ItemStack(Ores.QUANTUM_TRAPDOOR.getRight()));
+                        entries.add(new ItemStack(Ores.QUANTUM_FENCE_GATE.getRight()));
+                        entries.add(new ItemStack(Ores.QUANTUM_FENCE.getRight()));
+                        entries.add(new ItemStack(Ores.QUANTUM_PACKED_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.QUANTUM_LEAVES.getLeft()));
+
+                        entries.add(new ItemStack(Ores.QUASAR_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.QUASAR_STRIPPED_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.QUASAR_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.QUASAR_STAIRS.getRight()));
+                        entries.add(new ItemStack(Ores.QUASAR_SLAB.getRight()));
+                        entries.add(new ItemStack(Ores.QUASAR_DOOR.getRight()));
+                        entries.add(new ItemStack(Ores.QUASAR_TRAPDOOR.getRight()));
+                        entries.add(new ItemStack(Ores.QUASAR_FENCE_GATE.getRight()));
+                        entries.add(new ItemStack(Ores.QUASAR_FENCE.getRight()));
+                        entries.add(new ItemStack(Ores.QUASAR_PACKED_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.QUASAR_LEAVES.getLeft()));
+
+                        entries.add(new ItemStack(Ores.DARK_MATTER_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_STRIPPED_LOG.getLeft()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_STAIRS.getRight()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_SLAB.getRight()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_DOOR.getRight()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_TRAPDOOR.getRight()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_FENCE_GATE.getRight()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_FENCE.getRight()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_PACKED_PLANKS.getLeft()));
+                        entries.add(new ItemStack(Ores.DARK_MATTER_LEAVES.getLeft()));
+
+                        entries.add(new ItemStack(Ores.ZAMBONIUM_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.ZAMBONIUM_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.ZAMBONIUM_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.ROBERTIUM_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.ROBERTIUM_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.ROBERTIUM_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.KEVINIUM_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.KEVINIUM_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.KEVINIUM_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.JUANITIUM_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.JUANITIUM_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.JUANITIUM_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.PANCHIUM_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.PANCHIUM_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.PANCHIUM_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.SARITE_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.SARITE_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.SARITE_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.LUKITE_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.LUKITE_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.LUKITE_BRICK_SLAB.getLeft()));
+                        entries.add(new ItemStack(Ores.TOMINITE_BRICK.getLeft()));
+                        entries.add(new ItemStack(Ores.TOMINITE_BRICK_STAIRS.getLeft()));
+                        entries.add(new ItemStack(Ores.TOMINITE_BRICK_SLAB.getLeft()));
                     })
                     .build()
     );

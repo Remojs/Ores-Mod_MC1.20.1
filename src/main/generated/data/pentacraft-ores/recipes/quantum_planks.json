@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "pentacraft-ores:quantum_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:quantum_planks"
+  }
+}

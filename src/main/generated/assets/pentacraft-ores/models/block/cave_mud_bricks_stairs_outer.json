@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/cave_mud_brick",
+    "side": "pentacraft-ores:block/cave_mud_brick",
+    "top": "pentacraft-ores:block/cave_mud_brick"
+  }
+}

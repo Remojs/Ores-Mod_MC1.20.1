@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:dark_matter_planks",
+    "pentacraft-ores:quantum_planks",
+    "pentacraft-ores:fractal_planks",
+    "pentacraft-ores:quasar_planks",
+    "pentacraft-ores:dark_matter_packed_planks",
+    "pentacraft-ores:quantum_packed_planks",
+    "pentacraft-ores:fractal_packed_planks",
+    "pentacraft-ores:quasar_packed_planks"
+  ]
+}

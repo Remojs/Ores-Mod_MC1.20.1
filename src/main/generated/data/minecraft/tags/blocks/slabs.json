@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:fractal_slab",
+    "pentacraft-ores:quantum_slab",
+    "pentacraft-ores:quasar_slab",
+    "pentacraft-ores:dark_matter_slab"
+  ]
+}

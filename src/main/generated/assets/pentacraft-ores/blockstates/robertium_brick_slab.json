@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/robertium_brick_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/robertium_brick"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/robertium_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:stone_bricks"
+    },
+    "P": {
+      "item": "pentacraft-ores:sarite_shard"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IPI",
+    " I "
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:sarite_brick"
+  },
+  "show_notification": true
+}

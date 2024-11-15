@@ -4,13 +4,20 @@ import com.remodev.blocks.Ores;
 import com.remodev.items.Moditems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 import java.util.function.Consumer;
 
 import java.util.function.Consumer;
@@ -1084,6 +1091,748 @@ public class DatagenRecipeProvider extends FabricRecipeProvider {
                 .pattern("   ")
                 .criterion(hasItem(Moditems.TOMINITE_INGOT), conditionsFromItem(Moditems.TOMINITE_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(Moditems.TOMINITE_BOOTS)));
+
+//ORE BRICKS ------------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.TOMINITE_BRICK.getRight(), 4)
+                .input('P', Moditems.TOMINITE_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.TOMINITE_SHARD), conditionsFromItem(Moditems.TOMINITE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.TOMINITE_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.TOMINITE_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.TOMINITE_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.TOMINITE_BRICK.getRight()), conditionsFromItem(Ores.TOMINITE_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.TOMINITE_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.TOMINITE_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.TOMINITE_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.TOMINITE_BRICK.getRight()), conditionsFromItem(Ores.TOMINITE_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.TOMINITE_BRICK_STAIRS.getRight())));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.LUKITE_BRICK.getRight(), 4)
+                .input('P', Moditems.LUKITE_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.LUKITE_SHARD), conditionsFromItem(Moditems.LUKITE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.LUKITE_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.LUKITE_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.LUKITE_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.LUKITE_BRICK.getRight()), conditionsFromItem(Ores.LUKITE_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.LUKITE_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.LUKITE_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.LUKITE_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.LUKITE_BRICK.getRight()), conditionsFromItem(Ores.LUKITE_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.LUKITE_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.SARITE_BRICK.getRight(), 4)
+                .input('P', Moditems.SARITE_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.SARITE_SHARD), conditionsFromItem(Moditems.SARITE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.SARITE_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.SARITE_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.SARITE_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.SARITE_BRICK.getRight()), conditionsFromItem(Ores.SARITE_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.SARITE_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.SARITE_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.SARITE_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.SARITE_BRICK.getRight()), conditionsFromItem(Ores.SARITE_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.SARITE_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PANCHIUM_BRICK.getRight(), 4)
+                .input('P', Moditems.PANCHIUM_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.PANCHIUM_SHARD), conditionsFromItem(Moditems.PANCHIUM_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PANCHIUM_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PANCHIUM_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.PANCHIUM_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.PANCHIUM_BRICK.getRight()), conditionsFromItem(Ores.PANCHIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PANCHIUM_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PANCHIUM_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.PANCHIUM_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.PANCHIUM_BRICK.getRight()), conditionsFromItem(Ores.PANCHIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PANCHIUM_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.JUANITIUM_BRICK.getRight(), 4)
+                .input('P', Moditems.JUANITIUM_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.JUANITIUM_SHARD), conditionsFromItem(Moditems.JUANITIUM_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.JUANITIUM_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.JUANITIUM_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.JUANITIUM_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.JUANITIUM_BRICK.getRight()), conditionsFromItem(Ores.JUANITIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.JUANITIUM_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.JUANITIUM_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.JUANITIUM_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.JUANITIUM_BRICK.getRight()), conditionsFromItem(Ores.JUANITIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.JUANITIUM_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.KEVINIUM_BRICK.getRight(), 4)
+                .input('P', Moditems.KEVINIUM_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.KEVINIUM_SHARD), conditionsFromItem(Moditems.KEVINIUM_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.KEVINIUM_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.KEVINIUM_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.KEVINIUM_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.KEVINIUM_BRICK.getRight()), conditionsFromItem(Ores.KEVINIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.KEVINIUM_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.KEVINIUM_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.KEVINIUM_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.KEVINIUM_BRICK.getRight()), conditionsFromItem(Ores.KEVINIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.KEVINIUM_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.ROBERTIUM_BRICK.getRight(), 4)
+                .input('P', Moditems.ROBERTIUM_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.ROBERTIUM_SHARD), conditionsFromItem(Moditems.ROBERTIUM_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.ROBERTIUM_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.ROBERTIUM_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.ROBERTIUM_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.ROBERTIUM_BRICK.getRight()), conditionsFromItem(Ores.ROBERTIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.ROBERTIUM_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.ROBERTIUM_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.ROBERTIUM_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.ROBERTIUM_BRICK.getRight()), conditionsFromItem(Ores.ROBERTIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.ROBERTIUM_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.ZAMBONIUM_BRICK.getRight(), 4)
+                .input('P', Moditems.ZAMBONIUM_SHARD)
+                .input('I', Blocks.STONE_BRICKS)
+                .pattern(" I ")
+                .pattern("IPI")
+                .pattern(" I ")
+                .criterion(hasItem(Moditems.ZAMBONIUM_SHARD), conditionsFromItem(Moditems.ZAMBONIUM_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.ZAMBONIUM_BRICK.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.ZAMBONIUM_BRICK_SLAB.getRight(), 6)
+                .input('I', Ores.ZAMBONIUM_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.ZAMBONIUM_BRICK.getRight()), conditionsFromItem(Ores.ZAMBONIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.ZAMBONIUM_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.ZAMBONIUM_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.ZAMBONIUM_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.ZAMBONIUM_BRICK.getRight()), conditionsFromItem(Ores.ZAMBONIUM_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.ZAMBONIUM_BRICK_STAIRS.getRight())));
+
+//DARK MATTER LOGS ------------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.DARK_MATTER_DOOR.getRight(), 3)
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .pattern("II ")
+                .pattern("II ")
+                .pattern("II ")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_DOOR.getRight())));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.DARK_MATTER_PLANKS.getRight(), 4)
+                .input(Ores.DARK_MATTER_LOG.getRight())
+                .criterion("has_item", conditionsFromItem(Ores.DARK_MATTER_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.DARK_MATTER_PACKED_PLANKS.getRight(), 9)
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_PACKED_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.DARK_MATTER_STAIRS.getRight(), 4)
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.DARK_MATTER_SLAB.getRight(), 3)
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.DARK_MATTER_FENCE.getRight(), 3)
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("ISI")
+                .pattern("ISI")
+                .pattern("   ")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_FENCE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.DARK_MATTER_FENCE_GATE.getRight())
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("SIS")
+                .pattern("SIS")
+                .pattern("   ")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_FENCE_GATE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.DARK_MATTER_TRAPDOOR.getRight(), 2)
+                .input('I', Ores.DARK_MATTER_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.DARK_MATTER_PLANKS.getRight()), conditionsFromItem(Ores.DARK_MATTER_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_TRAPDOOR.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.DARK_MATTER_STRIPPED_LOG.getRight(), 2)
+                .input('I', Ores.DARK_MATTER_LOG.getRight())
+                .pattern("   ")
+                .pattern("II ")
+                .pattern("   ")
+                .criterion(hasItem(Ores.DARK_MATTER_LOG.getRight()), conditionsFromItem(Ores.DARK_MATTER_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.DARK_MATTER_STRIPPED_LOG.getRight())));
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //QUANTUM LOGS ------------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.QUANTUM_DOOR.getRight(), 3)
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .pattern("II ")
+                .pattern("II ")
+                .pattern("II ")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_DOOR.getRight())));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUANTUM_PLANKS.getRight(), 4)
+                .input(Ores.QUANTUM_LOG.getRight())
+                .criterion("has_item", conditionsFromItem(Ores.QUANTUM_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUANTUM_PACKED_PLANKS.getRight(), 9)
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_PACKED_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUANTUM_STAIRS.getRight(), 4)
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUANTUM_SLAB.getRight(), 3)
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUANTUM_FENCE.getRight(), 3)
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("ISI")
+                .pattern("ISI")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_FENCE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.QUANTUM_FENCE_GATE.getRight())
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("SIS")
+                .pattern("SIS")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_FENCE_GATE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.QUANTUM_TRAPDOOR.getRight(), 2)
+                .input('I', Ores.QUANTUM_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUANTUM_PLANKS.getRight()), conditionsFromItem(Ores.QUANTUM_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_TRAPDOOR.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUANTUM_STRIPPED_LOG.getRight(), 2)
+                .input('I', Ores.QUANTUM_LOG.getRight())
+                .pattern("   ")
+                .pattern("II ")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUANTUM_LOG.getRight()), conditionsFromItem(Ores.QUANTUM_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUANTUM_STRIPPED_LOG.getRight())));
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //QUASAR LOGS ------------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.QUASAR_DOOR.getRight(), 3)
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .pattern("II ")
+                .pattern("II ")
+                .pattern("II ")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_DOOR.getRight())));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUASAR_PLANKS.getRight(), 4)
+                .input(Ores.QUASAR_LOG.getRight())
+                .criterion("has_item", conditionsFromItem(Ores.QUASAR_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUASAR_PACKED_PLANKS.getRight(), 9)
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_PACKED_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUASAR_STAIRS.getRight(), 4)
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUASAR_SLAB.getRight(), 3)
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUASAR_FENCE.getRight(), 3)
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("ISI")
+                .pattern("ISI")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_FENCE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.QUASAR_FENCE_GATE.getRight())
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("SIS")
+                .pattern("SIS")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_FENCE_GATE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.QUASAR_TRAPDOOR.getRight(), 2)
+                .input('I', Ores.QUASAR_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUASAR_PLANKS.getRight()), conditionsFromItem(Ores.QUASAR_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_TRAPDOOR.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.QUASAR_STRIPPED_LOG.getRight(), 2)
+                .input('I', Ores.QUASAR_LOG.getRight())
+                .pattern("   ")
+                .pattern("II ")
+                .pattern("   ")
+                .criterion(hasItem(Ores.QUASAR_LOG.getRight()), conditionsFromItem(Ores.QUASAR_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.QUASAR_STRIPPED_LOG.getRight())));
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //QUASAR LOGS ------------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.FRACTAL_DOOR.getRight(), 3)
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .pattern("II ")
+                .pattern("II ")
+                .pattern("II ")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_DOOR.getRight())));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FRACTAL_PLANKS.getRight(), 4)
+                .input(Ores.FRACTAL_LOG.getRight())
+                .criterion("has_item", conditionsFromItem(Ores.FRACTAL_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FRACTAL_PACKED_PLANKS.getRight(), 9)
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_PACKED_PLANKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FRACTAL_STAIRS.getRight(), 4)
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FRACTAL_SLAB.getRight(), 3)
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FRACTAL_FENCE.getRight(), 3)
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("ISI")
+                .pattern("ISI")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_FENCE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.FRACTAL_FENCE_GATE.getRight())
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .input('S', Items.STICK)
+                .pattern("SIS")
+                .pattern("SIS")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_FENCE_GATE.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Ores.FRACTAL_TRAPDOOR.getRight(), 2)
+                .input('I', Ores.FRACTAL_PLANKS.getRight())
+                .pattern("III")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FRACTAL_PLANKS.getRight()), conditionsFromItem(Ores.FRACTAL_PLANKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_TRAPDOOR.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FRACTAL_STRIPPED_LOG.getRight(), 2)
+                .input('I', Ores.FRACTAL_LOG.getRight())
+                .pattern("   ")
+                .pattern("II ")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FRACTAL_LOG.getRight()), conditionsFromItem(Ores.FRACTAL_LOG.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FRACTAL_STRIPPED_LOG.getRight())));
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //LANTERN / GLASS --------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PENTACRAFTIUM_ORIGIN_LANTERN.getRight(), 4)
+                .input('B', Ores.PENTACRAFTIUM_BLOCK.getRight())
+                .input('S', Moditems.ROBERTIUM_SHARD)
+                .input('I', Moditems.JUANITIUM_SHARD)
+                .pattern("SSS")
+                .pattern("IBS")
+                .pattern("III")
+                .criterion(hasItem(Ores.PENTACRAFTIUM_BLOCK.getRight()), conditionsFromItem(Ores.PENTACRAFTIUM_BLOCK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PENTACRAFTIUM_ORIGIN_LANTERN.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PENTACRAFTIUM_ETERNAL_LANTERN.getRight(), 4)
+                .input('B', Ores.PENTACRAFTIUM_BLOCK.getRight())
+                .input('S', Moditems.SARITE_SHARD)
+                .input('I', Moditems.TOMINITE_SHARD)
+                .pattern("SSS")
+                .pattern("IBS")
+                .pattern("III")
+                .criterion(hasItem(Ores.PENTACRAFTIUM_BLOCK.getRight()), conditionsFromItem(Ores.PENTACRAFTIUM_BLOCK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PENTACRAFTIUM_ETERNAL_LANTERN.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PENTACRAFTIUM_INFINITY_LANTERN.getRight(), 4)
+                .input('B', Ores.PENTACRAFTIUM_BLOCK.getRight())
+                .input('S', Moditems.PANCHIUM_SHARD)
+                .input('I', Moditems.KEVINIUM_SHARD)
+                .pattern("SSS")
+                .pattern("IBS")
+                .pattern("III")
+                .criterion(hasItem(Ores.PENTACRAFTIUM_BLOCK.getRight()), conditionsFromItem(Ores.PENTACRAFTIUM_BLOCK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PENTACRAFTIUM_INFINITY_LANTERN.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PENTACRAFTIUM_CUANTIC_LANTERN.getRight(), 4)
+                .input('B', Ores.PENTACRAFTIUM_BLOCK.getRight())
+                .input('S', Moditems.ZAMBONIUM_SHARD)
+                .input('I', Moditems.LUKITE_SHARD)
+                .pattern("SSS")
+                .pattern("IBS")
+                .pattern("III")
+                .criterion(hasItem(Ores.PENTACRAFTIUM_BLOCK.getRight()), conditionsFromItem(Ores.PENTACRAFTIUM_BLOCK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PENTACRAFTIUM_CUANTIC_LANTERN.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.PENTACRAFTIUM_GLASS.getRight(), 8)
+                .input('B', Moditems.PENTACRAFTIUM_DUST)
+                .input('S', Blocks.GLASS)
+                .pattern("SSS")
+                .pattern("SBS")
+                .pattern("SSS")
+                .criterion(hasItem(Moditems.PENTACRAFTIUM_DUST), conditionsFromItem(Moditems.PENTACRAFTIUM_DUST))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.PENTACRAFTIUM_GLASS.getRight())));
+
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //NEW BLOCKS SMELT ------------------------------------------------------------------------------------------------------------------------
+
+        List<ItemConvertible> stellarMarbleCobblestone = List.of(Ores.STELLAR_MARBLE_COBBLESTONE.getRight().asItem());
+        offerSmelting(exporter, stellarMarbleCobblestone, RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_STONE.getRight().asItem(), 0.1f, 200, "stellar_marble_cobblestone_to_stone");
+
+        List<ItemConvertible> stellarMarbleSmooth = List.of(Ores.STELLAR_MARBLE_STONE.getRight().asItem());
+        offerSmelting(exporter, stellarMarbleSmooth, RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_SMOOTH.getRight().asItem(), 0.1f, 200, "stellar_marble_stone_to_smooth");
+
+        List<ItemConvertible> fulgurationCobblestone = List.of(Ores.FULGURATION_COBBLESTONE.getRight().asItem());
+        offerSmelting(exporter, fulgurationCobblestone, RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_STONE.getRight().asItem(), 0.1f, 200, "fulguration_cobblestone_to_stone");
+
+        List<ItemConvertible> fulgurationSmooth = List.of(Ores.FULGURATION_STONE.getRight().asItem());
+        offerSmelting(exporter, fulgurationSmooth, RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_SMOOTH.getRight().asItem(), 0.1f, 200, "fulguration_stone_to_smooth");
+
+        List<ItemConvertible> caveMudBlock = List.of(Ores.CAVE_MUD_BLOCK.getRight().asItem());
+        offerSmelting(exporter, caveMudBlock, RecipeCategory.BUILDING_BLOCKS, Ores.CAVE_MUD_SMOOTH.getRight().asItem(), 0.1f, 200, "cave_mud_block_to_smooth");
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //NEW BLOCKS BRICK CRAFT ------------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_BRICKS.getRight(), 4)
+                .input('B', Ores.STELLAR_MARBLE_STONE.getRight())
+                .pattern("   ")
+                .pattern("BB ")
+                .pattern("BB ")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_STONE.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_STONE.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_BRICKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_BRICKS.getRight(), 4)
+                .input('B', Ores.FULGURATION_STONE.getRight())
+                .pattern("   ")
+                .pattern("BB ")
+                .pattern("BB ")
+                .criterion(hasItem(Ores.FULGURATION_STONE.getRight()), conditionsFromItem(Ores.FULGURATION_STONE.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_BRICKS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.CAVE_MUD_BRICK.getRight(), 4)
+                .input('B', Ores.CAVE_MUD_BLOCK.getRight())
+                .pattern("   ")
+                .pattern("BB ")
+                .pattern("BB ")
+                .criterion(hasItem(Ores.CAVE_MUD_BLOCK.getRight()), conditionsFromItem(Ores.CAVE_MUD_BLOCK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.CAVE_MUD_BRICK.getRight())));
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------
+
+        //NEW BLOCKS SLAB/STAIRS CRAFT ------------------------------------------------------------------------------------------------------------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_BRICKS_STAIRS.getRight(), 4)
+                .input('I', Ores.STELLAR_MARBLE_BRICKS.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_BRICKS.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_BRICKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_BRICKS_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_BRICKS_SLAB.getRight(), 3)
+                .input('I', Ores.STELLAR_MARBLE_BRICKS.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_BRICKS.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_BRICKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_BRICKS_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_SMOOTH_STAIRS.getRight(), 4)
+                .input('I', Ores.STELLAR_MARBLE_SMOOTH.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_SMOOTH.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_SMOOTH.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_SMOOTH_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_SMOOTH_SLAB.getRight(), 3)
+                .input('I', Ores.STELLAR_MARBLE_SMOOTH.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_SMOOTH.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_SMOOTH.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_SMOOTH_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_COBBLESTONE_STAIRS.getRight(), 4)
+                .input('I', Ores.STELLAR_MARBLE_COBBLESTONE.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_COBBLESTONE.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_COBBLESTONE.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_COBBLESTONE_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.STELLAR_MARBLE_COBBLESTONE_SLAB.getRight(), 3)
+                .input('I', Ores.STELLAR_MARBLE_COBBLESTONE.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.STELLAR_MARBLE_COBBLESTONE.getRight()), conditionsFromItem(Ores.STELLAR_MARBLE_COBBLESTONE.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.STELLAR_MARBLE_COBBLESTONE_SLAB.getRight())));
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_BRICKS_STAIRS.getRight(), 4)
+                .input('I', Ores.FULGURATION_BRICKS.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.FULGURATION_BRICKS.getRight()), conditionsFromItem(Ores.FULGURATION_BRICKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_BRICKS_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_BRICKS_SLAB.getRight(), 3)
+                .input('I', Ores.FULGURATION_BRICKS.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FULGURATION_BRICKS.getRight()), conditionsFromItem(Ores.FULGURATION_BRICKS.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_BRICKS_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_SMOOTH_STAIRS.getRight(), 4)
+                .input('I', Ores.FULGURATION_SMOOTH.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.FULGURATION_SMOOTH.getRight()), conditionsFromItem(Ores.FULGURATION_SMOOTH.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_SMOOTH_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_SMOOTH_SLAB.getRight(), 3)
+                .input('I', Ores.FULGURATION_SMOOTH.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FULGURATION_SMOOTH.getRight()), conditionsFromItem(Ores.FULGURATION_SMOOTH.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_SMOOTH_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_COBBLESTONE_STAIRS.getRight(), 4)
+                .input('I', Ores.FULGURATION_COBBLESTONE.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.FULGURATION_COBBLESTONE.getRight()), conditionsFromItem(Ores.FULGURATION_COBBLESTONE.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_COBBLESTONE_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.FULGURATION_COBBLESTONE_SLAB.getRight(), 3)
+                .input('I', Ores.FULGURATION_COBBLESTONE.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.FULGURATION_COBBLESTONE.getRight()), conditionsFromItem(Ores.FULGURATION_COBBLESTONE.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.FULGURATION_COBBLESTONE_SLAB.getRight())));
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.CAVE_MUD_BRICK_STAIRS.getRight(), 4)
+                .input('I', Ores.CAVE_MUD_BRICK.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.CAVE_MUD_BRICK.getRight()), conditionsFromItem(Ores.CAVE_MUD_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.CAVE_MUD_BRICK_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.CAVE_MUD_BRICK_SLAB.getRight(), 3)
+                .input('I', Ores.CAVE_MUD_BRICK.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.CAVE_MUD_BRICK.getRight()), conditionsFromItem(Ores.CAVE_MUD_BRICK.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.CAVE_MUD_BRICK_SLAB.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.CAVE_MUD_SMOOTH_STAIRS.getRight(), 4)
+                .input('I', Ores.CAVE_MUD_SMOOTH.getRight())
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .criterion(hasItem(Ores.CAVE_MUD_SMOOTH.getRight()), conditionsFromItem(Ores.CAVE_MUD_SMOOTH.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.CAVE_MUD_SMOOTH_STAIRS.getRight())));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Ores.CAVE_MUD_SMOOTH_SLAB.getRight(), 3)
+                .input('I', Ores.CAVE_MUD_SMOOTH.getRight())
+                .pattern("   ")
+                .pattern("III")
+                .pattern("   ")
+                .criterion(hasItem(Ores.CAVE_MUD_SMOOTH.getRight()), conditionsFromItem(Ores.CAVE_MUD_SMOOTH.getRight()))
+                .offerTo(exporter, new Identifier(getRecipeName(Ores.CAVE_MUD_SMOOTH_SLAB.getRight())));
+
+
     }
 }
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:fulguration_cobblestone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "pentacraft-ores:fulguration_cobblestone_slab"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:pentacraftium_block"
+    },
+    "I": {
+      "item": "pentacraft-ores:tominite_shard"
+    },
+    "S": {
+      "item": "pentacraft-ores:sarite_shard"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "IBS",
+    "III"
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:pentacraftium_eternal_lantern"
+  },
+  "show_notification": true
+}

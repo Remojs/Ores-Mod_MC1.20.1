@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:kevinium_brick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 6,
+    "item": "pentacraft-ores:kevinium_brick_slab"
+  },
+  "show_notification": true
+}

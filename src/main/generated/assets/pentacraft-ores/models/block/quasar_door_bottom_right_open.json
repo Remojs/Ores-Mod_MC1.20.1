@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "pentacraft-ores:block/quasar_door_bottom",
+    "top": "pentacraft-ores:block/quasar_door_top"
+  }
+}

@@ -1,0 +1,13 @@
+// 1.20.1	2024-11-15T00:01:30.2605205	Pentacraft-Ores/Tags for minecraft:block
+740b52ada44f4c2db77d0240e25041d510d161c0 data\minecraft\tags\blocks\leaves.json
+752acfc6496a41713e2ab68ef7392f75b97e432e data\minecraft\tags\blocks\needs_iron_tool.json
+2ca507ce9e0a0421bebf1afa5cd413809cb62f99 data\minecraft\tags\blocks\mineable\pickaxe.json
+4ca4a568a26476310d30c638585d5c9173e7d4cd data\minecraft\tags\blocks\crystal_sound_blocks.json
+d794ea3d85d0685ada9e6e29cd9d717c06124ad8 data\minecraft\tags\blocks\slabs.json
+8bf1db5d303bc836d1580dda407406d0546f3ad7 data\minecraft\tags\blocks\stairs.json
+c333a57beb88bb1e8b4d80faf14661de387287d7 data\minecraft\tags\blocks\fences.json
+d7ce00e2b78085eb1255614f7adff8a5723d8a72 data\minecraft\tags\blocks\logs_that_burn.json
+4ca4a568a26476310d30c638585d5c9173e7d4cd data\minecraft\tags\blocks\needs_diamond_tool.json
+51d8502103aacb42312ea6ed340e860aaa57e43b data\minecraft\tags\blocks\fence_gates.json
+b519d026fa5fbb9c87eb1e5f424e71846f9c8192 data\minecraft\tags\blocks\doors.json
+d7ce00e2b78085eb1255614f7adff8a5723d8a72 data\minecraft\tags\blocks\mineable\axe.json

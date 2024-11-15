@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/fulguration_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/fulguration_cobblestone"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/fulguration_cobblestone_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pentacraft-ores:block/quantum_log_top",
+    "side": "pentacraft-ores:block/quantum_log"
+  }
+}

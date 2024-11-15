@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cave_mud_smooth": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pentacraft-ores:cave_mud_smooth"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cave_mud_smooth_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cave_mud_smooth",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cave_mud_smooth_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

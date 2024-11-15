@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/fractal_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/fractal_planks"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/fractal_slab_top"
+    }
+  }
+}

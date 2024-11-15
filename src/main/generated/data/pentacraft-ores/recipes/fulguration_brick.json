@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:fulguration_stone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BB ",
+    "BB "
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:fulguration_brick"
+  },
+  "show_notification": true
+}

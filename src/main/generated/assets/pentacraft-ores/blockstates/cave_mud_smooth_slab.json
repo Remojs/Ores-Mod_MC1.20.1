@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/cave_mud_smooth_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/cave_mud_smooth"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/cave_mud_smooth_slab_top"
+    }
+  }
+}

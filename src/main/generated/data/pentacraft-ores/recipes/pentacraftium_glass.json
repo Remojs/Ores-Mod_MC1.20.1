@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    },
+    "S": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SBS",
+    "SSS"
+  ],
+  "result": {
+    "count": 8,
+    "item": "pentacraft-ores:pentacraftium_glass"
+  },
+  "show_notification": true
+}

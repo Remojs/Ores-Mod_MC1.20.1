@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/fulguration_bricks_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/fulguration_brick"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/fulguration_bricks_slab_top"
+    }
+  }
+}

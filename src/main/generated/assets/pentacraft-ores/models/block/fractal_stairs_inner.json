@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/fractal_planks",
+    "side": "pentacraft-ores:block/fractal_planks",
+    "top": "pentacraft-ores:block/fractal_planks"
+  }
+}

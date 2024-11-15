@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "pentacraft-ores:block/dark_matter_door_bottom",
+    "top": "pentacraft-ores:block/dark_matter_door_top"
+  }
+}

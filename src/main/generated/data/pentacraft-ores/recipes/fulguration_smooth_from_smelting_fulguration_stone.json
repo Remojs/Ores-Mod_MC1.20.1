@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "fulguration_stone_to_smooth",
+  "ingredient": {
+    "item": "pentacraft-ores:fulguration_stone"
+  },
+  "result": "pentacraft-ores:fulguration_smooth"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:dark_matter_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "pentacraft-ores:dark_matter_slab"
+  },
+  "show_notification": true
+}

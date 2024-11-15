@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:fractal_fence_gate",
+    "pentacraft-ores:quantum_fence_gate",
+    "pentacraft-ores:quasar_fence_gate",
+    "pentacraft-ores:dark_matter_fence_gate"
+  ]
+}

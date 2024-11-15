@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/quasar_planks",
+    "side": "pentacraft-ores:block/quasar_planks",
+    "top": "pentacraft-ores:block/quasar_planks"
+  }
+}

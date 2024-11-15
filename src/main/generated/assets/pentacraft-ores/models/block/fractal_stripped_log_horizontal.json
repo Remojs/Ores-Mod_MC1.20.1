@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "pentacraft-ores:block/fractal_stripped_log_top",
+    "side": "pentacraft-ores:block/fractal_stripped_log"
+  }
+}

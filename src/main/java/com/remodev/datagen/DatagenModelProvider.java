@@ -4,9 +4,11 @@ import com.remodev.blocks.Ores;
 import com.remodev.items.Moditems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.Item;
 
 import javax.xml.crypto.Data;
 
@@ -77,6 +79,116 @@ public class DatagenModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_STONE.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_BLOCK.getLeft());
+
+        BlockStateModelGenerator.BlockTexturePool stellarMarbleBricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.STELLAR_MARBLE_BRICKS.getLeft());
+        stellarMarbleBricksTexturePool.stairs(Ores.STELLAR_MARBLE_BRICKS_STAIRS.getLeft());
+        stellarMarbleBricksTexturePool.slab(Ores.STELLAR_MARBLE_BRICKS_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool stellarMarbleSmoothTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.STELLAR_MARBLE_SMOOTH.getLeft());
+        stellarMarbleSmoothTexturePool.stairs(Ores.STELLAR_MARBLE_SMOOTH_STAIRS.getLeft());
+        stellarMarbleSmoothTexturePool.slab(Ores.STELLAR_MARBLE_SMOOTH_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool stellarMarbleCobblestoneTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.STELLAR_MARBLE_COBBLESTONE.getLeft());
+        stellarMarbleCobblestoneTexturePool.stairs(Ores.STELLAR_MARBLE_COBBLESTONE_STAIRS.getLeft());
+        stellarMarbleCobblestoneTexturePool.slab(Ores.STELLAR_MARBLE_COBBLESTONE_SLAB.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.STELLAR_MARBLE_STONE.getLeft());
+
+        BlockStateModelGenerator.BlockTexturePool fulgurationBricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.FULGURATION_BRICKS.getLeft());
+        fulgurationBricksTexturePool.stairs(Ores.FULGURATION_BRICKS_STAIRS.getLeft());
+        fulgurationBricksTexturePool.slab(Ores.FULGURATION_BRICKS_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool fulgurationSmoothTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.FULGURATION_SMOOTH.getLeft());
+        fulgurationSmoothTexturePool.stairs(Ores.FULGURATION_SMOOTH_STAIRS.getLeft());
+        fulgurationSmoothTexturePool.slab(Ores.FULGURATION_SMOOTH_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool fulgurationCobblestoneTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.FULGURATION_COBBLESTONE.getLeft());
+        fulgurationCobblestoneTexturePool.stairs(Ores.FULGURATION_COBBLESTONE_STAIRS.getLeft());
+        fulgurationCobblestoneTexturePool.slab(Ores.FULGURATION_COBBLESTONE_SLAB.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.FULGURATION_STONE.getLeft());
+
+        BlockStateModelGenerator.BlockTexturePool caveMudSmoothTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.CAVE_MUD_SMOOTH.getLeft());
+        caveMudSmoothTexturePool.stairs(Ores.CAVE_MUD_SMOOTH_STAIRS.getLeft());
+        caveMudSmoothTexturePool.slab(Ores.CAVE_MUD_SMOOTH_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool caveMudBricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.CAVE_MUD_BRICK.getLeft());
+        caveMudBricksTexturePool.stairs(Ores.CAVE_MUD_BRICK_STAIRS.getLeft());
+        caveMudBricksTexturePool.slab(Ores.CAVE_MUD_BRICK_SLAB.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.CAVE_MUD_BLOCK.getLeft());
+
+        BlockStateModelGenerator.BlockTexturePool zamboniumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.ZAMBONIUM_BRICK.getLeft());
+        zamboniumTexturePool.stairs(Ores.ZAMBONIUM_BRICK_STAIRS.getLeft());
+        zamboniumTexturePool.slab(Ores.ZAMBONIUM_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool robertiumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.ROBERTIUM_BRICK.getLeft());
+        robertiumTexturePool.stairs(Ores.ROBERTIUM_BRICK_STAIRS.getLeft());
+        robertiumTexturePool.slab(Ores.ROBERTIUM_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool keviniumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.KEVINIUM_BRICK.getLeft());
+        keviniumTexturePool.stairs(Ores.KEVINIUM_BRICK_STAIRS.getLeft());
+        keviniumTexturePool.slab(Ores.KEVINIUM_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool juanitiumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.JUANITIUM_BRICK.getLeft());
+        juanitiumTexturePool.stairs(Ores.JUANITIUM_BRICK_STAIRS.getLeft());
+        juanitiumTexturePool.slab(Ores.JUANITIUM_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool panchiumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.PANCHIUM_BRICK.getLeft());
+        panchiumTexturePool.stairs(Ores.PANCHIUM_BRICK_STAIRS.getLeft());
+        panchiumTexturePool.slab(Ores.PANCHIUM_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool sariteTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.SARITE_BRICK.getLeft());
+        sariteTexturePool.stairs(Ores.SARITE_BRICK_STAIRS.getLeft());
+        sariteTexturePool.slab(Ores.SARITE_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool lukiteTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.LUKITE_BRICK.getLeft());
+        lukiteTexturePool.stairs(Ores.LUKITE_BRICK_STAIRS.getLeft());
+        lukiteTexturePool.slab(Ores.LUKITE_BRICK_SLAB.getLeft());
+        BlockStateModelGenerator.BlockTexturePool tominiteTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.TOMINITE_BRICK.getLeft());
+        tominiteTexturePool.stairs(Ores.TOMINITE_BRICK_STAIRS.getLeft());
+        tominiteTexturePool.slab(Ores.TOMINITE_BRICK_SLAB.getLeft());
+
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_GLASS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_INFINITY_LANTERN.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORIGIN_LANTERN.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_CUANTIC_LANTERN.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ETERNAL_LANTERN.getLeft());
+
+        blockStateModelGenerator.registerLog(Ores.FRACTAL_LOG.getLeft()) .log(Ores.FRACTAL_LOG.getLeft());
+        blockStateModelGenerator.registerLog(Ores.FRACTAL_STRIPPED_LOG.getLeft()) .log(Ores.FRACTAL_STRIPPED_LOG.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.FRACTAL_PACKED_PLANKS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.FRACTAL_LEAVES.getLeft());
+        BlockStateModelGenerator.BlockTexturePool fractalTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.FRACTAL_PLANKS.getLeft());
+        fractalTexturePool.stairs(Ores.FRACTAL_STAIRS.getLeft());
+        fractalTexturePool.slab(Ores.FRACTAL_SLAB.getLeft());
+        fractalTexturePool.fence(Ores.FRACTAL_FENCE.getLeft());
+        fractalTexturePool.fenceGate(Ores.FRACTAL_FENCE_GATE.getLeft());
+        blockStateModelGenerator.registerDoor(Ores.FRACTAL_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(Ores.FRACTAL_TRAPDOOR.getLeft());
+
+        blockStateModelGenerator.registerLog(Ores.QUANTUM_LOG.getLeft()) .log(Ores.QUANTUM_LOG.getLeft());
+        blockStateModelGenerator.registerLog(Ores.QUANTUM_STRIPPED_LOG.getLeft()) .log(Ores.QUANTUM_STRIPPED_LOG.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.QUANTUM_PACKED_PLANKS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.QUANTUM_LEAVES.getLeft());
+        BlockStateModelGenerator.BlockTexturePool quantumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.QUANTUM_PLANKS.getLeft());
+        quantumTexturePool.stairs(Ores.QUANTUM_STAIRS.getLeft());
+        quantumTexturePool.slab(Ores.QUANTUM_SLAB.getLeft());
+        quantumTexturePool.fence(Ores.QUANTUM_FENCE.getLeft());
+        quantumTexturePool.fenceGate(Ores.QUANTUM_FENCE_GATE.getLeft());
+        blockStateModelGenerator.registerDoor(Ores.QUANTUM_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(Ores.QUANTUM_TRAPDOOR.getLeft());
+
+        blockStateModelGenerator.registerLog(Ores.QUASAR_LOG.getLeft()) .log(Ores.QUASAR_LOG.getLeft());
+        blockStateModelGenerator.registerLog(Ores.QUASAR_STRIPPED_LOG.getLeft()) .log(Ores.QUASAR_STRIPPED_LOG.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.QUASAR_PACKED_PLANKS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.QUASAR_LEAVES.getLeft());
+        BlockStateModelGenerator.BlockTexturePool quasarTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.QUASAR_PLANKS.getLeft());
+        quasarTexturePool.stairs(Ores.QUASAR_STAIRS.getLeft());
+        quasarTexturePool.slab(Ores.QUASAR_SLAB.getLeft());
+        quasarTexturePool.fence(Ores.QUASAR_FENCE.getLeft());
+        quasarTexturePool.fenceGate(Ores.QUASAR_FENCE_GATE.getLeft());
+        blockStateModelGenerator.registerDoor(Ores.QUASAR_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(Ores.QUASAR_TRAPDOOR.getLeft());
+
+        blockStateModelGenerator.registerLog(Ores.DARK_MATTER_LOG.getLeft()) .log(Ores.DARK_MATTER_LOG.getLeft());
+        blockStateModelGenerator.registerLog(Ores.DARK_MATTER_STRIPPED_LOG.getLeft()) .log(Ores.DARK_MATTER_STRIPPED_LOG.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.DARK_MATTER_PACKED_PLANKS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.DARK_MATTER_LEAVES.getLeft());
+        BlockStateModelGenerator.BlockTexturePool darkMatterTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.DARK_MATTER_PLANKS.getLeft());
+        darkMatterTexturePool.stairs(Ores.DARK_MATTER_STAIRS.getLeft());
+        darkMatterTexturePool.slab(Ores.DARK_MATTER_SLAB.getLeft());
+        darkMatterTexturePool.fence(Ores.DARK_MATTER_FENCE.getLeft());
+        darkMatterTexturePool.fenceGate(Ores.DARK_MATTER_FENCE_GATE.getLeft());
+        blockStateModelGenerator.registerDoor(Ores.DARK_MATTER_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(Ores.DARK_MATTER_TRAPDOOR.getLeft());
+
     }
 
     @Override
@@ -204,6 +316,14 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_CORE , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_HEART , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_DUST , Models.GENERATED);
+        itemModelGenerator.register(Moditems.LUKI_TOMATO , Models.GENERATED);
+        itemModelGenerator.register(Moditems.ROBERT_LETUCCE , Models.GENERATED);
+        itemModelGenerator.register(Moditems.LETUCCE_SEED , Models.GENERATED);
+        itemModelGenerator.register(Moditems.TOMATO_SEED , Models.GENERATED);
+        itemModelGenerator.register(Moditems.QUASAR_SAPLING , Models.GENERATED);
+        itemModelGenerator.register(Moditems.DARK_MATTER_SAPLING , Models.GENERATED);
+        itemModelGenerator.register(Moditems.QUANTUM_SAPLING , Models.GENERATED);
+        itemModelGenerator.register(Moditems.FRACTAL_SAPLING , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.DEATH_CATALYST, Models.GENERATED);
         itemModelGenerator.register(Moditems.DEATH_SCYTHE, Models.GENERATED);

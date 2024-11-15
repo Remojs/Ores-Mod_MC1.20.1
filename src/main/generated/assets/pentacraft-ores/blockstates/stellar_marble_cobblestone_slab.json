@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/stellar_marble_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/stellar_marble_cobblestone"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/stellar_marble_cobblestone_slab_top"
+    }
+  }
+}

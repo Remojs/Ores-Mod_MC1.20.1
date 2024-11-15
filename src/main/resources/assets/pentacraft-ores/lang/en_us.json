@@ -1,115 +1,124 @@
 {
-  "item.pentacraft-ores.zambonium_ingot": "Zambonium Ingot",
-  "item.pentacraft-ores.zambonium_shard": "Zambonium Shard",
-  "item.pentacraft-ores.zambonium_helmet": "Zambonium Helmet",
-  "item.pentacraft-ores.zambonium_chestplate": "Zambonium Chestplate",
-  "item.pentacraft-ores.zambonium_leggings": "Zambonium Leggings",
-  "item.pentacraft-ores.zambonium_boots": "Zambonium Boots",
-  "item.pentacraft-ores.zambonium_shovel": "Zambonium Shovel",
-  "item.pentacraft-ores.zambonium_pickaxe": "Zambonium Pickaxe",
-  "item.pentacraft-ores.zambonium_axe": "Zambonium Axe",
-  "item.pentacraft-ores.zambonium_sword": "Zambonium Sword",
-  "item.pentacraft-ores.zambonium_hammer": "Zambonium Hammer",
-  "item.pentacraft-ores.zambonium_great_axe": "Soul Purifier",
-  "item.pentacraft-ores.zambonium_hoe": "Zambonium Hoe",
 
-  "item.pentacraft-ores.kevinium_ingot": "Kevinium Ingot",
-  "item.pentacraft-ores.kevinium_shard": "Kevinium Shard",
-  "item.pentacraft-ores.kevinium_helmet": "Kevinium Helmet",
-  "item.pentacraft-ores.kevinium_chestplate": "Kevinium Chestplate",
-  "item.pentacraft-ores.kevinium_leggings": "Kevinium Leggings",
-  "item.pentacraft-ores.kevinium_boots": "Kevinium Boots",
-  "item.pentacraft-ores.kevinium_shovel": "Kevinium Shovel",
-  "item.pentacraft-ores.kevinium_pickaxe": "Kevinium Pickaxe",
-  "item.pentacraft-ores.kevinium_axe": "Kevinium Axe",
-  "item.pentacraft-ores.kevinium_sword": "Kevinium Sword",
-  "item.pentacraft-ores.kevinium_hammer": "Kevinium Hammer",
-  "item.pentacraft-ores.kevinium_great_axe": "Arcane Eradicator",
-  "item.pentacraft-ores.kevinium_hoe": "Kevinium Hoe",
+  //TOOLS - WEAPONS - ARMOR ----------------------------------------------------------
 
-  "item.pentacraft-ores.juanitium_ingot": "Juanitium Ingot",
-  "item.pentacraft-ores.juanitium_shard": "Juanitium Shard",
-  "item.pentacraft-ores.juanitium_helmet": "Juanitium Helmet",
-  "item.pentacraft-ores.juanitium_chestplate": "Juanitium Chestplate",
-  "item.pentacraft-ores.juanitium_leggings": "Juanitium Leggings",
-  "item.pentacraft-ores.juanitium_boots": "Juanitium Boots",
-  "item.pentacraft-ores.juanitium_shovel": "Juanitium Shovel",
-  "item.pentacraft-ores.juanitium_pickaxe": "Juanitium Pickaxe",
-  "item.pentacraft-ores.juanitium_axe": "Juanitium Axe",
-  "item.pentacraft-ores.juanitium_sword": "Juanitium Sword",
-  "item.pentacraft-ores.juanitium_hammer": "Juanitium Hammer",
-  "item.pentacraft-ores.juanitium_great_axe": "Sea Splitter",
-  "item.pentacraft-ores.juanitium_hoe": "Juanitium Hoe",
+    "item.pentacraft-ores.zambonium_ingot": "Zambonium Ingot",
+    "item.pentacraft-ores.zambonium_shard": "Zambonium Shard",
+    "item.pentacraft-ores.zambonium_helmet": "Zambonium Helmet",
+    "item.pentacraft-ores.zambonium_chestplate": "Zambonium Chestplate",
+    "item.pentacraft-ores.zambonium_leggings": "Zambonium Leggings",
+    "item.pentacraft-ores.zambonium_boots": "Zambonium Boots",
+    "item.pentacraft-ores.zambonium_shovel": "Zambonium Shovel",
+    "item.pentacraft-ores.zambonium_pickaxe": "Zambonium Pickaxe",
+    "item.pentacraft-ores.zambonium_axe": "Zambonium Axe",
+    "item.pentacraft-ores.zambonium_sword": "Zambonium Sword",
+    "item.pentacraft-ores.zambonium_hammer": "Zambonium Hammer",
+    "item.pentacraft-ores.zambonium_great_axe": "Soul Purifier",
+    "item.pentacraft-ores.zambonium_hoe": "Zambonium Hoe",
 
-  "item.pentacraft-ores.robertium_ingot": "Robertium Ingot",
-  "item.pentacraft-ores.robertium_shard": "Robertium Shard",
-  "item.pentacraft-ores.robertium_helmet": "Robertium Helmet",
-  "item.pentacraft-ores.robertium_chestplate": "Robertium Chestplate",
-  "item.pentacraft-ores.robertium_leggings": "Robertium Leggings",
-  "item.pentacraft-ores.robertium_boots": "Robertium Boots",
-  "item.pentacraft-ores.robertium_shovel": "Robertium Shovel",
-  "item.pentacraft-ores.robertium_pickaxe": "Robertium Pickaxe",
-  "item.pentacraft-ores.robertium_axe": "Robertium Axe",
-  "item.pentacraft-ores.robertium_sword": "Robertium Sword",
-  "item.pentacraft-ores.robertium_hammer": "Robertium Hammer",
-  "item.pentacraft-ores.robertium_great_axe": "Volcanic Drill",
-  "item.pentacraft-ores.robertium_hoe": "Robertium Hoe",
+    "item.pentacraft-ores.kevinium_ingot": "Kevinium Ingot",
+    "item.pentacraft-ores.kevinium_shard": "Kevinium Shard",
+    "item.pentacraft-ores.kevinium_helmet": "Kevinium Helmet",
+    "item.pentacraft-ores.kevinium_chestplate": "Kevinium Chestplate",
+    "item.pentacraft-ores.kevinium_leggings": "Kevinium Leggings",
+    "item.pentacraft-ores.kevinium_boots": "Kevinium Boots",
+    "item.pentacraft-ores.kevinium_shovel": "Kevinium Shovel",
+    "item.pentacraft-ores.kevinium_pickaxe": "Kevinium Pickaxe",
+    "item.pentacraft-ores.kevinium_axe": "Kevinium Axe",
+    "item.pentacraft-ores.kevinium_sword": "Kevinium Sword",
+    "item.pentacraft-ores.kevinium_hammer": "Kevinium Hammer",
+    "item.pentacraft-ores.kevinium_great_axe": "Arcane Eradicator",
+    "item.pentacraft-ores.kevinium_hoe": "Kevinium Hoe",
 
-  "item.pentacraft-ores.panchium_ingot": "Panchium Ingot",
-  "item.pentacraft-ores.panchium_shard": "Panchium Shard",
-  "item.pentacraft-ores.panchium_helmet": "Panchium Helmet",
-  "item.pentacraft-ores.panchium_chestplate": "Panchium Chestplate",
-  "item.pentacraft-ores.panchium_leggings": "Panchium Leggings",
-  "item.pentacraft-ores.panchium_boots": "Panchium Boots",
-  "item.pentacraft-ores.panchium_shovel": "Panchium Shovel",
-  "item.pentacraft-ores.panchium_pickaxe": "Panchium Pickaxe",
-  "item.pentacraft-ores.panchium_axe": "Panchium Axe",
-  "item.pentacraft-ores.panchium_sword": "Panchium Sword",
-  "item.pentacraft-ores.panchium_hammer": "Panchium Hammer",
-  "item.pentacraft-ores.panchium_great_axe": "Thunder Destroyer",
-  "item.pentacraft-ores.panchium_hoe": "Panchium Hoe",
+    "item.pentacraft-ores.juanitium_ingot": "Juanitium Ingot",
+    "item.pentacraft-ores.juanitium_shard": "Juanitium Shard",
+    "item.pentacraft-ores.juanitium_helmet": "Juanitium Helmet",
+    "item.pentacraft-ores.juanitium_chestplate": "Juanitium Chestplate",
+    "item.pentacraft-ores.juanitium_leggings": "Juanitium Leggings",
+    "item.pentacraft-ores.juanitium_boots": "Juanitium Boots",
+    "item.pentacraft-ores.juanitium_shovel": "Juanitium Shovel",
+    "item.pentacraft-ores.juanitium_pickaxe": "Juanitium Pickaxe",
+    "item.pentacraft-ores.juanitium_axe": "Juanitium Axe",
+    "item.pentacraft-ores.juanitium_sword": "Juanitium Sword",
+    "item.pentacraft-ores.juanitium_hammer": "Juanitium Hammer",
+    "item.pentacraft-ores.juanitium_great_axe": "Sea Splitter",
+    "item.pentacraft-ores.juanitium_hoe": "Juanitium Hoe",
 
-  "item.pentacraft-ores.sarite_ingot": "Sarite Ingot",
-  "item.pentacraft-ores.sarite_shard": "Sarite Shard",
-  "item.pentacraft-ores.sarite_helmet": "Sarite Helmet",
-  "item.pentacraft-ores.sarite_chestplate": "Sarite Chestplate",
-  "item.pentacraft-ores.sarite_leggings": "Sarite Leggings",
-  "item.pentacraft-ores.sarite_boots": "Sarite Boots",
-  "item.pentacraft-ores.sarite_shovel": "Sarite Shovel",
-  "item.pentacraft-ores.sarite_pickaxe": "Sarite Pickaxe",
-  "item.pentacraft-ores.sarite_axe": "Sarite Axe",
-  "item.pentacraft-ores.sarite_sword": "Sarite Sword",
-  "item.pentacraft-ores.sarite_hammer": "Sarite Hammer",
-  "item.pentacraft-ores.sarite_great_axe": "Dimensional Slicer",
-  "item.pentacraft-ores.sarite_hoe": "Sarite Hoe",
+    "item.pentacraft-ores.robertium_ingot": "Robertium Ingot",
+    "item.pentacraft-ores.robertium_shard": "Robertium Shard",
+    "item.pentacraft-ores.robertium_helmet": "Robertium Helmet",
+    "item.pentacraft-ores.robertium_chestplate": "Robertium Chestplate",
+    "item.pentacraft-ores.robertium_leggings": "Robertium Leggings",
+    "item.pentacraft-ores.robertium_boots": "Robertium Boots",
+    "item.pentacraft-ores.robertium_shovel": "Robertium Shovel",
+    "item.pentacraft-ores.robertium_pickaxe": "Robertium Pickaxe",
+    "item.pentacraft-ores.robertium_axe": "Robertium Axe",
+    "item.pentacraft-ores.robertium_sword": "Robertium Sword",
+    "item.pentacraft-ores.robertium_hammer": "Robertium Hammer",
+    "item.pentacraft-ores.robertium_great_axe": "Volcanic Drill",
+    "item.pentacraft-ores.robertium_hoe": "Robertium Hoe",
 
-  "item.pentacraft-ores.tominite_ingot": "Tominite Ingot",
-  "item.pentacraft-ores.tominite_shard": "Tominite Shard",
-  "item.pentacraft-ores.tominite_helmet": "Tominite Helmet",
-  "item.pentacraft-ores.tominite_chestplate": "Tominite Chestplate",
-  "item.pentacraft-ores.tominite_leggings": "Tominite Leggings",
-  "item.pentacraft-ores.tominite_boots": "Tominite Boots",
-  "item.pentacraft-ores.tominite_shovel": "Tominite Shovel",
-  "item.pentacraft-ores.tominite_pickaxe": "Tominite Pickaxe",
-  "item.pentacraft-ores.tominite_axe": "Tominite Axe",
-  "item.pentacraft-ores.tominite_sword": "Tominite Sword",
-  "item.pentacraft-ores.tominite_hammer": "Tominite Hammer",
-  "item.pentacraft-ores.tominite_great_axe": "Tempest of the World",
-  "item.pentacraft-ores.tominite_hoe": "Tominite Hoe",
+    "item.pentacraft-ores.panchium_ingot": "Panchium Ingot",
+    "item.pentacraft-ores.panchium_shard": "Panchium Shard",
+    "item.pentacraft-ores.panchium_helmet": "Panchium Helmet",
+    "item.pentacraft-ores.panchium_chestplate": "Panchium Chestplate",
+    "item.pentacraft-ores.panchium_leggings": "Panchium Leggings",
+    "item.pentacraft-ores.panchium_boots": "Panchium Boots",
+    "item.pentacraft-ores.panchium_shovel": "Panchium Shovel",
+    "item.pentacraft-ores.panchium_pickaxe": "Panchium Pickaxe",
+    "item.pentacraft-ores.panchium_axe": "Panchium Axe",
+    "item.pentacraft-ores.panchium_sword": "Panchium Sword",
+    "item.pentacraft-ores.panchium_hammer": "Panchium Hammer",
+    "item.pentacraft-ores.panchium_great_axe": "Thunder Destroyer",
+    "item.pentacraft-ores.panchium_hoe": "Panchium Hoe",
 
-  "item.pentacraft-ores.lukite_ingot": "Lukite Ingot",
-  "item.pentacraft-ores.lukite_shard": "Lukite Shard",
-  "item.pentacraft-ores.lukite_helmet": "Lukite Helmet",
-  "item.pentacraft-ores.lukite_chestplate": "Lukite Chestplate",
-  "item.pentacraft-ores.lukite_leggings": "Lukite Leggings",
-  "item.pentacraft-ores.lukite_boots": "Lukite Boots",
-  "item.pentacraft-ores.lukite_shovel": "Lukite Shovel",
-  "item.pentacraft-ores.lukite_pickaxe": "Lukite Pickaxe",
-  "item.pentacraft-ores.lukite_axe": "Lukite Axe",
-  "item.pentacraft-ores.lukite_sword": "Lukite Sword",
-  "item.pentacraft-ores.lukite_hammer": "Lukite Hammer",
-  "item.pentacraft-ores.lukite_great_axe": "Sky Destroyer",
-  "item.pentacraft-ores.lukite_hoe": "Lukite Hoe",
+    "item.pentacraft-ores.sarite_ingot": "Sarite Ingot",
+    "item.pentacraft-ores.sarite_shard": "Sarite Shard",
+    "item.pentacraft-ores.sarite_helmet": "Sarite Helmet",
+    "item.pentacraft-ores.sarite_chestplate": "Sarite Chestplate",
+    "item.pentacraft-ores.sarite_leggings": "Sarite Leggings",
+    "item.pentacraft-ores.sarite_boots": "Sarite Boots",
+    "item.pentacraft-ores.sarite_shovel": "Sarite Shovel",
+    "item.pentacraft-ores.sarite_pickaxe": "Sarite Pickaxe",
+    "item.pentacraft-ores.sarite_axe": "Sarite Axe",
+    "item.pentacraft-ores.sarite_sword": "Sarite Sword",
+    "item.pentacraft-ores.sarite_hammer": "Sarite Hammer",
+    "item.pentacraft-ores.sarite_great_axe": "Dimensional Slicer",
+    "item.pentacraft-ores.sarite_hoe": "Sarite Hoe",
+
+    "item.pentacraft-ores.tominite_ingot": "Tominite Ingot",
+    "item.pentacraft-ores.tominite_shard": "Tominite Shard",
+    "item.pentacraft-ores.tominite_helmet": "Tominite Helmet",
+    "item.pentacraft-ores.tominite_chestplate": "Tominite Chestplate",
+    "item.pentacraft-ores.tominite_leggings": "Tominite Leggings",
+    "item.pentacraft-ores.tominite_boots": "Tominite Boots",
+    "item.pentacraft-ores.tominite_shovel": "Tominite Shovel",
+    "item.pentacraft-ores.tominite_pickaxe": "Tominite Pickaxe",
+    "item.pentacraft-ores.tominite_axe": "Tominite Axe",
+    "item.pentacraft-ores.tominite_sword": "Tominite Sword",
+    "item.pentacraft-ores.tominite_hammer": "Tominite Hammer",
+    "item.pentacraft-ores.tominite_great_axe": "Tempest of the World",
+    "item.pentacraft-ores.tominite_hoe": "Tominite Hoe",
+
+    "item.pentacraft-ores.lukite_ingot": "Lukite Ingot",
+    "item.pentacraft-ores.lukite_shard": "Lukite Shard",
+    "item.pentacraft-ores.lukite_helmet": "Lukite Helmet",
+    "item.pentacraft-ores.lukite_chestplate": "Lukite Chestplate",
+    "item.pentacraft-ores.lukite_leggings": "Lukite Leggings",
+    "item.pentacraft-ores.lukite_boots": "Lukite Boots",
+    "item.pentacraft-ores.lukite_shovel": "Lukite Shovel",
+    "item.pentacraft-ores.lukite_pickaxe": "Lukite Pickaxe",
+    "item.pentacraft-ores.lukite_axe": "Lukite Axe",
+    "item.pentacraft-ores.lukite_sword": "Lukite Sword",
+    "item.pentacraft-ores.lukite_hammer": "Lukite Hammer",
+    "item.pentacraft-ores.lukite_great_axe": "Sky Destroyer",
+    "item.pentacraft-ores.lukite_hoe": "Lukite Hoe",
+
+  //TOOLS - WEAPONS - ARMOR ----------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // MISC ITEMS ----------------------------------------------------------------------
 
   "item.pentacraft-ores.nether_upgrade": "Nether Upgrade",
   "item.pentacraft-ores.end_upgrade": "End Upgrade",
@@ -143,6 +152,21 @@
   "item.pentacraft-ores.pentacraft_book": "Pentacraft Book",
   "item.pentacraft-ores.pentacraftium_core": "Pentacraftium Core",
   "item.pentacraft-ores.pentacraftium_heart": "Pentacraftium Heart",
+
+  "item.pentacraft-ores.luki_tomato" : "Luki's Tomato",
+  "item.pentacraft-ores.robert_letucce" :  "Robert's Letucce",
+  "item.pentacraft-ores.letucce_seed" :  "Robert's Letucce Seed",
+  "item.pentacraft-ores.tomato_seed" : "Luki's Tomato Seed",
+  "item.pentacraft-ores.quasar_sapling" :  "Quasar Sapling",
+  "item.pentacraft-ores.dark_matter_sapling" :  "Dark Matter Sapling",
+  "item.pentacraft-ores.quantum_sapling" :  "Quantum Sapling",
+  "item.pentacraft-ores.fractal_sapling" :  "Fractal Sapling",
+
+  // MISC ITEMS ----------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // ORE BLOCKS ----------------------------------------------------------------------
 
   "block.pentacraft-ores.zambonium_ore_stone": "Zambonium Ore",
   "block.pentacraft-ores.zambonium_ore_deepslate": "Deepslate Zambonium Ore",
@@ -204,12 +228,166 @@
   "block.pentacraft-ores.pentacraftium_ore_deepslate": "Deepslate Pentacraftium Ore",
   "block.pentacraft-ores.pentacraftium_block": "Pentacraftium Block",
 
+  // ORE BLOCKS ----------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // MISC BLOCKS ---------------------------------------------------------------------
+
+
+  "block.pentacraft-ores.stellar_marble_stone": "Stellar Marble Stone",
+
+  "block.pentacraft-ores.stellar_marble_cobblestone": "Stellar Marble Cobblestone",
+  "block.pentacraft-ores.stellar_marble_cobblestone_stairs": "Stellar Marble Cobblestone Stairs",
+  "block.pentacraft-ores.stellar_marble_cobblestone_slab": "Stellar Marble Cobblestone Slab",
+
+  "block.pentacraft-ores.stellar_marble_brick": "Stellar Marble Bricks",
+  "block.pentacraft-ores.stellar_marble_bricks_stairs": "Stellar Marble Bricks Stairs",
+  "block.pentacraft-ores.stellar_marble_bricks_slab": "Stellar Marble Bricks Slab",
+
+  "block.pentacraft-ores.stellar_marble_smooth": "Stellar Marble Smooth",
+  "block.pentacraft-ores.stellar_marble_smooth_stairs": "Stellar Marble Smooth Stairs",
+  "block.pentacraft-ores.stellar_marble_smooth_slab": "Stellar Marble Smooth Slab",
+
+
+  "block.pentacraft-ores.fulguration_stone": "Fulguration Stone",
+
+  "block.pentacraft-ores.fulguration_cobblestone": "Fulguration Cobblestone",
+  "block.pentacraft-ores.fulguration_cobblestone_stairs": "Fulguration Cobblestone Stairs",
+  "block.pentacraft-ores.fulguration_cobblestone_slab": "Fulguration Cobblestone Slab",
+
+  "block.pentacraft-ores.fulguration_brick": "Fulguration Bricks",
+  "block.pentacraft-ores.fulguration_bricks_stairs": "Fulguration Bricks Stairs",
+  "block.pentacraft-ores.fulguration_bricks_slab": "Fulguration Bricks Slab",
+
+  "block.pentacraft-ores.fulguration_smooth": "Fulguration Smooth",
+  "block.pentacraft-ores.fulguration_smooth_stairs": "Fulguration Smooth Stairs",
+  "block.pentacraft-ores.fulguration_smooth_slab": "Fulguration Smooth Slab",
+
+
+  "block.pentacraft-ores.cave_mud_block": "Cave Mud Block",
+
+  "block.pentacraft-ores.cave_mud_brick": "Cave Mud Brick",
+  "block.pentacraft-ores.cave_mud_bricks_stairs": "Cave Mud Brick Stairs",
+  "block.pentacraft-ores.cave_mud_bricks_slab": "Cave Mud Brick Slab",
+
+  "block.pentacraft-ores.cave_mud_smooth": "Cave Mud Smooth",
+  "block.pentacraft-ores.cave_mud_smooth_stairs": "Cave Mud Smooth Stairs",
+  "block.pentacraft-ores.cave_mud_smooth_slab": "Cave Mud Smooth Slab",
+
+
+  "block.pentacraft-ores.pentacraftium_glass": "Pentacraftium Glass",
+
+
+  "block.pentacraft-ores.pentacraftium_cuantic_lantern": "Pentacraftium Cuantic Lantern",
+  "block.pentacraft-ores.pentacraftium_eternal_lantern": "Pentacraftium Eternal Lantern",
+  "block.pentacraft-ores.pentacraftium_infinity_lantern": "Pentacraftium Infinity Lantern",
+  "block.pentacraft-ores.pentacraftium_origin_lantern": "Pentacraftium Origin Lantern",
+
+  "block.pentacraft-ores.zambonium_brick": "Zambonium Brick",
+  "block.pentacraft-ores.zambonium_brick_stairs": "Zambonium Brick Stairs",
+  "block.pentacraft-ores.zambonium_brick_slab": "Zambonium Brick Slab",
+
+  "block.pentacraft-ores.robertium_brick": "Robertium Brick",
+  "block.pentacraft-ores.robertium_brick_stairs": "Robertium Brick Stairs",
+  "block.pentacraft-ores.robertium_brick_slab": "Robertium Brick Slab",
+
+  "block.pentacraft-ores.kevinium_brick": "Kevinium Brick",
+  "block.pentacraft-ores.kevinium_brick_stairs": "Kevinium Brick Stairs",
+  "block.pentacraft-ores.kevinium_brick_slab": "Kevinium Brick Slab",
+
+  "block.pentacraft-ores.juanitium_brick": "Juanitium Brick",
+  "block.pentacraft-ores.juanitium_brick_stairs": "Juanitium Brick Stairs",
+  "block.pentacraft-ores.juanitium_brick_slab": "Juanitium Brick Slab",
+
+  "block.pentacraft-ores.panchium_brick": "Panchium Brick",
+  "block.pentacraft-ores.panchium_brick_stairs": "Panchium Brick Stairs",
+  "block.pentacraft-ores.panchium_brick_slab": "Panchium Brick Slab",
+
+  "block.pentacraft-ores.sarite_brick": "Sarite Brick",
+  "block.pentacraft-ores.sarite_brick_stairs": "Sarite Brick Stairs",
+  "block.pentacraft-ores.sarite_brick_slab": "Sarite Brick Slab",
+
+  "block.pentacraft-ores.lukite_brick": "Lukite Brick",
+  "block.pentacraft-ores.lukite_brick_stairs": "Lukite Brick Stairs",
+  "block.pentacraft-ores.lukite_brick_slab": "Lukite Brick Slab",
+
+  "block.pentacraft-ores.tominite_brick": "Tominite Brick",
+  "block.pentacraft-ores.tominite_brick_stairs": "Tominite Brick Stairs",
+  "block.pentacraft-ores.tominite_brick_slab": "Tominite Brick Slab",
+
+  // MISC BLOCKS ---------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // WOOD BLOCKS  --------------------------------------------------------------------
+
+  "block.pentacraft-ores.fractal_log": "Fractal Log",
+  "block.pentacraft-ores.fractal_stripped_log": "Fractal Stripped Log",
+  "block.pentacraft-ores.fractal_planks": "Fractal Planks",
+  "block.pentacraft-ores.fractal_packed_planks": "Fractal Packed Planks",
+  "block.pentacraft-ores.fractal_leaves": "Fractal Leaves",
+  "block.pentacraft-ores.fractal_door": "Fractal Door",
+  "block.pentacraft-ores.fractal_trapdoor": "Fractal Trapdoor",
+  "block.pentacraft-ores.fractal_stairs": "Fractal Stairs",
+  "block.pentacraft-ores.fractal_slab": "Fractal Slab",
+  "block.pentacraft-ores.fractal_fence": "Fractal Fence",
+  "block.pentacraft-ores.fractal_fence_gate": "Fractal Fence Gate",
+
+  "block.pentacraft-ores.quantum_log": "Quantum Log",
+  "block.pentacraft-ores.quantum_stripped_log": "Quantum Stripped Log",
+  "block.pentacraft-ores.quantum_planks": "Quantum Planks",
+  "block.pentacraft-ores.quantum_packed_planks": "Quantum Packed Planks",
+  "block.pentacraft-ores.quantum_leaves": "Quantum Leaves",
+  "block.pentacraft-ores.quantum_door": "Quantum Door",
+  "block.pentacraft-ores.quantum_trapdoor": "Quantum Trapdoor",
+  "block.pentacraft-ores.quantum_stairs": "Quantum Stairs",
+  "block.pentacraft-ores.quantum_slab": "Quantum Slab",
+  "block.pentacraft-ores.quantum_fence": "Quantum Fence",
+  "block.pentacraft-ores.quantum_fence_gate": "Quantum Fence Gate",
+
+  "block.pentacraft-ores.dark_matter_log": "Dark Matter Log",
+  "block.pentacraft-ores.dark_matter_stripped_log": "Dark Matter Stripped Log",
+  "block.pentacraft-ores.dark_matter_planks": "Dark Matter Planks",
+  "block.pentacraft-ores.dark_matter_packed_planks": "Dark Matter Packed Planks",
+  "block.pentacraft-ores.dark_matter_leaves": "Dark Matter Leaves",
+  "block.pentacraft-ores.dark_matter_door": "Dark Matter Door",
+  "block.pentacraft-ores.dark_matter_trapdoor": "Dark Matter Trapdoor",
+  "block.pentacraft-ores.dark_matter_stairs": "Dark Matter Stairs",
+  "block.pentacraft-ores.dark_matter_slab": "Dark Matter Slab",
+  "block.pentacraft-ores.dark_matter_fence": "Dark Matter Fence",
+  "block.pentacraft-ores.dark_matter_fence_gate": "Dark Matter Fence Gate",
+
+  "block.pentacraft-ores.quasar_log": "Quasar Log",
+  "block.pentacraft-ores.quasar_stripped_log": "Quasar Stripped Log",
+  "block.pentacraft-ores.quasar_planks": "Quasar Planks",
+  "block.pentacraft-ores.quasar_packed_planks": "Quasar Packed Planks",
+  "block.pentacraft-ores.quasar_leaves": "Quasar Leaves",
+  "block.pentacraft-ores.quasar_door": "Quasar Door",
+  "block.pentacraft-ores.quasar_trapdoor": "Quasar Trapdoor",
+  "block.pentacraft-ores.quasar_stairs": "Quasar Stairs",
+  "block.pentacraft-ores.quasar_slab": "Quasar Slab",
+  "block.pentacraft-ores.quasar_fence": "Quasar Fence",
+  "block.pentacraft-ores.quasar_fence_gate": "Quasar Fence Gate",
+
+  // WOOD BLOCKS ---------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // CATEGORIES  ---------------------------------------------------------------------
+
   "itemGroup.pentacraft-ores.pentacraft_mineral_group": "Pentacraft Minerals",
   "itemGroup.pentacraft-ores.pentacraft_armor_group": "Pentacraft Armor",
   "itemGroup.pentacraft-ores.pentacraft_misc_group": "Pentacraft Misc",
   "itemGroup.pentacraft-ores.pentacraft_tools_group": "Pentacraft Tools",
   "itemGroup.pentacraft-ores.pentacraft_blocks_group": "Pentacraft Blocks",
   "itemGroup.pentacraft-ores.pentacraft_weapons_group": "Pentacraft Weapons",
+
+  // CATEGORIES  ---------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // TOOTLIPS  -----------------------------------------------------------------------
 
   "item.pentacraft-ores.custom_sword.tooltip": "Lost sword of an ancient",
   "item.pentacraft-ores.custom_sword.tooltip2": "warrior from the multiverse",
@@ -232,6 +410,12 @@
   "item.pentacraft-ores.custom.lukite": "Part of the set: Celestial Monarch",
   "item.pentacraft-ores.custom.sarite": "Part of the set: Sovereign of the End",
   "item.pentacraft-ores.custom.tominite": "Part of the set: Guardian of the Overworld",
+
+  // TOOTLIPS  -----------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // SWORD EFFECTS -------------------------------------------------------------------
 
   "item.pentacraft-ores.custom_sword.zambonium_sword_soulabsorption": "Soul Absorption",
   "item.pentacraft-ores.custom_sword.zambonium_sword_deathtouch": "Death Touch",
@@ -276,6 +460,12 @@
   "item.pentacraft-ores.custom_sword.kevinium_armor_arcanepurity": "Arcane purity",
   "item.pentacraft-ores.custom_sword.kevinium_armor_mysticawakening": "Mystic Awakening",
 
+  // SWORD EFFECTS -------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // POTION EFFECTS  -----------------------------------------------------------------
+
   "effect.pentacraft-ores.electroparalysis": "Electroparalysis",
   "effect.pentacraft-ores.electroshock": "Electroshock",
   "effect.pentacraft-ores.deep_shackles": "Deep Shackles",
@@ -298,7 +488,11 @@
   "effect.pentacraft-ores.water_boost": "Water Boost",
   "effect.pentacraft-ores.fire_boost": "Fire Boost",
 
+  // POTION EFFECTS ------------------------------------------------------------------
 
+  // ---------------------------------------------------------------------------------
+
+  // SOUND EFFECTS  ------------------------------------------------------------------
 
   "sounds.pentacraft-ores.deathtouch": "Death Screams",
   "sounds.pentacraft-ores.electroparalysis": "Electroparalysis",
@@ -319,4 +513,5 @@
   "sounds.pentacraft-ores.magicattack": "Imbuided Spell Sword",
   "sounds.pentacraft-ores.dimensionalanomaly": "Dimensional Anomaly",
   "sounds.pentacraft-ores.dimensionalmismatch": "Dimensional Mismatch"
+
 }

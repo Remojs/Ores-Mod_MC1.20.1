@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pentacraft-ores:block/stellar_marble_cobblestone",
+    "side": "pentacraft-ores:block/stellar_marble_cobblestone",
+    "top": "pentacraft-ores:block/stellar_marble_cobblestone"
+  }
+}

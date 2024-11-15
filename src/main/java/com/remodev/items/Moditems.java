@@ -142,6 +142,15 @@ public class Moditems {
 
     public static final Item PENTACRAFTIUM_DUST = registerItem("pentacraftium_dust", new Item(new FabricItemSettings()));
 
+    public static final Item LUKI_TOMATO = registerItem("luki_tomato", new Item(new FabricItemSettings()));
+    public static final Item ROBERT_LETUCCE = registerItem("robert_letucce", new Item(new FabricItemSettings()));
+    public static final Item LETUCCE_SEED = registerItem("letucce_seed", new Item(new FabricItemSettings()));
+    public static final Item TOMATO_SEED = registerItem("tomato_seed", new Item(new FabricItemSettings()));
+    public static final Item QUASAR_SAPLING = registerItem("quasar_sapling", new Item(new FabricItemSettings()));
+    public static final Item DARK_MATTER_SAPLING = registerItem("dark_matter_sapling", new Item(new FabricItemSettings()));
+    public static final Item QUANTUM_SAPLING = registerItem("quantum_sapling", new Item(new FabricItemSettings()));
+    public static final Item FRACTAL_SAPLING = registerItem("fractal_sapling", new Item(new FabricItemSettings()));
+
     public static final Item DEATH_CATALYST = registerItem("drop_death_catalyst", new CustomRelic(new FabricItemSettings()));
     public static final Item DEATH_SCYTHE = registerItem("drop_death_scythe", new CustomRelic(new FabricItemSettings()));
     public static final Item DEEP_SHACKLES = registerItem("drop_deep_shackles", new CustomRelic(new FabricItemSettings()));
@@ -162,6 +171,8 @@ public class Moditems {
     public static final Item MOB_ESSENCE = registerItem("drop_mob_essence", new CustomRelic(new FabricItemSettings()));
     public static final Item PRIMAL_FLAME = registerItem("drop_primal_flame", new CustomRelic(new FabricItemSettings()));
     public static final Item FIRE_FUNGUS = registerItem("drop_fire_fungus", new CustomRelic(new FabricItemSettings()));
+
+
 
     private static Item registerItem(String itemId, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(PentacraftOres.MOD_ID, itemId), item);

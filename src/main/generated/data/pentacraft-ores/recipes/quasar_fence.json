@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:quasar_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ISI",
+    "ISI",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "pentacraft-ores:quasar_fence"
+  },
+  "show_notification": true
+}
