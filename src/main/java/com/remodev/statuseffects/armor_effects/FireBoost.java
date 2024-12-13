@@ -10,7 +10,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class FireBoost extends StatusEffect {
 
     public FireBoost() {
-        super(StatusEffectCategory.BENEFICIAL, 0x00FFFF);
+        super(StatusEffectCategory.BENEFICIAL, 0xD14900);
     }
 
     @Override

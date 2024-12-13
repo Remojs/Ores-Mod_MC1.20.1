@@ -1,13 +1,19 @@
-// 1.20.1	2024-11-15T00:01:30.2605205	Pentacraft-Ores/Tags for minecraft:block
-740b52ada44f4c2db77d0240e25041d510d161c0 data\minecraft\tags\blocks\leaves.json
-752acfc6496a41713e2ab68ef7392f75b97e432e data\minecraft\tags\blocks\needs_iron_tool.json
-2ca507ce9e0a0421bebf1afa5cd413809cb62f99 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-12-12T16:00:26.7887669	Pentacraft-Ores/Tags for minecraft:block
+ab32658b55539371816e6fcbc292eaf236315402 data\minecraft\tags\blocks\leaves.json
+59c8cbc5c94e4a4cc35936df7d8c148c5bcb2ec1 data\minecraft\tags\blocks\needs_iron_tool.json
+3cd0a081217f1aff1d89ed29988b8072eb049dc9 data\minecraft\tags\blocks\mineable\pickaxe.json
+b5627efbf7d27105cf275e3fd4aec944a991d14c data\minecraft\tags\blocks\valid_spawn.json
 4ca4a568a26476310d30c638585d5c9173e7d4cd data\minecraft\tags\blocks\crystal_sound_blocks.json
-d794ea3d85d0685ada9e6e29cd9d717c06124ad8 data\minecraft\tags\blocks\slabs.json
-8bf1db5d303bc836d1580dda407406d0546f3ad7 data\minecraft\tags\blocks\stairs.json
-c333a57beb88bb1e8b4d80faf14661de387287d7 data\minecraft\tags\blocks\fences.json
+b5627efbf7d27105cf275e3fd4aec944a991d14c data\minecraft\tags\blocks\mineable\shovel.json
+a84caf3ff24eddb1dba1fb884f2c4140fd054dbe data\minecraft\tags\blocks\slabs.json
+b044fc7ddefd31478a5b808d641c8bcb89f3a652 data\minecraft\tags\blocks\stairs.json
+1bc95e0f447e485af7f87ab9084b104b04fafddb data\minecraft\tags\blocks\fences.json
 d7ce00e2b78085eb1255614f7adff8a5723d8a72 data\minecraft\tags\blocks\logs_that_burn.json
 4ca4a568a26476310d30c638585d5c9173e7d4cd data\minecraft\tags\blocks\needs_diamond_tool.json
-51d8502103aacb42312ea6ed340e860aaa57e43b data\minecraft\tags\blocks\fence_gates.json
-b519d026fa5fbb9c87eb1e5f424e71846f9c8192 data\minecraft\tags\blocks\doors.json
-d7ce00e2b78085eb1255614f7adff8a5723d8a72 data\minecraft\tags\blocks\mineable\axe.json
+b10d28101a9ae326130d2702a6208cace8e2c13a data\minecraft\tags\blocks\fence_gates.json
+967bea7233e9cffe1d833181eefd046bab714c46 data\minecraft\tags\blocks\small_flowers.json
+0ac63430bcc566e558d9b2330e4e83131bb9d9c8 data\minecraft\tags\blocks\doors.json
+b5627efbf7d27105cf275e3fd4aec944a991d14c data\minecraft\tags\blocks\dirt.json
+b5627efbf7d27105cf275e3fd4aec944a991d14c data\minecraft\tags\blocks\animals_spawnable_on.json
+ad65dbc38fa5a0eae15b4e8f53aa7910efd66cd4 data\minecraft\tags\blocks\mineable\axe.json
+013ec73d83730a4d687db5fafd49c807b1ddcc26 data\minecraft\tags\blocks\mineable\hoe.json

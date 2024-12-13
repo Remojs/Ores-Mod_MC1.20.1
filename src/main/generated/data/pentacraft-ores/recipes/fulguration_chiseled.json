@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:fulguration_stone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "II ",
+    "   "
+  ],
+  "result": {
+    "item": "pentacraft-ores:fulguration_chiseled"
+  },
+  "show_notification": true
+}

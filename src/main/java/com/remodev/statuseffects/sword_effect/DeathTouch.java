@@ -14,7 +14,7 @@ public class DeathTouch extends StatusEffect {
     private int tickCounter = 0;
 
     public DeathTouch() {
-        super(StatusEffectCategory.HARMFUL, 0x000000);
+        super(StatusEffectCategory.HARMFUL, 0x393939);
     }
 
     @Override

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:red_valley_grass",
+    "pentacraft-ores:void_grass",
+    "pentacraft-ores:cosmic_shadow_grass",
+    "pentacraft-ores:quasar_forest_grass"
+  ]
+}

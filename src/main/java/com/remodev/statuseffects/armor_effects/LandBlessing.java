@@ -10,7 +10,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class LandBlessing extends StatusEffect {
 
     public LandBlessing() {
-        super(StatusEffectCategory.BENEFICIAL, 0x00FF00);
+        super(StatusEffectCategory.BENEFICIAL, 0x00BA66);
     }
 
     @Override

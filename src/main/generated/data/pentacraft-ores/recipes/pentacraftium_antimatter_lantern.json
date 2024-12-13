@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:pentacraftium_block"
+    },
+    "I": {
+      "item": "pentacraft-ores:sarite_shard"
+    },
+    "K": {
+      "item": "pentacraft-ores:robertium_shard"
+    },
+    "P": {
+      "item": "pentacraft-ores:juanitium_shard"
+    },
+    "S": {
+      "item": "pentacraft-ores:tominite_shard"
+    }
+  },
+  "pattern": [
+    "SSP",
+    "KBP",
+    "KII"
+  ],
+  "result": {
+    "count": 6,
+    "item": "pentacraft-ores:pentacraftium_antimatter_lantern"
+  },
+  "show_notification": true
+}

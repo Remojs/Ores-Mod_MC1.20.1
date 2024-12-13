@@ -1,14 +1,21 @@
 package com.remodev.datagen;
 
+import com.remodev.PentacraftOres;
 import com.remodev.blocks.Ores;
+import com.remodev.custom.LetucceCropBlock;
+import com.remodev.custom.TomatoCropBlock;
 import com.remodev.items.Moditems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.FlowerBlock;
+import net.minecraft.data.client.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
+import org.intellij.lang.annotations.Identifier;
 
 import javax.xml.crypto.Data;
 
@@ -78,6 +85,8 @@ public class DatagenModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_STONE.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_ENDSTONE.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORE_NETHERRACK.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_BLOCK.getLeft());
 
         BlockStateModelGenerator.BlockTexturePool stellarMarbleBricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.STELLAR_MARBLE_BRICKS.getLeft());
@@ -110,6 +119,21 @@ public class DatagenModelProvider extends FabricModelProvider {
         caveMudBricksTexturePool.slab(Ores.CAVE_MUD_BRICK_SLAB.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.CAVE_MUD_BLOCK.getLeft());
 
+        BlockStateModelGenerator.BlockTexturePool beginningStoneBricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.BEGINNING_STONE_BRICK.getLeft());
+        beginningStoneBricksTexturePool.stairs(Ores.BEGINNING_STONE_BRICK_STAIRS.getLeft());
+        beginningStoneBricksTexturePool.slab(Ores.BEGINNING_STONE_BRICK_SLAB.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.BEGINNING_STONE.getLeft());
+
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.CAVE_MUD_CHISELED.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.FULGURATION_CHISELED.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.STELLAR_MARBLE_CHISELED.getLeft());
+
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.COSMIC_SHADOW_GRASS);
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.VOID_GRASS);
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.QUASAR_FOREST_GRASS);
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.RED_VALLEY_GRASS);
+
+
         BlockStateModelGenerator.BlockTexturePool zamboniumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.ZAMBONIUM_BRICK.getLeft());
         zamboniumTexturePool.stairs(Ores.ZAMBONIUM_BRICK_STAIRS.getLeft());
         zamboniumTexturePool.slab(Ores.ZAMBONIUM_BRICK_SLAB.getLeft());
@@ -135,11 +159,23 @@ public class DatagenModelProvider extends FabricModelProvider {
         tominiteTexturePool.stairs(Ores.TOMINITE_BRICK_STAIRS.getLeft());
         tominiteTexturePool.slab(Ores.TOMINITE_BRICK_SLAB.getLeft());
 
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.ZAMBONIUM_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.ROBERTIUM_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.KEVINIUM_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.JUANITIUM_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PANCHIUM_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.SARITE_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.LUKITE_CHISELED_BRICK.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.TOMINITE_CHISELED_BRICK.getLeft());
+
+
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_GLASS.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_INFINITY_LANTERN.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ORIGIN_LANTERN.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_CUANTIC_LANTERN.getLeft());
         blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ETERNAL_LANTERN.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_BIG_BANG_LANTERN.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.PENTACRAFTIUM_ANTIMATTER_LANTERN.getLeft());
 
         blockStateModelGenerator.registerLog(Ores.FRACTAL_LOG.getLeft()) .log(Ores.FRACTAL_LOG.getLeft());
         blockStateModelGenerator.registerLog(Ores.FRACTAL_STRIPPED_LOG.getLeft()) .log(Ores.FRACTAL_STRIPPED_LOG.getLeft());
@@ -152,6 +188,7 @@ public class DatagenModelProvider extends FabricModelProvider {
         fractalTexturePool.fenceGate(Ores.FRACTAL_FENCE_GATE.getLeft());
         blockStateModelGenerator.registerDoor(Ores.FRACTAL_DOOR.getLeft());
         blockStateModelGenerator.registerTrapdoor(Ores.FRACTAL_TRAPDOOR.getLeft());
+        blockStateModelGenerator.registerTintableCross(Ores.FRACTAL_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerLog(Ores.QUANTUM_LOG.getLeft()) .log(Ores.QUANTUM_LOG.getLeft());
         blockStateModelGenerator.registerLog(Ores.QUANTUM_STRIPPED_LOG.getLeft()) .log(Ores.QUANTUM_STRIPPED_LOG.getLeft());
@@ -164,6 +201,7 @@ public class DatagenModelProvider extends FabricModelProvider {
         quantumTexturePool.fenceGate(Ores.QUANTUM_FENCE_GATE.getLeft());
         blockStateModelGenerator.registerDoor(Ores.QUANTUM_DOOR.getLeft());
         blockStateModelGenerator.registerTrapdoor(Ores.QUANTUM_TRAPDOOR.getLeft());
+        blockStateModelGenerator.registerTintableCross(Ores.QUANTUM_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerLog(Ores.QUASAR_LOG.getLeft()) .log(Ores.QUASAR_LOG.getLeft());
         blockStateModelGenerator.registerLog(Ores.QUASAR_STRIPPED_LOG.getLeft()) .log(Ores.QUASAR_STRIPPED_LOG.getLeft());
@@ -176,6 +214,7 @@ public class DatagenModelProvider extends FabricModelProvider {
         quasarTexturePool.fenceGate(Ores.QUASAR_FENCE_GATE.getLeft());
         blockStateModelGenerator.registerDoor(Ores.QUASAR_DOOR.getLeft());
         blockStateModelGenerator.registerTrapdoor(Ores.QUASAR_TRAPDOOR.getLeft());
+        blockStateModelGenerator.registerTintableCross(Ores.QUASAR_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerLog(Ores.DARK_MATTER_LOG.getLeft()) .log(Ores.DARK_MATTER_LOG.getLeft());
         blockStateModelGenerator.registerLog(Ores.DARK_MATTER_STRIPPED_LOG.getLeft()) .log(Ores.DARK_MATTER_STRIPPED_LOG.getLeft());
@@ -188,8 +227,56 @@ public class DatagenModelProvider extends FabricModelProvider {
         darkMatterTexturePool.fenceGate(Ores.DARK_MATTER_FENCE_GATE.getLeft());
         blockStateModelGenerator.registerDoor(Ores.DARK_MATTER_DOOR.getLeft());
         blockStateModelGenerator.registerTrapdoor(Ores.DARK_MATTER_TRAPDOOR.getLeft());
+        blockStateModelGenerator.registerTintableCross(Ores.DARK_MATTER_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerLog(Ores.AURORA_LOG.getLeft()) .log(Ores.AURORA_LOG.getLeft());
+        blockStateModelGenerator.registerLog(Ores.AURORA_STRIPPED_LOG.getLeft()) .log(Ores.AURORA_STRIPPED_LOG.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.AURORA_PACKED_PLANKS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.AURORA_LEAVES.getLeft());
+        BlockStateModelGenerator.BlockTexturePool auroraTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.AURORA_PLANKS.getLeft());
+        auroraTexturePool.stairs(Ores.AURORA_STAIRS.getLeft());
+        auroraTexturePool.slab(Ores.AURORA_SLAB.getLeft());
+        auroraTexturePool.fence(Ores.AURORA_FENCE.getLeft());
+        auroraTexturePool.fenceGate(Ores.AURORA_FENCE_GATE.getLeft());
+        blockStateModelGenerator.registerDoor(Ores.AURORA_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(Ores.AURORA_TRAPDOOR.getLeft());
+        blockStateModelGenerator.registerTintableCross(Ores.AURORA_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerLog(Ores.GAMMA_LOG.getLeft()) .log(Ores.GAMMA_LOG.getLeft());
+        blockStateModelGenerator.registerLog(Ores.GAMMA_STRIPPED_LOG.getLeft()) .log(Ores.GAMMA_STRIPPED_LOG.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.GAMMA_PACKED_PLANKS.getLeft());
+        blockStateModelGenerator.registerSimpleCubeAll(Ores.GAMMA_LEAVES.getLeft());
+        BlockStateModelGenerator.BlockTexturePool gammaTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ores.GAMMA_PLANKS.getLeft());
+        gammaTexturePool.stairs(Ores.GAMMA_STAIRS.getLeft());
+        gammaTexturePool.slab(Ores.GAMMA_SLAB.getLeft());
+        gammaTexturePool.fence(Ores.GAMMA_FENCE.getLeft());
+        gammaTexturePool.fenceGate(Ores.GAMMA_FENCE_GATE.getLeft());
+        blockStateModelGenerator.registerDoor(Ores.GAMMA_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(Ores.GAMMA_TRAPDOOR.getLeft());
+        blockStateModelGenerator.registerTintableCross(Ores.GAMMA_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerCrop(Ores.LUKI_TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(Ores.ROBERT_LETUCCE_CROP,  LetucceCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.ABYSS_CRY, Ores.POTTED_ABYSS_CRY, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.UMBRAROSE, Ores.POTTED_UMBRAROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.VOID_CROWN, Ores.POTTED_VOID_CROWN, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.COSMIC_SHADOW, Ores.POTTED_COSMIC_SHADOW,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.NEBULIGHT_BLOSSOM, Ores.POTTED_NEBULIGHT_BLOSSOM, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.TEAR_OF_THE_NIGHT, Ores.POTTED_TEAR_OF_THE_NIGHT, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.CRYSTAL_FLOWER, Ores.POTTED_CRYSTAL_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.QUASAR_BUSH, Ores.POTTED_QUASAR_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.ASTRAL_BUSH, Ores.POTTED_ASTRAL_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.BLOOD_FUNGUS, Ores.POTTED_BLOOD_FUNGUS, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.LEECH_FLOWER, Ores.POTTED_LEECH_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Ores.SUNFIRE_BUSH, Ores.POTTED_SUNFIRE_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED);
 
     }
+
+    
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator){
@@ -316,14 +403,19 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_CORE , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_HEART , Models.GENERATED);
         itemModelGenerator.register(Moditems.PENTACRAFTIUM_DUST , Models.GENERATED);
+
         itemModelGenerator.register(Moditems.LUKI_TOMATO , Models.GENERATED);
         itemModelGenerator.register(Moditems.ROBERT_LETUCCE , Models.GENERATED);
-        itemModelGenerator.register(Moditems.LETUCCE_SEED , Models.GENERATED);
-        itemModelGenerator.register(Moditems.TOMATO_SEED , Models.GENERATED);
-        itemModelGenerator.register(Moditems.QUASAR_SAPLING , Models.GENERATED);
-        itemModelGenerator.register(Moditems.DARK_MATTER_SAPLING , Models.GENERATED);
-        itemModelGenerator.register(Moditems.QUANTUM_SAPLING , Models.GENERATED);
-        itemModelGenerator.register(Moditems.FRACTAL_SAPLING , Models.GENERATED);
+        itemModelGenerator.register(Moditems.CHORIPAN_FOOD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.MATE_FOOD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.PATY_FOOD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.MONSTER_FOOD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.SPEED_FOOD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.BURGER_FOOD , Models.GENERATED);
+
+        itemModelGenerator.register(Moditems.DISTORSION_EMERALD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.CORRUPTED_EMERALD , Models.GENERATED);
+        itemModelGenerator.register(Moditems.CHAOTIC_EMERALD , Models.GENERATED);
 
         itemModelGenerator.register(Moditems.DEATH_CATALYST, Models.GENERATED);
         itemModelGenerator.register(Moditems.DEATH_SCYTHE, Models.GENERATED);
@@ -345,6 +437,9 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.MOB_ESSENCE, Models.GENERATED);
         itemModelGenerator.register(Moditems.PRIMAL_FLAME, Models.GENERATED);
         itemModelGenerator.register(Moditems.FIRE_FUNGUS, Models.GENERATED);
+
+        itemModelGenerator.register(Moditems.CLEAN_SLOT, Models.GENERATED);
+
 
     }
 }

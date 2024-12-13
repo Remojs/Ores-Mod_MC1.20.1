@@ -22,10 +22,14 @@ public class DatagenItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Ores.QUANTUM_PLANKS.getRight().asItem())
                 .add(Ores.FRACTAL_PLANKS.getRight().asItem())
                 .add(Ores.QUASAR_PLANKS.getRight().asItem())
+                .add(Ores.AURORA_PLANKS.getRight().asItem())
+                .add(Ores.GAMMA_PLANKS.getRight().asItem())
                 .add(Ores.DARK_MATTER_PACKED_PLANKS.getRight().asItem())
                 .add(Ores.QUANTUM_PACKED_PLANKS.getRight().asItem())
                 .add(Ores.FRACTAL_PACKED_PLANKS.getRight().asItem())
-                .add(Ores.QUASAR_PACKED_PLANKS.getRight().asItem());
+                .add(Ores.QUASAR_PACKED_PLANKS.getRight().asItem())
+                .add(Ores.AURORA_PACKED_PLANKS.getRight().asItem())
+                .add(Ores.GAMMA_PACKED_PLANKS.getRight().asItem());
 
     }
 }

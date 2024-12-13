@@ -10,7 +10,7 @@ import net.minecraft.entity.player.PlayerEntity;
 public class CelestialDomain extends StatusEffect {
 
     public CelestialDomain() {
-        super(StatusEffectCategory.BENEFICIAL, 0xFFD700); // Color dorado
+        super(StatusEffectCategory.BENEFICIAL, 0xD1F4FF); // Color dorado
     }
 
     @Override

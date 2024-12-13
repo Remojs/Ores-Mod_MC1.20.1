@@ -10,7 +10,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class LastAscencion extends StatusEffect {
 
     public LastAscencion() {
-        super(StatusEffectCategory.BENEFICIAL, 0x0000FF);
+        super(StatusEffectCategory.BENEFICIAL, 0xF6FFF8);
     }
 
     @Override

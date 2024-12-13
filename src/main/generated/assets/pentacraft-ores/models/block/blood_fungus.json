@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pentacraft-ores:block/blood_fungus"
+  }
+}

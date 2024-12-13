@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pentacraft-ores:pentacraftium_infinity_lantern",
+    "pentacraft-ores:pentacraftium_eternal_lantern",
+    "pentacraft-ores:pentacraftium_cuantic_lantern",
+    "pentacraft-ores:pentacraftium_antimatter_lantern",
+    "pentacraft-ores:pentacraftium_big_bang_lantern",
+    "pentacraft-ores:pentacraftium_origin_lantern"
+  ]
+}

@@ -4,6 +4,8 @@
     "pentacraft-ores:fractal_fence_gate",
     "pentacraft-ores:quantum_fence_gate",
     "pentacraft-ores:quasar_fence_gate",
-    "pentacraft-ores:dark_matter_fence_gate"
+    "pentacraft-ores:dark_matter_fence_gate",
+    "pentacraft-ores:gamma_fence_gate",
+    "pentacraft-ores:aurora_fence_gate"
   ]
 }

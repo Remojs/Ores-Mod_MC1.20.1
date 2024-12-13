@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:gamma_planks"
+    }
+  },
+  "pattern": [
+    "III",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "pentacraft-ores:gamma_trapdoor"
+  },
+  "show_notification": true
+}

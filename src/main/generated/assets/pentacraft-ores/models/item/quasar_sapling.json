@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "pentacraft-ores:item/quasar_sapling"
+    "layer0": "pentacraft-ores:block/quasar_sapling"
   }
 }

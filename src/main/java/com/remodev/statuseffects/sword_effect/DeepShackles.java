@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 public class DeepShackles extends StatusEffect {
 
     public DeepShackles() {
-        super(StatusEffectCategory.HARMFUL, 0x0000FF);
+        super(StatusEffectCategory.HARMFUL, 0x0077B6);
     }
 
     @Override

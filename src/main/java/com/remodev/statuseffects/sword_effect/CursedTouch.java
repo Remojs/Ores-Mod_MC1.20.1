@@ -17,7 +17,7 @@ public class CursedTouch extends StatusEffect {
     public static final StatusEffect CURSED_TOUCH = new CursedTouch();
 
     public CursedTouch() {
-        super(StatusEffectCategory.HARMFUL, 0x800080); // Color violeta
+        super(StatusEffectCategory.HARMFUL, 0x730071); // Color violeta
     }
 
     @Override

@@ -10,7 +10,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class ElectricAscent extends StatusEffect {
 
     public ElectricAscent() {
-        super(StatusEffectCategory.BENEFICIAL, 0xFFFF00);
+        super(StatusEffectCategory.BENEFICIAL, 0xF5B82E);
     }
 
     @Override

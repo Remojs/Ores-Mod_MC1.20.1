@@ -15,7 +15,7 @@ public class ElectroparalysisEffect extends StatusEffect {
     private int tickCounter = 0;
 
     public ElectroparalysisEffect() {
-        super(StatusEffectCategory.HARMFUL, 0xFFFF00);
+        super(StatusEffectCategory.HARMFUL, 0xF4AC45);
     }
 
     @Override

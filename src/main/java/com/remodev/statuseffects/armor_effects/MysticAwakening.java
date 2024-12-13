@@ -9,7 +9,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class MysticAwakening extends StatusEffect {
 
     public MysticAwakening() {
-        super(StatusEffectCategory.BENEFICIAL, 0xFFFFFF);
+        super(StatusEffectCategory.BENEFICIAL, 0xBF00BC);
     }
 
     @Override

@@ -11,7 +11,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class DragonBoost extends StatusEffect {
 
     public DragonBoost() {
-        super(StatusEffectCategory.BENEFICIAL, 0x6A0DAD);
+        super(StatusEffectCategory.BENEFICIAL, 0xB47AEA);
     }
 
     @Override

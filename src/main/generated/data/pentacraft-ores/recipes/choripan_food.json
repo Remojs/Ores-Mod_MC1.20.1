@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:bread"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "pattern": [
+    " I ",
+    " P ",
+    " I "
+  ],
+  "result": {
+    "item": "pentacraft-ores:choripan_food"
+  },
+  "show_notification": true
+}

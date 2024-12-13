@@ -11,7 +11,7 @@ import com.remodev.sound.ModSounds;
 public class AbyssTouch extends StatusEffect {
 
     public AbyssTouch() {
-        super(StatusEffectCategory.HARMFUL, 0x0000FF);
+        super(StatusEffectCategory.HARMFUL, 0x000262);
     }
 
     @Override

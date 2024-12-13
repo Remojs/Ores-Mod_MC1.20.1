@@ -11,7 +11,7 @@ import net.minecraft.entity.player.PlayerEntity;
 public class DarkResurrection extends StatusEffect {
 
     public DarkResurrection() {
-        super(StatusEffectCategory.BENEFICIAL, 0x4B0082);
+        super(StatusEffectCategory.BENEFICIAL, 0x000000);
     }
 
     @Override

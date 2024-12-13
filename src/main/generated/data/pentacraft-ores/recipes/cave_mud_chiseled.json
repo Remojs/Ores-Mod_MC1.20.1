@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:cave_mud_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "II ",
+    "   "
+  ],
+  "result": {
+    "item": "pentacraft-ores:cave_mud_chiseled"
+  },
+  "show_notification": true
+}

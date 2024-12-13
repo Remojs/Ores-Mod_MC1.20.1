@@ -10,7 +10,7 @@ import net.minecraft.entity.effect.StatusEffects;
 public class WaterBoost extends StatusEffect {
 
     public WaterBoost() {
-        super(StatusEffectCategory.BENEFICIAL, 0x0000FF);
+        super(StatusEffectCategory.BENEFICIAL, 0x005EFF);
     }
 
     @Override

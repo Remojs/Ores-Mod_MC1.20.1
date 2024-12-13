@@ -4,6 +4,8 @@
     "pentacraft-ores:fractal_door",
     "pentacraft-ores:quantum_door",
     "pentacraft-ores:quasar_door",
-    "pentacraft-ores:dark_matter_door"
+    "pentacraft-ores:dark_matter_door",
+    "pentacraft-ores:gamma_door",
+    "pentacraft-ores:aurora_door"
   ]
 }

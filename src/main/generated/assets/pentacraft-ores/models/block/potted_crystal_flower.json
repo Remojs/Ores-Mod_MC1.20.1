@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "plant": "pentacraft-ores:block/crystal_flower"
+  }
+}

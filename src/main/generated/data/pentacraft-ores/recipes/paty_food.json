@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "pattern": [
+    "   ",
+    " I ",
+    "   "
+  ],
+  "result": {
+    "item": "pentacraft-ores:paty_food"
+  },
+  "show_notification": true
+}

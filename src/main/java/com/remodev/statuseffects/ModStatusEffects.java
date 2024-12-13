@@ -2,6 +2,7 @@ package com.remodev.statuseffects;
 
 import com.remodev.PentacraftOres;
 import com.remodev.statuseffects.armor_effects.*;
+import com.remodev.statuseffects.armor_boost.*;
 import com.remodev.statuseffects.sword_effect.*;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.registry.Registries;
@@ -32,6 +33,16 @@ public class ModStatusEffects {
     public static StatusEffect WATER_BOOST;
     public static StatusEffect FIRE_BOOST;
     public static StatusEffect LAND_BLESSING;
+    public static StatusEffect DRAGON_BOOST;
+
+    public static StatusEffect ZAMBONIUM_BOOST;
+    public static StatusEffect ROBERTIUM_BOOST;
+    public static StatusEffect KEVINIUM_BOOST;
+    public static StatusEffect JUANITIUM_BOOST;
+    public static StatusEffect PANCHIUM_BOOST;
+    public static StatusEffect SARITE_BOOST;
+    public static StatusEffect LUKITE_BOOST;
+    public static StatusEffect TOMINITE_BOOST;
 
 
     public static void registerEffects() {
@@ -57,6 +68,17 @@ public class ModStatusEffects {
         WATER_BOOST = registerEffect("water_boost", new WaterBoost());
         FIRE_BOOST = registerEffect("fire_boost", new FireBoost());
         LAND_BLESSING = registerEffect("land_blessing", new LandBlessing());
+        DRAGON_BOOST = registerEffect("dragon_boost", new DragonBoost());
+
+        //Armor Boost
+        ZAMBONIUM_BOOST = registerEffect("zambonium_boost", new ZamboniumBoost());
+        ROBERTIUM_BOOST = registerEffect("robertium_boost", new RobertiumBoost());
+        KEVINIUM_BOOST = registerEffect("kevinium_boost", new KeviniumBoost());
+        JUANITIUM_BOOST = registerEffect("juanitium_boost", new JuanitiumBoost());
+        PANCHIUM_BOOST = registerEffect("panchium_boost", new PanchiumBoost());
+        SARITE_BOOST = registerEffect("sarite_boost", new SariteBoost());
+        LUKITE_BOOST = registerEffect("lukite_boost", new LukiteBoost());
+        TOMINITE_BOOST = registerEffect("tominite_boost", new TominiteBoost());
 
 
     }

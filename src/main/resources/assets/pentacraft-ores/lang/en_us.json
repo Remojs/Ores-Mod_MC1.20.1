@@ -157,10 +157,23 @@
   "item.pentacraft-ores.robert_letucce" :  "Robert's Letucce",
   "item.pentacraft-ores.letucce_seed" :  "Robert's Letucce Seed",
   "item.pentacraft-ores.tomato_seed" : "Luki's Tomato Seed",
-  "item.pentacraft-ores.quasar_sapling" :  "Quasar Sapling",
-  "item.pentacraft-ores.dark_matter_sapling" :  "Dark Matter Sapling",
-  "item.pentacraft-ores.quantum_sapling" :  "Quantum Sapling",
-  "item.pentacraft-ores.fractal_sapling" :  "Fractal Sapling",
+  "item.pentacraft-ores.monster_food" : "Monster Energy Drink",
+  "item.pentacraft-ores.speed_food" : "Speed Unlimited Drink",
+  "item.pentacraft-ores.choripan_food" : "Choripan",
+  "item.pentacraft-ores.paty_food" : "Paty",
+  "item.pentacraft-ores.burger_food" : "Burger",
+  "item.pentacraft-ores.mate_food" : "Mate",
+
+  "block.pentacraft-ores.quasar_sapling" :  "Quasar Sapling",
+  "block.pentacraft-ores.dark_matter_sapling" :  "Dark Matter Sapling",
+  "block.pentacraft-ores.quantum_sapling" :  "Quantum Sapling",
+  "block.pentacraft-ores.fractal_sapling" :  "Fractal Sapling",
+  "block.pentacraft-ores.aurora_sapling" :  "Aurora Sapling",
+  "block.pentacraft-ores.gamma_sapling" :  "Gamma Sapling",
+
+  "item.pentacraft-ores.distorsion_emerald" :  "Distorsioned Emerald",
+  "item.pentacraft-ores.corrupted_emerald" :  "Corrupted Emerald",
+  "item.pentacraft-ores.chaotic_emerald" :  "Emerald of Chaos",
 
   // MISC ITEMS ----------------------------------------------------------------------
 
@@ -226,6 +239,8 @@
 
   "block.pentacraft-ores.pentacraftium_ore_stone": "Pentacraftium Ore",
   "block.pentacraft-ores.pentacraftium_ore_deepslate": "Deepslate Pentacraftium Ore",
+  "block.pentacraft-ores.pentacraftium_ore_endstone": "Endstone Pentacraftium Ore",
+  "block.pentacraft-ores.pentacraftium_ore_netherrack": "Netherrack Pentacraftium Ore",
   "block.pentacraft-ores.pentacraftium_block": "Pentacraftium Block",
 
   // ORE BLOCKS ----------------------------------------------------------------------
@@ -249,6 +264,8 @@
   "block.pentacraft-ores.stellar_marble_smooth_stairs": "Stellar Marble Smooth Stairs",
   "block.pentacraft-ores.stellar_marble_smooth_slab": "Stellar Marble Smooth Slab",
 
+  "block.pentacraft-ores.stellar_marble_chiseled": "Stellar Marble Chiseled",
+
 
   "block.pentacraft-ores.fulguration_stone": "Fulguration Stone",
 
@@ -264,6 +281,8 @@
   "block.pentacraft-ores.fulguration_smooth_stairs": "Fulguration Smooth Stairs",
   "block.pentacraft-ores.fulguration_smooth_slab": "Fulguration Smooth Slab",
 
+  "block.pentacraft-ores.fulguration_chiseled": "Fulguration Chiseled",
+
 
   "block.pentacraft-ores.cave_mud_block": "Cave Mud Block",
 
@@ -275,6 +294,15 @@
   "block.pentacraft-ores.cave_mud_smooth_stairs": "Cave Mud Smooth Stairs",
   "block.pentacraft-ores.cave_mud_smooth_slab": "Cave Mud Smooth Slab",
 
+  "block.pentacraft-ores.cave_mud_chiseled": "Cave Mud Chiseled",
+
+
+  "block.pentacraft-ores.beginning_stone": "Beginning Stone Block",
+
+  "block.pentacraft-ores.beginning_stone_brick": "Beginning Stone Brick",
+  "block.pentacraft-ores.beginning_stone_brick_stairs": "Beginning Stone Brick Stairs",
+  "block.pentacraft-ores.beginning_stone_brick_slab": "Beginning Stone Brick Slab",
+
 
   "block.pentacraft-ores.pentacraftium_glass": "Pentacraftium Glass",
 
@@ -283,6 +311,15 @@
   "block.pentacraft-ores.pentacraftium_eternal_lantern": "Pentacraftium Eternal Lantern",
   "block.pentacraft-ores.pentacraftium_infinity_lantern": "Pentacraftium Infinity Lantern",
   "block.pentacraft-ores.pentacraftium_origin_lantern": "Pentacraftium Origin Lantern",
+  "block.pentacraft-ores.pentacraftium_big_bang_lantern": "Pentacraftium Big Bang Lantern",
+  "block.pentacraft-ores.pentacraftium_antimatter_lantern": "Pentacraftium Antimatter Lantern",
+
+  "block.pentacraft-ores.pentacraftium_cuantic_catalyst": "Pentacraftium Cuantic Catalyst",
+  "block.pentacraft-ores.pentacraftium_eternal_catalyst": "Pentacraftium Eternal Catalyst",
+  "block.pentacraft-ores.pentacraftium_infinity_catalyst": "Pentacraftium Infinity Catalyst",
+  "block.pentacraft-ores.pentacraftium_origin_catalyst": "Pentacraftium Origin Catalyst",
+  "block.pentacraft-ores.pentacraftium_big_bang_catalyst": "Pentacraftium Big Bang Catalyst",
+  "block.pentacraft-ores.pentacraftium_antimatter_catalyst": "Pentacraftium Antimatter Catalyst",
 
   "block.pentacraft-ores.zambonium_brick": "Zambonium Brick",
   "block.pentacraft-ores.zambonium_brick_stairs": "Zambonium Brick Stairs",
@@ -370,6 +407,30 @@
   "block.pentacraft-ores.quasar_fence": "Quasar Fence",
   "block.pentacraft-ores.quasar_fence_gate": "Quasar Fence Gate",
 
+  "block.pentacraft-ores.aurora_log": "Aurora Log",
+  "block.pentacraft-ores.aurora_stripped_log": "Aurora Stripped Log",
+  "block.pentacraft-ores.aurora_planks": "Aurora Planks",
+  "block.pentacraft-ores.aurora_packed_planks": "Aurora Packed Planks",
+  "block.pentacraft-ores.aurora_leaves": "Aurora Leaves",
+  "block.pentacraft-ores.aurora_door": "Aurora Door",
+  "block.pentacraft-ores.aurora_trapdoor": "Aurora Trapdoor",
+  "block.pentacraft-ores.aurora_stairs": "Aurora Stairs",
+  "block.pentacraft-ores.aurora_slab": "Aurora Slab",
+  "block.pentacraft-ores.aurora_fence": "Aurora Fence",
+  "block.pentacraft-ores.aurora_fence_gate": "Aurora Fence Gate",
+
+  "block.pentacraft-ores.gamma_log": "Gamma Log",
+  "block.pentacraft-ores.gamma_stripped_log": "Gamma Stripped Log",
+  "block.pentacraft-ores.gamma_planks": "Gamma Planks",
+  "block.pentacraft-ores.gamma_packed_planks": "Gamma Packed Planks",
+  "block.pentacraft-ores.gamma_leaves": "Gamma Leaves",
+  "block.pentacraft-ores.gamma_door": "Gamma Door",
+  "block.pentacraft-ores.gamma_trapdoor": "Gamma Trapdoor",
+  "block.pentacraft-ores.gamma_stairs": "Gamma Stairs",
+  "block.pentacraft-ores.gamma_slab": "Gamma Slab",
+  "block.pentacraft-ores.gamma_fence": "Gamma Fence",
+  "block.pentacraft-ores.gamma_fence_gate": "Gamma Fence Gate",
+
   // WOOD BLOCKS ---------------------------------------------------------------------
 
   // ---------------------------------------------------------------------------------
@@ -394,7 +455,7 @@
   "item.pentacraft-ores.custom_armor.tooltip": "Piece of armor lost in the",
   "item.pentacraft-ores.custom_armor.tooltip2": "great multiversal collapse.",
   "item.pentacraft-ores.custom_greataxe.tooltip": "Battle Axe from the remnants of",
-  "item.pentacraft-ores.custom_greataxe.tooltip2": "a errante dimension in the multiverse",
+  "item.pentacraft-ores.custom_greataxe.tooltip2": "a errant dimension in the multiverse",
   "item.pentacraft-ores.custom_tool.tooltip": "Legendary Tool from some",
   "item.pentacraft-ores.custom_tool.tooltip2": "ancient collapsed reality",
   "item.pentacraft-ores.custom_hammer.tooltip": "Hammer of the ancient miners",
@@ -417,6 +478,8 @@
 
   // SWORD EFFECTS -------------------------------------------------------------------
 
+  "item.pentacraft-ores.custom.full_set": "Full Set Bonus:",
+
   "item.pentacraft-ores.custom_sword.zambonium_sword_soulabsorption": "Soul Absorption",
   "item.pentacraft-ores.custom_sword.zambonium_sword_deathtouch": "Death Touch",
   "item.pentacraft-ores.custom_armor.zambonium_armor_necroaura": "Necro-aura",
@@ -434,13 +497,12 @@
 
   "item.pentacraft-ores.custom_sword.sarite_sword_dragonecho": "Dragon Echo",
   "item.pentacraft-ores.custom_sword.sarite_sword_dimensionalcontrol": "Dimensional Control",
-  "item.pentacraft-ores.custom_armor.sarite_armor_endinheritance": "End Inheritance",
   "item.pentacraft-ores.custom_armor.sarite_armor_dragonboost": "Dragon Boost",
   "item.pentacraft-ores.custom_armor.sarite_armor_dimensionalprotection": "Dimensional Protection",
 
   "item.pentacraft-ores.custom_sword.tominite_sword_essenceharvesting": "Essence Harvesting",
   "item.pentacraft-ores.custom_sword.tominite_sword_worldboost": "World Boost",
-  "item.pentacraft-ores.custom_sword.tominite_armor_ironcore": "Iron Core",
+  "item.pentacraft-ores.custom_sword.tominite_armor_ironcore": "Iron Skin",
   "item.pentacraft-ores.custom_sword.tominite_armor_landblessing": "Land Blessing",
 
   "item.pentacraft-ores.custom_sword.juanitium_sword_deepshackles": "Deep Shackles",
@@ -451,13 +513,11 @@
   "item.pentacraft-ores.custom_sword.lukite_sword_gravitytouch": "Gravity Touch",
   "item.pentacraft-ores.custom_sword.lukite_sword_skyking": "Sky King",
   "item.pentacraft-ores.custom_sword.lukite_armor_windshield": "Wind Shield",
-  "item.pentacraft-ores.custom_sword.lukite_armor_celestialdomain": "Celestial Domain",
   "item.pentacraft-ores.custom_sword.lukite_armor_lastascencion": "Last Ascencion",
 
   "item.pentacraft-ores.custom_sword.kevinium_sword_cursedtouch": "Cursed Touch",
   "item.pentacraft-ores.custom_sword.kevinium_sword_arcanesword": "Arcane Sword",
   "item.pentacraft-ores.custom_sword.kevinium_armor_vitalextension": "Vital Extension",
-  "item.pentacraft-ores.custom_sword.kevinium_armor_arcanepurity": "Arcane purity",
   "item.pentacraft-ores.custom_sword.kevinium_armor_mysticawakening": "Mystic Awakening",
 
   // SWORD EFFECTS -------------------------------------------------------------------
@@ -488,6 +548,15 @@
   "effect.pentacraft-ores.water_boost": "Water Boost",
   "effect.pentacraft-ores.fire_boost": "Fire Boost",
 
+  "effect.pentacraft-ores.zambonium_boost": "Undead King",
+  "effect.pentacraft-ores.robertium_boost": "Lord od the Underworld",
+  "effect.pentacraft-ores.kevinium_boost": "Primordial Arcanist",
+  "effect.pentacraft-ores.panchium_boost": "Thunder Colossus",
+  "effect.pentacraft-ores.juanitium_boost": "Emperor of the Tides",
+  "effect.pentacraft-ores.lukite_boost": "Celestial Monarch",
+  "effect.pentacraft-ores.sarite_boost": "Sovereign of the End",
+  "effect.pentacraft-ores.tominite_boost": "Guardian of the Overworld",
+
   // POTION EFFECTS ------------------------------------------------------------------
 
   // ---------------------------------------------------------------------------------
@@ -512,6 +581,129 @@
   "sounds.pentacraft-ores.dimensionalswoosh": "Dimensional Swoosh",
   "sounds.pentacraft-ores.magicattack": "Imbuided Spell Sword",
   "sounds.pentacraft-ores.dimensionalanomaly": "Dimensional Anomaly",
-  "sounds.pentacraft-ores.dimensionalmismatch": "Dimensional Mismatch"
+  "sounds.pentacraft-ores.dimensionalmismatch": "Dimensional Mismatch",
 
+  // SOUND EFFECTS  ------------------------------------------------------------------
+
+  // ---------------------------------------------------------------------------------
+
+  // VILLAGER PROFESSIONS  ------------------------------------------------------------------
+
+  "entity.minecraft.villager.dimensional_sage" : "Dimensional Sage",
+  "entity.minecraft.villager.dimensional_decorator" : "Dimensional Decorator",
+  "entity.minecraft.villager.dimensional_constructor" : "Dimensional Constructor",
+  "entity.minecraft.villager.dimensional_farmer" : "Dimensional Farmer",
+  "entity.minecraft.villager.dimensional_weapondealer" : "Dimensional Weapon Dealer",
+  "entity.minecraft.villager.dimensional_armorer" : "Dimensional Armorer",
+
+
+  // POTIONS  ------------------------------------------------------------------
+
+  "item.minecraft.potion.effect.electroparalysispotion": "Electroparalysis Potion",
+  "item.minecraft.potion.effect.electroshockpotion": "Electroshock Potion",
+  "item.minecraft.potion.effect.deepshacklespotion": "Deep Shackles Potion",
+  "item.minecraft.potion.effect.windtouchpotion": "Wind Touch Potion",
+  "item.minecraft.potion.effect.eternalfirepotion": "Eternal Fire Potion",
+  "item.minecraft.potion.effect.deathtouchpotion": "Death Touch Potion",
+  "item.minecraft.potion.effect.dimensionalanomalypotion": "Dimensional Anomaly Potion",
+  "item.minecraft.potion.effect.worldessencepotion": "World Essence Potion",
+  "item.minecraft.potion.effect.cursedtouchpotion": "Cursed Touch Potion",
+  "item.minecraft.potion.effect.abysstouchpotion": "Abyss Touch Potion",
+  "item.minecraft.potion.effect.mysticawakeningpotion": "Mystic Awakening Potion",
+  "item.minecraft.potion.effect.dimensionalmismatchpotion": "Dimensional Mismatch Potion",
+  "item.minecraft.potion.effect.darkresurrectionpotion": "Dark Resurrection Potion",
+  "item.minecraft.potion.effect.celestialdomainpotion": "Celestial Domain Potion",
+  "item.minecraft.potion.effect.dragonboostpotion": "Dragon Boost Potion",
+  "item.minecraft.potion.effect.electricascentpotion": "Electric Ascent Potion",
+  "item.minecraft.potion.effect.landblessingpotion": "Land Blessing Potion",
+  "item.minecraft.potion.effect.lastascencionpotion": "Last Ascencion Potion",
+  "item.minecraft.potion.effect.waterboostpotion": "Water Boost Potion",
+  "item.minecraft.potion.effect.fireboostpotion": "Fire Boost Potion",
+
+  "item.minecraft.splash_potion.effect.electroparalysispotion": "Electroparalysis Potion",
+  "item.minecraft.splash_potion.effect.electroshockpotion": "Electroshock Potion",
+  "item.minecraft.splash_potion.effect.deepshacklespotion": "Deep Shackles Potion",
+  "item.minecraft.splash_potion.effect.windtouchpotion": "Wind Touch Potion",
+  "item.minecraft.splash_potion.effect.eternalfirepotion": "Eternal Fire Potion",
+  "item.minecraft.splash_potion.effect.deathtouchpotion": "Death Touch Potion",
+  "item.minecraft.splash_potion.effect.dimensionalanomalypotion": "Dimensional Anomaly Potion",
+  "item.minecraft.splash_potion.effect.worldessencepotion": "World Essence Potion",
+  "item.minecraft.splash_potion.effect.cursedtouchpotion": "Cursed Touch Potion",
+  "item.minecraft.splash_potion.effect.abysstouchpotion": "Abyss Touch Potion",
+  "item.minecraft.splash_potion.effect.mysticawakeningpotion": "Mystic Awakening Potion",
+  "item.minecraft.splash_potion.effect.dimensionalmismatchpotion": "Dimensional Mismatch Potion",
+  "item.minecraft.splash_potion.effect.darkresurrectionpotion": "Dark Resurrection Potion",
+  "item.minecraft.splash_potion.effect.celestialdomainpotion": "Celestial Domain Potion",
+  "item.minecraft.splash_potion.effect.dragonboostpotion": "Dragon Boost Potion",
+  "item.minecraft.splash_potion.effect.electricascentpotion": "Electric Ascent Potion",
+  "item.minecraft.splash_potion.effect.landblessingpotion": "Land Blessing Potion",
+  "item.minecraft.splash_potion.effect.lastascencionpotion": "Last Ascencion Potion",
+  "item.minecraft.splash_potion.effect.waterboostpotion": "Water Boost Potion",
+  "item.minecraft.splash_potion.effect.fireboostpotion": "Fire Boost Potion",
+
+  "item.minecraft.lingering_potion.effect.electroparalysispotion": "Electroparalysis Potion",
+  "item.minecraft.lingering_potion.effect.electroshockpotion": "Electroshock Potion",
+  "item.minecraft.lingering_potion.effect.deepshacklespotion": "Deep Shackles Potion",
+  "item.minecraft.lingering_potion.effect.windtouchpotion": "Wind Touch Potion",
+  "item.minecraft.lingering_potion.effect.eternalfirepotion": "Eternal Fire Potion",
+  "item.minecraft.lingering_potion.effect.deathtouchpotion": "Death Touch Potion",
+  "item.minecraft.lingering_potion.effect.dimensionalanomalypotion": "Dimensional Anomaly Potion",
+  "item.minecraft.lingering_potion.effect.worldessencepotion": "World Essence Potion",
+  "item.minecraft.lingering_potion.effect.cursedtouchpotion": "Cursed Touch Potion",
+  "item.minecraft.lingering_potion.effect.abysstouchpotion": "Abyss Touch Potion",
+  "item.minecraft.lingering_potion.effect.mysticawakeningpotion": "Mystic Awakening Potion",
+  "item.minecraft.lingering_potion.effect.dimensionalmismatchpotion": "Dimensional Mismatch Potion",
+  "item.minecraft.lingering_potion.effect.darkresurrectionpotion": "Dark Resurrection Potion",
+  "item.minecraft.lingering_potion.effect.celestialdomainpotion": "Celestial Domain Potion",
+  "item.minecraft.lingering_potion.effect.dragonboostpotion": "Dragon Boost Potion",
+  "item.minecraft.lingering_potion.effect.electricascentpotion": "Electric Ascent Potion",
+  "item.minecraft.lingering_potion.effect.landblessingpotion": "Land Blessing Potion",
+  "item.minecraft.lingering_potion.effect.lastascencionpotion": "Last Ascencion Potion",
+  "item.minecraft.lingering_potion.effect.waterboostpotion": "Water Boost Potion",
+  "item.minecraft.lingering_potion.effect.fireboostpotion": "Fire Boost Potion",
+
+  "item.minecraft.tipped_arrow.effect.electroparalysispotion": "Electroparalysis Arrow",
+  "item.minecraft.tipped_arrow.effect.electroshockpotion": "Electroshock Arrow",
+  "item.minecraft.tipped_arrow.effect.deepshacklespotion": "Deep Shackles Arrow",
+  "item.minecraft.tipped_arrow.effect.windtouchpotion": "Wind Touch Arrow",
+  "item.minecraft.tipped_arrow.effect.eternalfirepotion": "Eternal Fire Arrow",
+  "item.minecraft.tipped_arrow.effect.deathtouchpotion": "Death Touch Arrow",
+  "item.minecraft.tipped_arrow.effect.dimensionalanomalypotion": "Dimensional Anomaly Arrow",
+  "item.minecraft.tipped_arrow.effect.worldessencepotion": "World Essence Arrow",
+  "item.minecraft.tipped_arrow.effect.cursedtouchpotion": "Cursed Touch Arrow",
+  "item.minecraft.tipped_arrow.effect.abysstouchpotion": "Abyss Touch Arrow",
+  "item.minecraft.tipped_arrow.effect.mysticawakeningpotion": "Mystic Awakening Arrow",
+  "item.minecraft.tipped_arrow.effect.dimensionalmismatchpotion": "Dimensional Mismatch Arrow",
+  "item.minecraft.tipped_arrow.effect.darkresurrectionpotion": "Dark Resurrection Arrow",
+  "item.minecraft.tipped_arrow.effect.celestialdomainpotion": "Celestial Domain Arrow",
+  "item.minecraft.tipped_arrow.effect.dragonboostpotion": "Dragon Boost Arrow",
+  "item.minecraft.tipped_arrow.effect.electricascentpotion": "Electric Ascent Arrow",
+  "item.minecraft.tipped_arrow.effect.landblessingpotion": "Land Blessing Arrow",
+  "item.minecraft.tipped_arrow.effect.lastascencionpotion": "Last Ascencion Arrow",
+  "item.minecraft.tipped_arrow.effect.waterboostpotion": "Water Boost Arrow",
+  "item.minecraft.tipped_arrow.effect.fireboostpotion": "Fire Boost Arrow",
+
+
+  // ---------------------------------------------------------------------------------
+
+  // BIOMES --------------------------------------------------------------------------
+
+  "block.pentacraft-ores.void_grass": "Void Grass Block",
+  "block.pentacraft-ores.cosmic_shadow_grass": "Cosmic Shadow Grass Block",
+  "block.pentacraft-ores.red_valley_grass": "Red Valley Grass Block",
+  "block.pentacraft-ores.quasar_fores_grass": "Quasar Forest Grass Block",
+
+  "block.pentacraft-ores.leech_flower": "Leech Flower",
+  "block.pentacraft-ores.crystal_flower": "Crystal Flower",
+  "block.pentacraft-ores.void_crown": "Void Crown",
+  "block.pentacraft-ores.unmbrarose": "Umbrarose",
+  "block.pentacraft-ores.tear_of_the_night": "Tear of the Night",
+  "block.pentacraft-ores.sunfire_bush": "Sunfire Bush",
+  "block.pentacraft-ores.quasar_bush": "Quasar Bush",
+  "block.pentacraft-ores.nebulight_blossom": "Nebulight Blossom",
+  "block.pentacraft-ores.cosmic_shadow": "Cosmic Shadow",
+  "block.pentacraft-ores.blood_fungus": "Blood Fungoos",
+  "block.pentacraft-ores.astral_bush": "Astral Bush",
+  "block.pentacraft-ores.abyss_cry": "Abyss Cry"
 }
+

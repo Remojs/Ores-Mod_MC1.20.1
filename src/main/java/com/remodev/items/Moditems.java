@@ -1,11 +1,19 @@
 package com.remodev.items;
 
 import com.remodev.PentacraftOres;
+import com.remodev.blocks.Ores;
+import com.remodev.items.custom.ModArmorMaterial;
+import com.remodev.items.custom.ModFood;
+import com.remodev.items.custom.armorSet.*;
 import com.remodev.items.custom.greatAxe.*;
 import com.remodev.items.custom.items.CustomRelic;
 import com.remodev.items.custom.swords.*;
 import com.remodev.items.custom.tools.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -30,10 +38,10 @@ public class Moditems {
 
     public static final Item ZAMBONIUM_INGOT = registerItem("zambonium_ingot", new Item(new FabricItemSettings()));
     public static final Item ZAMBONIUM_SHARD = registerItem("zambonium_shard", new Item(new FabricItemSettings()));
-    public static final Item ZAMBONIUM_CHESTPLATE = registerItem("zambonium_chestplate", new Item(new FabricItemSettings()));
-    public static final Item ZAMBONIUM_HELMET = registerItem("zambonium_helmet", new Item(new FabricItemSettings()));
-    public static final Item ZAMBONIUM_LEGGINGS = registerItem("zambonium_leggings", new Item(new FabricItemSettings()));
-    public static final Item ZAMBONIUM_BOOTS = registerItem("zambonium_boots", new Item(new FabricItemSettings()));
+    public static final Item ZAMBONIUM_HELMET = registerItem("zambonium_helmet", new ZamboniumArmorItem(ModArmorMaterial.ZAMBONIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item ZAMBONIUM_CHESTPLATE = registerItem("zambonium_chestplate", new ZamboniumArmorItem(ModArmorMaterial.ZAMBONIUM, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item ZAMBONIUM_LEGGINGS = registerItem("zambonium_leggings", new ZamboniumArmorItem(ModArmorMaterial.ZAMBONIUM, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item ZAMBONIUM_BOOTS = registerItem("zambonium_boots", new ZamboniumArmorItem(ModArmorMaterial.ZAMBONIUM, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item ZAMBONIUM_PICKAXE = registerItem("zambonium_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item ZAMBONIUM_AXE = registerItem("zambonium_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item ZAMBONIUM_SHOVEL = registerItem("zambonium_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -44,10 +52,10 @@ public class Moditems {
 
     public static final Item ROBERTIUM_INGOT = registerItem("robertium_ingot", new Item(new FabricItemSettings()));
     public static final Item ROBERTIUM_SHARD = registerItem("robertium_shard", new Item(new FabricItemSettings()));
-    public static final Item ROBERTIUM_CHESTPLATE = registerItem("robertium_chestplate", new Item(new FabricItemSettings()));
-    public static final Item ROBERTIUM_HELMET = registerItem("robertium_helmet", new Item(new FabricItemSettings()));
-    public static final Item ROBERTIUM_LEGGINGS = registerItem("robertium_leggings", new Item(new FabricItemSettings()));
-    public static final Item ROBERTIUM_BOOTS = registerItem("robertium_boots", new Item(new FabricItemSettings()));
+    public static final Item ROBERTIUM_CHESTPLATE = registerItem("robertium_chestplate", new RobertiumArmorItem(ModArmorMaterial.ROBERTIUM, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item ROBERTIUM_HELMET = registerItem("robertium_helmet", new RobertiumArmorItem(ModArmorMaterial.ROBERTIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item ROBERTIUM_LEGGINGS = registerItem("robertium_leggings", new RobertiumArmorItem(ModArmorMaterial.ROBERTIUM, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item ROBERTIUM_BOOTS = registerItem("robertium_boots", new RobertiumArmorItem(ModArmorMaterial.ROBERTIUM, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item ROBERTIUM_PICKAXE = registerItem("robertium_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item ROBERTIUM_AXE = registerItem("robertium_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item ROBERTIUM_SHOVEL = registerItem("robertium_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -58,10 +66,10 @@ public class Moditems {
 
     public static final Item KEVINIUM_INGOT = registerItem("kevinium_ingot", new Item(new FabricItemSettings()));
     public static final Item KEVINIUM_SHARD = registerItem("kevinium_shard", new Item(new FabricItemSettings()));
-    public static final Item KEVINIUM_CHESTPLATE = registerItem("kevinium_chestplate", new Item(new FabricItemSettings()));
-    public static final Item KEVINIUM_HELMET = registerItem("kevinium_helmet", new Item(new FabricItemSettings()));
-    public static final Item KEVINIUM_LEGGINGS = registerItem("kevinium_leggings", new Item(new FabricItemSettings()));
-    public static final Item KEVINIUM_BOOTS = registerItem("kevinium_boots", new Item(new FabricItemSettings()));
+    public static final Item KEVINIUM_CHESTPLATE = registerItem("kevinium_chestplate", new KeviniumArmorItem(ModArmorMaterial.KEVINIUM, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item KEVINIUM_HELMET = registerItem("kevinium_helmet", new KeviniumArmorItem(ModArmorMaterial.KEVINIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item KEVINIUM_LEGGINGS = registerItem("kevinium_leggings", new KeviniumArmorItem(ModArmorMaterial.KEVINIUM, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item KEVINIUM_BOOTS = registerItem("kevinium_boots", new KeviniumArmorItem(ModArmorMaterial.KEVINIUM, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item KEVINIUM_PICKAXE = registerItem("kevinium_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item KEVINIUM_AXE = registerItem("kevinium_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item KEVINIUM_SHOVEL = registerItem("kevinium_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -72,10 +80,10 @@ public class Moditems {
 
     public static final Item PANCHIUM_INGOT = registerItem("panchium_ingot", new Item(new FabricItemSettings()));
     public static final Item PANCHIUM_SHARD = registerItem("panchium_shard", new Item(new FabricItemSettings()));
-    public static final Item PANCHIUM_CHESTPLATE = registerItem("panchium_chestplate", new Item(new FabricItemSettings()));
-    public static final Item PANCHIUM_HELMET = registerItem("panchium_helmet", new Item(new FabricItemSettings()));
-    public static final Item PANCHIUM_LEGGINGS = registerItem("panchium_leggings", new Item(new FabricItemSettings()));
-    public static final Item PANCHIUM_BOOTS = registerItem("panchium_boots", new Item(new FabricItemSettings()));
+    public static final Item PANCHIUM_CHESTPLATE = registerItem("panchium_chestplate", new PanchiumArmorItem(ModArmorMaterial.PANCHIUM, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item PANCHIUM_HELMET = registerItem("panchium_helmet", new PanchiumArmorItem(ModArmorMaterial.PANCHIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item PANCHIUM_LEGGINGS = registerItem("panchium_leggings", new PanchiumArmorItem(ModArmorMaterial.PANCHIUM, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item PANCHIUM_BOOTS = registerItem("panchium_boots", new PanchiumArmorItem(ModArmorMaterial.PANCHIUM, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item PANCHIUM_PICKAXE = registerItem("panchium_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item PANCHIUM_AXE = registerItem("panchium_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item PANCHIUM_SHOVEL = registerItem("panchium_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -86,10 +94,10 @@ public class Moditems {
 
     public static final Item JUANITIUM_INGOT = registerItem("juanitium_ingot", new Item(new FabricItemSettings()));
     public static final Item JUANITIUM_SHARD = registerItem("juanitium_shard", new Item(new FabricItemSettings()));
-    public static final Item JUANITIUM_CHESTPLATE = registerItem("juanitium_chestplate", new Item(new FabricItemSettings()));
-    public static final Item JUANITIUM_HELMET = registerItem("juanitium_helmet", new Item(new FabricItemSettings()));
-    public static final Item JUANITIUM_LEGGINGS = registerItem("juanitium_leggings", new Item(new FabricItemSettings()));
-    public static final Item JUANITIUM_BOOTS = registerItem("juanitium_boots", new Item(new FabricItemSettings()));
+    public static final Item JUANITIUM_CHESTPLATE = registerItem("juanitium_chestplate", new JuanitiumArmorItem(ModArmorMaterial.JUANITIUM, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item JUANITIUM_HELMET = registerItem("juanitium_helmet", new JuanitiumArmorItem(ModArmorMaterial.JUANITIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item JUANITIUM_LEGGINGS = registerItem("juanitium_leggings", new JuanitiumArmorItem(ModArmorMaterial.JUANITIUM, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item JUANITIUM_BOOTS = registerItem("juanitium_boots", new JuanitiumArmorItem(ModArmorMaterial.JUANITIUM, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item JUANITIUM_PICKAXE = registerItem("juanitium_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item JUANITIUM_AXE = registerItem("juanitium_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item JUANITIUM_SHOVEL = registerItem("juanitium_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -100,10 +108,10 @@ public class Moditems {
 
     public static final Item LUKITE_INGOT = registerItem("lukite_ingot", new Item(new FabricItemSettings()));
     public static final Item LUKITE_SHARD = registerItem("lukite_shard", new Item(new FabricItemSettings()));
-    public static final Item LUKITE_CHESTPLATE = registerItem("lukite_chestplate", new Item(new FabricItemSettings()));
-    public static final Item LUKITE_HELMET = registerItem("lukite_helmet", new Item(new FabricItemSettings()));
-    public static final Item LUKITE_LEGGINGS = registerItem("lukite_leggings", new Item(new FabricItemSettings()));
-    public static final Item LUKITE_BOOTS = registerItem("lukite_boots", new Item(new FabricItemSettings()));
+    public static final Item LUKITE_CHESTPLATE = registerItem("lukite_chestplate", new LukiteArmorItem(ModArmorMaterial.LUKITE, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item LUKITE_HELMET = registerItem("lukite_helmet", new LukiteArmorItem(ModArmorMaterial.LUKITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item LUKITE_LEGGINGS = registerItem("lukite_leggings", new LukiteArmorItem(ModArmorMaterial.LUKITE, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item LUKITE_BOOTS = registerItem("lukite_boots", new LukiteArmorItem(ModArmorMaterial.LUKITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item LUKITE_PICKAXE = registerItem("lukite_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item LUKITE_AXE = registerItem("lukite_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item LUKITE_SHOVEL = registerItem("lukite_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -114,10 +122,10 @@ public class Moditems {
 
     public static final Item SARITE_INGOT = registerItem("sarite_ingot", new Item(new FabricItemSettings()));
     public static final Item SARITE_SHARD = registerItem("sarite_shard", new Item(new FabricItemSettings()));
-    public static final Item SARITE_CHESTPLATE = registerItem("sarite_chestplate", new Item(new FabricItemSettings()));
-    public static final Item SARITE_HELMET = registerItem("sarite_helmet", new Item(new FabricItemSettings()));
-    public static final Item SARITE_LEGGINGS = registerItem("sarite_leggings", new Item(new FabricItemSettings()));
-    public static final Item SARITE_BOOTS = registerItem("sarite_boots", new Item(new FabricItemSettings()));
+    public static final Item SARITE_CHESTPLATE = registerItem("sarite_chestplate", new SariteArmorItem(ModArmorMaterial.SARITE, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item SARITE_HELMET = registerItem("sarite_helmet", new SariteArmorItem(ModArmorMaterial.SARITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item SARITE_LEGGINGS = registerItem("sarite_leggings", new SariteArmorItem(ModArmorMaterial.SARITE, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item SARITE_BOOTS = registerItem("sarite_boots", new SariteArmorItem(ModArmorMaterial.SARITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item SARITE_PICKAXE = registerItem("sarite_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item SARITE_AXE = registerItem("sarite_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item SARITE_SHOVEL = registerItem("sarite_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -128,10 +136,10 @@ public class Moditems {
 
     public static final Item TOMINITE_INGOT = registerItem("tominite_ingot", new Item(new FabricItemSettings()));
     public static final Item TOMINITE_SHARD = registerItem("tominite_shard", new Item(new FabricItemSettings()));
-    public static final Item TOMINITE_CHESTPLATE = registerItem("tominite_chestplate", new Item(new FabricItemSettings()));
-    public static final Item TOMINITE_HELMET = registerItem("tominite_helmet", new Item(new FabricItemSettings()));
-    public static final Item TOMINITE_LEGGINGS = registerItem("tominite_leggings", new Item(new FabricItemSettings()));
-    public static final Item TOMINITE_BOOTS = registerItem("tominite_boots", new Item(new FabricItemSettings()));
+    public static final Item TOMINITE_HELMET = registerItem("tominite_helmet", new TominiteArmorItem(ModArmorMaterial.TOMINITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item TOMINITE_CHESTPLATE = registerItem("tominite_chestplate", new TominiteArmorItem(ModArmorMaterial.TOMINITE, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item TOMINITE_LEGGINGS = registerItem("tominite_leggings", new TominiteArmorItem(ModArmorMaterial.TOMINITE, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item TOMINITE_BOOTS = registerItem("tominite_boots", new TominiteArmorItem(ModArmorMaterial.TOMINITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
     public static final Item TOMINITE_PICKAXE = registerItem("tominite_pickaxe", new CustomPickaxe(PENTA, 0, -3F, new FabricItemSettings()));
     public static final Item TOMINITE_AXE = registerItem("tominite_axe", new CustomAxe(PENTA, 2, -3.0F, new FabricItemSettings()));
     public static final Item TOMINITE_SHOVEL = registerItem("tominite_shovel", new CustomShovel(PENTA, 0, -3F, new FabricItemSettings()));
@@ -142,14 +150,23 @@ public class Moditems {
 
     public static final Item PENTACRAFTIUM_DUST = registerItem("pentacraftium_dust", new Item(new FabricItemSettings()));
 
-    public static final Item LUKI_TOMATO = registerItem("luki_tomato", new Item(new FabricItemSettings()));
-    public static final Item ROBERT_LETUCCE = registerItem("robert_letucce", new Item(new FabricItemSettings()));
-    public static final Item LETUCCE_SEED = registerItem("letucce_seed", new Item(new FabricItemSettings()));
-    public static final Item TOMATO_SEED = registerItem("tomato_seed", new Item(new FabricItemSettings()));
-    public static final Item QUASAR_SAPLING = registerItem("quasar_sapling", new Item(new FabricItemSettings()));
-    public static final Item DARK_MATTER_SAPLING = registerItem("dark_matter_sapling", new Item(new FabricItemSettings()));
-    public static final Item QUANTUM_SAPLING = registerItem("quantum_sapling", new Item(new FabricItemSettings()));
-    public static final Item FRACTAL_SAPLING = registerItem("fractal_sapling", new Item(new FabricItemSettings()));
+    public static final Item LUKI_TOMATO = registerItem("luki_tomato", new Item(new FabricItemSettings().food(ModFood.LUKI_TOMATO)));
+    public static final Item ROBERT_LETUCCE = registerItem("robert_letucce", new Item(new FabricItemSettings().food(ModFood.ROBERT_LETUCCE)));
+    public static final Item LETUCCE_SEED = registerItem("letucce_seed",
+            new AliasedBlockItem(Ores.ROBERT_LETUCCE_CROP, new FabricItemSettings()));
+    public static final Item TOMATO_SEED = registerItem("tomato_seed",
+        new AliasedBlockItem(Ores.LUKI_TOMATO_CROP, new FabricItemSettings()));
+
+    public static final Item BURGER_FOOD = registerItem("burger_food", new Item(new FabricItemSettings().food(ModFood.BURGER_FOOD)));
+    public static final Item PATY_FOOD = registerItem("paty_food", new Item(new FabricItemSettings().food(ModFood.PATY_FOOD)));
+    public static final Item MONSTER_FOOD = registerItem("monster_food", new Item(new FabricItemSettings().food(ModFood.MONSTER_FOOD)));
+    public static final Item SPEED_FOOD = registerItem("speed_food", new Item(new FabricItemSettings().food(ModFood.SPEED_FOOD)));
+    public static final Item CHORIPAN_FOOD = registerItem("choripan_food", new Item(new FabricItemSettings().food(ModFood.CHORIPAN_FOOD)));
+    public static final Item MATE_FOOD = registerItem("mate_food", new Item(new FabricItemSettings().food(ModFood.MATE_FOOD)));
+
+    public static final Item DISTORSION_EMERALD = registerItem("distorsion_emerald", new Item(new FabricItemSettings()));
+    public static final Item CORRUPTED_EMERALD = registerItem("corrupted_emerald", new Item(new FabricItemSettings()));
+    public static final Item CHAOTIC_EMERALD = registerItem("chaotic_emerald", new Item(new FabricItemSettings()));
 
     public static final Item DEATH_CATALYST = registerItem("drop_death_catalyst", new CustomRelic(new FabricItemSettings()));
     public static final Item DEATH_SCYTHE = registerItem("drop_death_scythe", new CustomRelic(new FabricItemSettings()));
@@ -172,6 +189,7 @@ public class Moditems {
     public static final Item PRIMAL_FLAME = registerItem("drop_primal_flame", new CustomRelic(new FabricItemSettings()));
     public static final Item FIRE_FUNGUS = registerItem("drop_fire_fungus", new CustomRelic(new FabricItemSettings()));
 
+    public static final Item CLEAN_SLOT = registerItem("clean_slot", new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String itemId, Item item) {

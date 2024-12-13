@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:stellar_marble_stone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "II ",
+    "   "
+  ],
+  "result": {
+    "item": "pentacraft-ores:stellar_marble_chiseled"
+  },
+  "show_notification": true
+}

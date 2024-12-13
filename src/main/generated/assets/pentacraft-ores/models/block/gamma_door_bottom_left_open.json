@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "pentacraft-ores:block/gamma_door_bottom",
+    "top": "pentacraft-ores:block/gamma_door_top"
+  }
+}

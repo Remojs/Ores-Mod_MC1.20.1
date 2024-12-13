@@ -40,6 +40,26 @@
     "pentacraft-ores:quasar_packed_planks",
     "pentacraft-ores:quasar_fence",
     "pentacraft-ores:quasar_trapdoor",
-    "pentacraft-ores:quasar_fence_gate"
+    "pentacraft-ores:quasar_fence_gate",
+    "pentacraft-ores:gamma_slab",
+    "pentacraft-ores:gamma_stairs",
+    "pentacraft-ores:gamma_door",
+    "pentacraft-ores:gamma_stripped_log",
+    "pentacraft-ores:gamma_log",
+    "pentacraft-ores:gamma_planks",
+    "pentacraft-ores:gamma_packed_planks",
+    "pentacraft-ores:gamma_fence",
+    "pentacraft-ores:gamma_trapdoor",
+    "pentacraft-ores:gamma_fence_gate",
+    "pentacraft-ores:aurora_slab",
+    "pentacraft-ores:aurora_stairs",
+    "pentacraft-ores:aurora_door",
+    "pentacraft-ores:aurora_stripped_log",
+    "pentacraft-ores:aurora_log",
+    "pentacraft-ores:aurora_planks",
+    "pentacraft-ores:aurora_packed_planks",
+    "pentacraft-ores:aurora_fence",
+    "pentacraft-ores:aurora_trapdoor",
+    "pentacraft-ores:aurora_fence_gate"
   ]
 }

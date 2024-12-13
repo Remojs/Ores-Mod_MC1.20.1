@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:bread"
+    },
+    "P": {
+      "item": "pentacraft-ores:paty_food"
+    }
+  },
+  "pattern": [
+    " I ",
+    " P ",
+    " I "
+  ],
+  "result": {
+    "item": "pentacraft-ores:burger_food"
+  },
+  "show_notification": true
+}

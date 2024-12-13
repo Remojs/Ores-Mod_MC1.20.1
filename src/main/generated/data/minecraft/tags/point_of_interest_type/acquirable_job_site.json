@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pentacraft-ores:sage_poi",
+      "required": false
+    },
+    {
+      "id": "pentacraft-ores:decorator_poi",
+      "required": false
+    },
+    {
+      "id": "pentacraft-ores:constructor_poi",
+      "required": false
+    },
+    {
+      "id": "pentacraft-ores:d_farmer_poi",
+      "required": false
+    }
+  ]
+}
