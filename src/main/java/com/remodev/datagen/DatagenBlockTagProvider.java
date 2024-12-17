@@ -26,6 +26,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.ZAMBONIUM_BRICK.getLeft())
                 .add(Ores.ZAMBONIUM_BRICK_STAIRS.getLeft())
                 .add(Ores.ZAMBONIUM_BRICK_SLAB.getLeft())
+                .add(Ores.ZAMBONIUM_CHISELED_BRICK.getLeft())
 
                 .add(Ores.ROBERTIUM_BLOCK.getLeft())
                 .add(Ores.ROBERTIUM_SHARD_BLOCK.getLeft())
@@ -36,6 +37,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.ROBERTIUM_BRICK.getLeft())
                 .add(Ores.ROBERTIUM_BRICK_STAIRS.getLeft())
                 .add(Ores.ROBERTIUM_BRICK_SLAB.getLeft())
+                .add(Ores.ROBERTIUM_CHISELED_BRICK.getLeft())
 
                 .add(Ores.KEVINIUM_BLOCK.getLeft())
                 .add(Ores.KEVINIUM_SHARD_BLOCK.getLeft())
@@ -46,6 +48,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.KEVINIUM_BRICK.getLeft())
                 .add(Ores.KEVINIUM_BRICK_STAIRS.getLeft())
                 .add(Ores.KEVINIUM_BRICK_SLAB.getLeft())
+                .add(Ores.KEVINIUM_CHISELED_BRICK.getLeft())
 
                 .add(Ores.JUANITIUM_BLOCK.getLeft())
                 .add(Ores.JUANITIUM_SHARD_BLOCK.getLeft())
@@ -56,6 +59,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.JUANITIUM_BRICK.getLeft())
                 .add(Ores.JUANITIUM_BRICK_STAIRS.getLeft())
                 .add(Ores.JUANITIUM_BRICK_SLAB.getLeft())
+                .add(Ores.JUANITIUM_CHISELED_BRICK.getLeft())
 
                 .add(Ores.PANCHIUM_BLOCK.getLeft())
                 .add(Ores.PANCHIUM_SHARD_BLOCK.getLeft())
@@ -66,6 +70,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.PANCHIUM_BRICK.getLeft())
                 .add(Ores.PANCHIUM_BRICK_STAIRS.getLeft())
                 .add(Ores.PANCHIUM_BRICK_SLAB.getLeft())
+                .add(Ores.PANCHIUM_CHISELED_BRICK.getLeft())
 
                 .add(Ores.TOMINITE_BLOCK.getLeft())
                 .add(Ores.TOMINITE_SHARD_BLOCK.getLeft())
@@ -76,6 +81,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.TOMINITE_BRICK.getLeft())
                 .add(Ores.TOMINITE_BRICK_STAIRS.getLeft())
                 .add(Ores.TOMINITE_BRICK_SLAB.getLeft())
+                .add(Ores.TOMINITE_CHISELED_BRICK.getLeft())
 
                 .add(Ores.LUKITE_BLOCK.getLeft())
                 .add(Ores.LUKITE_SHARD_BLOCK.getLeft())
@@ -86,10 +92,18 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.LUKITE_BRICK.getLeft())
                 .add(Ores.LUKITE_BRICK_STAIRS.getLeft())
                 .add(Ores.LUKITE_BRICK_SLAB.getLeft())
+                .add(Ores.LUKITE_CHISELED_BRICK.getLeft())
 
                 .add(Ores.PENTACRAFTIUM_ORE_STONE.getLeft())
                 .add(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft())
+                .add(Ores.PENTACRAFTIUM_ORE_ENDSTONE.getLeft())
+                .add(Ores.PENTACRAFTIUM_ORE_NETHERRACK.getLeft())
                 .add(Ores.PENTACRAFTIUM_BLOCK.getLeft())
+
+                .add(Ores.PENTACRAFTIUM_INFINITY_CATALYST.getLeft())
+                .add(Ores.PENTACRAFTIUM_ETERNAL_CATALYST.getLeft())
+                .add(Ores.PENTACRAFTIUM_CUANTIC_CATALYST.getLeft())
+                .add(Ores.PENTACRAFTIUM_ORIGIN_CATALYST.getLeft())
 
                 .add(Ores.SARITE_BLOCK.getLeft())
                 .add(Ores.SARITE_SHARD_BLOCK.getLeft())
@@ -111,6 +125,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.STELLAR_MARBLE_COBBLESTONE_SLAB.getLeft())
                 .add(Ores.STELLAR_MARBLE_COBBLESTONE_STAIRS.getLeft())
                 .add(Ores.STELLAR_MARBLE_STONE.getLeft())
+                .add(Ores.STELLAR_MARBLE_CHISELED.getLeft())
 
                 .add(Ores.FULGURATION_BRICKS.getLeft())
                 .add(Ores.FULGURATION_BRICKS_STAIRS.getLeft())
@@ -122,6 +137,7 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.FULGURATION_COBBLESTONE_STAIRS.getLeft())
                 .add(Ores.FULGURATION_COBBLESTONE_SLAB.getLeft())
                 .add(Ores.FULGURATION_STONE.getLeft())
+                .add(Ores.FULGURATION_CHISELED.getLeft())
 
                 .add(Ores.CAVE_MUD_BRICK.getLeft())
                 .add(Ores.CAVE_MUD_BRICK_STAIRS.getLeft())
@@ -129,7 +145,13 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.CAVE_MUD_SMOOTH.getLeft())
                 .add(Ores.CAVE_MUD_SMOOTH_STAIRS.getLeft())
                 .add(Ores.CAVE_MUD_SMOOTH_SLAB.getLeft())
-                .add(Ores.CAVE_MUD_BLOCK.getLeft());
+                .add(Ores.CAVE_MUD_BLOCK.getLeft())
+                .add(Ores.CAVE_MUD_CHISELED.getLeft())
+
+                .add(Ores.BEGINNING_STONE.getLeft())
+                .add(Ores.BEGINNING_STONE_BRICK.getLeft())
+                .add(Ores.BEGINNING_STONE_BRICK_STAIRS.getLeft())
+                .add(Ores.BEGINNING_STONE_BRICK_SLAB.getLeft());
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(Ores.ZAMBONIUM_ORE_STONE.getLeft())
@@ -165,10 +187,25 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.SARITE_ORE_ENDSTONE.getLeft())
                 .add(Ores.SARITE_ORE_NETHERRACK.getLeft());
 
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(Ores.PENTACRAFTIUM_INFINITY_LANTERN.getLeft())
+                .add(Ores.PENTACRAFTIUM_ETERNAL_LANTERN.getLeft())
+                .add(Ores.PENTACRAFTIUM_CUANTIC_LANTERN.getLeft())
+                .add(Ores.PENTACRAFTIUM_ANTIMATTER_LANTERN.getLeft())
+                .add(Ores.PENTACRAFTIUM_BIG_BANG_LANTERN.getLeft())
+                .add(Ores.PENTACRAFTIUM_ORIGIN_LANTERN.getLeft());
+
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(Ores.RED_VALLEY_GRASS)
+                .add(Ores.VOID_GRASS)
+                .add(Ores.COSMIC_SHADOW_GRASS)
+                .add(Ores.QUASAR_FOREST_GRASS);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(Ores.PENTACRAFTIUM_ORE_STONE.getLeft())
                 .add(Ores.PENTACRAFTIUM_ORE_DEEPSLATE.getLeft())
+                .add(Ores.PENTACRAFTIUM_ORE_ENDSTONE.getLeft())
+                .add(Ores.PENTACRAFTIUM_ORE_NETHERRACK.getLeft())
                 .add(Ores.PENTACRAFTIUM_BLOCK.getLeft());
 
         getOrCreateTagBuilder(BlockTags.CRYSTAL_SOUND_BLOCKS)
@@ -248,7 +285,29 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.QUASAR_PACKED_PLANKS.getLeft())
                 .add(Ores.QUASAR_FENCE.getLeft())
                 .add(Ores.QUASAR_TRAPDOOR.getLeft())
-                .add(Ores.QUASAR_FENCE_GATE.getLeft());
+                .add(Ores.QUASAR_FENCE_GATE.getLeft())
+
+                .add(Ores.GAMMA_SLAB.getLeft())
+                .add(Ores.GAMMA_STAIRS.getLeft())
+                .add(Ores.GAMMA_DOOR.getLeft())
+                .add(Ores.GAMMA_STRIPPED_LOG.getLeft())
+                .add(Ores.GAMMA_LOG.getLeft())
+                .add(Ores.GAMMA_PLANKS.getLeft())
+                .add(Ores.GAMMA_PACKED_PLANKS.getLeft())
+                .add(Ores.GAMMA_FENCE.getLeft())
+                .add(Ores.GAMMA_TRAPDOOR.getLeft())
+                .add(Ores.GAMMA_FENCE_GATE.getLeft())
+
+                .add(Ores.AURORA_SLAB.getLeft())
+                .add(Ores.AURORA_STAIRS.getLeft())
+                .add(Ores.AURORA_DOOR.getLeft())
+                .add(Ores.AURORA_STRIPPED_LOG.getLeft())
+                .add(Ores.AURORA_LOG.getLeft())
+                .add(Ores.AURORA_PLANKS.getLeft())
+                .add(Ores.AURORA_PACKED_PLANKS.getLeft())
+                .add(Ores.AURORA_FENCE.getLeft())
+                .add(Ores.AURORA_TRAPDOOR.getLeft())
+                .add(Ores.AURORA_FENCE_GATE.getLeft());
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(Ores.FRACTAL_SLAB.getLeft())
@@ -299,37 +358,82 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Ores.QUASAR_LEAVES.getLeft())
                 .add(Ores.QUANTUM_LEAVES.getLeft())
                 .add(Ores.FRACTAL_LEAVES.getLeft())
-                .add(Ores.DARK_MATTER_LEAVES.getLeft());
+                .add(Ores.DARK_MATTER_LEAVES.getLeft())
+                .add(Ores.GAMMA_LEAVES.getLeft())
+                .add(Ores.AURORA_LEAVES.getLeft());
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(Ores.FRACTAL_FENCE.getLeft())
                 .add(Ores.QUANTUM_FENCE.getLeft())
                 .add(Ores.QUASAR_FENCE.getLeft())
-                .add(Ores.DARK_MATTER_FENCE.getLeft());
+                .add(Ores.DARK_MATTER_FENCE.getLeft())
+                .add(Ores.GAMMA_FENCE.getLeft())
+                .add(Ores.AURORA_FENCE.getLeft());
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(Ores.FRACTAL_FENCE_GATE.getLeft())
                 .add(Ores.QUANTUM_FENCE_GATE.getLeft())
                 .add(Ores.QUASAR_FENCE_GATE.getLeft())
-                .add(Ores.DARK_MATTER_FENCE_GATE.getLeft());
+                .add(Ores.DARK_MATTER_FENCE_GATE.getLeft())
+                .add(Ores.GAMMA_FENCE_GATE.getLeft())
+                .add(Ores.AURORA_FENCE_GATE.getLeft());
 
         getOrCreateTagBuilder(BlockTags.DOORS)
                 .add(Ores.FRACTAL_DOOR.getLeft())
                 .add(Ores.QUANTUM_DOOR.getLeft())
                 .add(Ores.QUASAR_DOOR.getLeft())
-                .add(Ores.DARK_MATTER_DOOR.getLeft());
+                .add(Ores.DARK_MATTER_DOOR.getLeft())
+                .add(Ores.GAMMA_DOOR.getLeft())
+                .add(Ores.AURORA_DOOR.getLeft());
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(Ores.FRACTAL_SLAB.getLeft())
                 .add(Ores.QUANTUM_SLAB.getLeft())
                 .add(Ores.QUASAR_SLAB.getLeft())
-                .add(Ores.DARK_MATTER_SLAB.getLeft());
+                .add(Ores.DARK_MATTER_SLAB.getLeft())
+                .add(Ores.GAMMA_SLAB.getLeft())
+                .add(Ores.AURORA_SLAB.getLeft());
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(Ores.FRACTAL_STAIRS.getLeft())
                 .add(Ores.QUANTUM_STAIRS.getLeft())
                 .add(Ores.QUASAR_STAIRS.getLeft())
-                .add(Ores.DARK_MATTER_STAIRS.getLeft());
+                .add(Ores.DARK_MATTER_STAIRS.getLeft())
+                .add(Ores.GAMMA_STAIRS.getLeft())
+                .add(Ores.AURORA_STAIRS.getLeft());
+
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(Ores.ABYSS_CRY)
+                .add(Ores.ASTRAL_BUSH)
+                .add(Ores.BLOOD_FUNGUS)
+                .add(Ores.COSMIC_SHADOW)
+                .add(Ores.NEBULIGHT_BLOSSOM)
+                .add(Ores.QUASAR_BUSH)
+                .add(Ores.SUNFIRE_BUSH)
+                .add(Ores.TEAR_OF_THE_NIGHT)
+                .add(Ores.UMBRAROSE)
+                .add(Ores.VOID_CROWN)
+                .add(Ores.CRYSTAL_FLOWER)
+                .add(Ores.LEECH_FLOWER);
+
+        getOrCreateTagBuilder(BlockTags.ANIMALS_SPAWNABLE_ON)
+                .add(Ores.RED_VALLEY_GRASS)
+                .add(Ores.VOID_GRASS)
+                .add(Ores.COSMIC_SHADOW_GRASS)
+                .add(Ores.QUASAR_FOREST_GRASS);
+
+        getOrCreateTagBuilder(BlockTags.DIRT)
+                .add(Ores.RED_VALLEY_GRASS)
+                .add(Ores.VOID_GRASS)
+                .add(Ores.COSMIC_SHADOW_GRASS)
+                .add(Ores.QUASAR_FOREST_GRASS);
+
+        getOrCreateTagBuilder(BlockTags.VALID_SPAWN)
+                .add(Ores.RED_VALLEY_GRASS)
+                .add(Ores.VOID_GRASS)
+                .add(Ores.COSMIC_SHADOW_GRASS)
+                .add(Ores.QUASAR_FOREST_GRASS);
+
     }
 
 

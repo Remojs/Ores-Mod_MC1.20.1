@@ -1,6 +1,7 @@
 {
   "deathtouch": {
     "subtitle": "sounds.pentacraft-ores.deathtouch",
+    "category" :  "record",
     "sounds": [
       "pentacraft-ores:deathtouch1",
       "pentacraft-ores:deathtouch2",
@@ -11,30 +12,35 @@
   },
   "electroparalysis": {
     "subtitle": "sounds.pentacraft-ores.electroparalysis",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:electroparalysis"
     ]
   },
   "electroshock": {
     "subtitle": "sounds.pentacraft-ores.electroshock",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:electroshock"
     ]
   },
   "magicthings": {
     "subtitle": "sounds.pentacraft-ores.magicthings",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:magicthings"
     ]
   },
   "arcanesword": {
     "subtitle": "sounds.pentacraft-ores.arcanesword",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:arcanesword"
     ]
   },
   "firehit": {
     "subtitle": "sounds.pentacraft-ores.firehit",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:firehit1",
       "pentacraft-ores:firehit2",
@@ -44,12 +50,14 @@
   },
   "eternalfire": {
     "subtitle": "sounds.pentacraft-ores.eternalfire",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:eternalfire"
     ]
   },
   "windhit": {
     "subtitle": "sounds.pentacraft-ores.windhit",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:windhit1",
       "pentacraft-ores:windhit2",
@@ -59,6 +67,7 @@
   },
   "waterhit": {
     "subtitle": "sounds.pentacraft-ores.waterhit",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:waterhit1",
       "pentacraft-ores:waterhit2",
@@ -68,6 +77,7 @@
   },
   "worldrage": {
     "subtitle": "sounds.pentacraft-ores.worldrage",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:worldrage1",
       "pentacraft-ores:worldrage2",
@@ -77,30 +87,35 @@
   },
   "abysscry": {
     "subtitle": "sounds.pentacraft-ores.abysscry",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:abysscry"
     ]
   },
   "deepshackles": {
     "subtitle": "sounds.pentacraft-ores.deepshackles",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:deepshackles"
     ]
   },
   "worldharmony": {
     "subtitle": "sounds.pentacraft-ores.worldharmony",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:worldharmony"
     ]
   },
   "windeffect": {
     "subtitle": "sounds.pentacraft-ores.windeffect",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:windeffect"
     ]
   },
   "dimensionalswoosh": {
     "subtitle": "sounds.pentacraft-ores.dimensionalswoosh",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:dimensionalswoosh1",
       "pentacraft-ores:dimensionalswoosh2",
@@ -109,6 +124,7 @@
   },
   "electricedge": {
     "subtitle": "sounds.pentacraft-ores.electricedge",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:electricedge1",
       "pentacraft-ores:electricedge2",
@@ -118,18 +134,21 @@
   },
   "dimensionalmismatch": {
     "subtitle": "sounds.pentacraft-ores.dimensionalmismatch",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:dimensionalmismatch"
     ]
   },
   "dimensionalanomaly": {
     "subtitle": "sounds.pentacraft-ores.dimensionalanomaly",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:dimensionalanomaly"
     ]
   },
   "magicattack": {
     "subtitle": "sounds.pentacraft-ores.magicattack",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:magicattack1",
       "pentacraft-ores:magicattack2",
@@ -139,6 +158,7 @@
   },
   "bonk": {
     "subtitle": "sounds.pentacraft-ores.bonk",
+    "category" : "record",
     "sounds": [
       "pentacraft-ores:bonk"
     ]

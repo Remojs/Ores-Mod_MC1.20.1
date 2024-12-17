@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "pentacraft-ores:beginning_stone"
+    }
+  },
+  "pattern": [
+    "II ",
+    "II ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "item": "pentacraft-ores:beginning_stone_brick"
+  },
+  "show_notification": true
+}

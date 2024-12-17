@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pentacraft-ores:stellar_marble_chiseled"
+    },
+    "I": {
+      "item": "pentacraft-ores:pentacraftium_origin_lantern"
+    },
+    "P": {
+      "item": "pentacraft-ores:pentacraftium_dust"
+    }
+  },
+  "pattern": [
+    " P ",
+    "IPI",
+    "CCC"
+  ],
+  "result": {
+    "item": "pentacraft-ores:pentacraftium_origin_catalyst"
+  },
+  "show_notification": true
+}

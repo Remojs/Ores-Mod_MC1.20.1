@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "pentacraft-ores:block/robert_letucce_crop_stage4"
+  }
+}

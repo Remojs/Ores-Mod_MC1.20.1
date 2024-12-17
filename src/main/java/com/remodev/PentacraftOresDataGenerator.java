@@ -1,8 +1,12 @@
 package com.remodev;
 
 import com.remodev.datagen.*;
+import com.remodev.world.ModConfiguredFeatures;
+import com.remodev.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class PentacraftOresDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +18,14 @@ public class PentacraftOresDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(DatagenRecipeProvider::new);
 		pack.addProvider(DatagenBlockTagProvider::new);
 		pack.addProvider(DatagenItemTagProvider::new);
+		pack.addProvider(DatagenPoiTagProvider::new);
+		pack.addProvider(ModWorldGenerator::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
+
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_top",
+  "textures": {
+    "top": "pentacraft-ores:block/quasar_forest_grass",
+    "side": "pentacraft-ores:block/quasar_forest_grass_side",
+    "bottom": "pentacraft-ores:block/dirt"
+  }
+}

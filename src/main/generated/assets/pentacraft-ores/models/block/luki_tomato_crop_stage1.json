@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "pentacraft-ores:block/luki_tomato_crop_stage1"
+  }
+}

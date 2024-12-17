@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "pentacraft-ores:pentacraftium_block"
+    },
+    "I": {
+      "item": "pentacraft-ores:lukite_shard"
+    },
+    "K": {
+      "item": "pentacraft-ores:kevinium_shard"
+    },
+    "P": {
+      "item": "pentacraft-ores:panchium_shard"
+    },
+    "S": {
+      "item": "pentacraft-ores:zambonium_shard"
+    }
+  },
+  "pattern": [
+    "SSP",
+    "KBP",
+    "KII"
+  ],
+  "result": {
+    "count": 6,
+    "item": "pentacraft-ores:pentacraftium_big_bang_lantern"
+  },
+  "show_notification": true
+}

@@ -3,6 +3,8 @@
   "values": [
     "pentacraft-ores:pentacraftium_ore_stone",
     "pentacraft-ores:pentacraftium_ore_deepslate",
+    "pentacraft-ores:pentacraftium_ore_endstone",
+    "pentacraft-ores:pentacraftium_ore_netherrack",
     "pentacraft-ores:pentacraftium_block"
   ]
 }

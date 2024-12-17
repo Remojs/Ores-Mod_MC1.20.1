@@ -15,7 +15,7 @@ public class DimensionalAnomaly extends StatusEffect {
     private int tickCounter = 0;
 
     public DimensionalAnomaly() {
-        super(StatusEffectCategory.BENEFICIAL, 0x6A0DAD);
+        super(StatusEffectCategory.BENEFICIAL, 0xBD93D8);
     }
 
     @Override

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "pentacraft-ores:item/dark_matter_sapling"
+    "layer0": "pentacraft-ores:block/dark_matter_sapling"
   }
 }

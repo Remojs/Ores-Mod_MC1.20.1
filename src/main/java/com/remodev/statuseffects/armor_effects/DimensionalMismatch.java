@@ -15,7 +15,7 @@ public class DimensionalMismatch extends StatusEffect {
     private boolean soundPlayed = false;
 
     public DimensionalMismatch() {
-        super(StatusEffectCategory.BENEFICIAL, 0x6A0DAD);
+        super(StatusEffectCategory.BENEFICIAL, 0x9799CA);
     }
 
     @Override

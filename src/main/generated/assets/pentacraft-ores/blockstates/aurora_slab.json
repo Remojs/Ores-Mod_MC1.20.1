@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pentacraft-ores:block/aurora_slab"
+    },
+    "type=double": {
+      "model": "pentacraft-ores:block/aurora_planks"
+    },
+    "type=top": {
+      "model": "pentacraft-ores:block/aurora_slab_top"
+    }
+  }
+}

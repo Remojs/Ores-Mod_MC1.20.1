@@ -13,7 +13,7 @@ import net.minecraft.sound.SoundCategory;
 public class WorldEssence extends StatusEffect {
 
     public WorldEssence() {
-        super(StatusEffectCategory.BENEFICIAL, 0x00FF00);
+        super(StatusEffectCategory.BENEFICIAL, 0xB2EF9B);
     }
 
     @Override

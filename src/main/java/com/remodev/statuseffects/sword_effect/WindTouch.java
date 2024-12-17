@@ -15,7 +15,7 @@ public class WindTouch extends StatusEffect {
     private boolean soundPlayed = false;
 
     public WindTouch() {
-        super(StatusEffectCategory.HARMFUL, 0xADD8E6);
+        super(StatusEffectCategory.HARMFUL, 0xAECCCC);
     }
 
     @Override
@@ -36,7 +36,7 @@ public class WindTouch extends StatusEffect {
 
             StatusEffectInstance levitation = new StatusEffectInstance(
                     StatusEffects.LEVITATION,
-                    30,
+                    100,
                     1,
                     false,
                     false

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "G": {
+      "item": "minecraft:grass"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "GT ",
+    "SB "
+  ],
+  "result": {
+    "item": "pentacraft-ores:mate_food"
+  },
+  "show_notification": true
+}

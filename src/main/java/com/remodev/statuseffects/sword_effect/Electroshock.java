@@ -13,7 +13,7 @@ public class Electroshock extends StatusEffect {
     private boolean soundPlayed = false;
 
     public Electroshock() {
-        super(StatusEffectCategory.HARMFUL, 0xFFD700);
+        super(StatusEffectCategory.HARMFUL, 0xC49000);
     }
 
     @Override

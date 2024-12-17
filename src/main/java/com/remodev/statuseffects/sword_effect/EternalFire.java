@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 public class EternalFire extends StatusEffect {
 
     public EternalFire() {
-        super(StatusEffectCategory.HARMFUL, 0x00FFFF);
+        super(StatusEffectCategory.HARMFUL, 0xAB0900);
     }
 
     @Override
