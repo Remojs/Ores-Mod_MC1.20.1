@@ -1,0 +1,23 @@
+{
+    "parent": "block/cube_top",
+    "textures": {
+      "top": "pentacraft-ores:block/pentacraftium_infinity_catalyst_top",
+      "side": "pentacraft-ores:block/pentacraftium_infinity_catalyst",
+      "bottom": "pentacraft-ores:block/stellar_marble_chiseled"
+    },
+    "elements": [
+      {
+        "from": [0, 0, 0],
+        "to": [16, 12, 16],
+        "faces": {
+          "north": { "texture": "#side", "uv": [0, 0, 16, 12] },
+          "south": { "texture": "#side", "uv": [0, 0, 16, 12] },
+          "east": { "texture": "#side", "uv": [0, 0, 16, 12] },
+          "west": { "texture": "#side", "uv": [0, 0, 16, 12] },
+          "up": { "texture": "#top", "uv": [0, 0, 16, 16] },
+          "down": { "texture": "#bottom", "uv": [0, 0, 16, 16] }
+        }
+      }
+    ]
+  }
+  
