@@ -1,4 +1,4 @@
-package com.remodev.enchantments;
+package com.remodev.enchantments.enchants;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
